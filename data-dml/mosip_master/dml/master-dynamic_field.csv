@@ -464,467 +464,467 @@ id,name,description,data_type,value_json,lang_code,is_active,cr_by,cr_dtimes
 		""code"": ""NFR"",
 		""value"": ""Non-étranger""
 	}",fra,TRUE,superadmin,now()
-10001,bloodType,Blood Type,string,"
+10094,bloodType,Blood Type,string,"
         {
                 ""code"": ""101"",
                 ""value"": ""A"",
         }",hin,TRUE,superadmin,now()
-10002,bloodType,Blood Type,string,"
+10095,bloodType,Blood Type,string,"
         {
                 ""code"": ""102"",
                 ""value"": ""A+"",
         }",hin,TRUE,superadmin,now()
-10003,bloodType,Blood Type,string,"
+10096,bloodType,Blood Type,string,"
 	{
 		""code"": ""103"",
 		""value"": ""A-"",
 	}",hin,TRUE,superadmin,now()
-10004,bloodType,Blood Type,string,"
+10097,bloodType,Blood Type,string,"
 	{
 		""code"": ""104"",
 		""value"": ""B"",
 	}",hin,TRUE,superadmin,now()
-10005,bloodType,Blood Type,string,"
+10098,bloodType,Blood Type,string,"
 	{
 		""code"": ""105"",
 		""value"": ""B+"",
 	}",hin,TRUE,superadmin,now()
-10006,bloodType,Blood Type,string,"
+10099,bloodType,Blood Type,string,"
 	{
 		""code"": ""106"",
 		""value"": ""B-"",
 	}",hin,TRUE,superadmin,now()
-10007,bloodType,Blood Type,string,"
+10100,bloodType,Blood Type,string,"
 	{
 		""code"": ""107"",
 		""value"": ""AB"",
 	}",hin,TRUE,superadmin,now()
-10008,bloodType,Blood Type,string,"
+10101,bloodType,Blood Type,string,"
 	{
 		""code"": ""108"",
 		""value"": ""AB+"",
 	}",hin,TRUE,superadmin,now()
-10009,bloodType,Blood Type,string,"
+10102,bloodType,Blood Type,string,"
 	{
 		""code"": ""109"",
 		""value"": ""AB-"",
 	}",hin,TRUE,superadmin,now()
-10010,bloodType,Blood Type,string,"
+10103,bloodType,Blood Type,string,"
 	{
 		""code"": ""110"",
 		""value"": ""O"",
 	}",hin,TRUE,superadmin,now()
-10011,bloodType,Blood Type,string,"
+10104,bloodType,Blood Type,string,"
 	{
 		""code"": ""111"",
 		""value"": ""O+""
 	}",hin,TRUE,superadmin,now()
-10012,bloodType,Blood Type,string,"
+10105,bloodType,Blood Type,string,"
 	{
 		""code"": ""112"",
 		""value"": ""O-""
 	}",hin,TRUE,superadmin,now()
-10013,bloodType,Blood Type,string,"
+10106,bloodType,Blood Type,string,"
 	{
 		""code"": ""113"",
 		""value"": ""Don't Know""
 	}",hin,TRUE,superadmin,now()
-10014,bloodType,Blood Type,string,"
+10107,bloodType,Blood Type,string,"
 	{
 		""code"": ""114"",
 		""value"": ""Not Applicable""
 	}",hin,TRUE,superadmin,now()
-10015,maritalStatus,Marital Status,string,"
+10108,maritalStatus,Marital Status,string,"
         {
                 ""code"": ""101"",
                 ""value"": ""एक""
         }",hin,TRUE,superadmin,now()
-10016,maritalStatus,Marital Status,string,"
+10109,maritalStatus,Marital Status,string,"
         {
                 ""code"": ""102"",
                 ""value"": ""शादी हो ग""
         }",hin,TRUE,superadmin,now()
-10017,maritalStatus,Marital Status,string,"
+10110,maritalStatus,Marital Status,string,"
         {
                 ""code"": ""103"",
                 ""value"": ""विधवा""
         }",hin,TRUE,superadmin,now()
-10018,maritalStatus,Marital Status,string,"
+10111,maritalStatus,Marital Status,string,"
         {
                 ""code"": ""104"",
                 ""value"": ""तलाकशुदा""
         }",hin,TRUE,superadmin,now()
-10019,maritalStatus,Marital Status,string,"
+10112,maritalStatus,Marital Status,string,"
         {
                 ""code"": ""105"",
                 ""value"": ""कानूनी तौर पर अलग""
         }",hin,TRUE,superadmin,now()
-10020,maritalStatus,Marital Status,string,"
+10113,maritalStatus,Marital Status,string,"
         {
                 ""code"": ""106"",
                 ""value"": ""रद्द""
         }",hin,TRUE,superadmin,now()
-10021,maritalStatus,Marital Status,string,"
+10114,maritalStatus,Marital Status,string,"
         {
                 ""code"": ""107"",
                 ""value"": ""निरस्त माना""
         }",hin,TRUE,superadmin,now()
-10022,registrationType,Registration Type,string,"
+10115,registrationType,Registration Type,string,"
         {
                 ""code"": ""Document-based"",
                 ""value"": ""दस्तावेज़ के आधार पर""
         }",hin,TRUE,superadmin,now()
-10023,registrationType,Registration Type,string,"
+10116,registrationType,Registration Type,string,"
         {
                 ""code"": ""Introducer-based"",
                 ""value"": ""परिचय-आधारित""
         }",hin,TRUE,superadmin,now()
-10024,modeOfClaim,Mode of Claim,string,"
+10117,modeOfClaim,Mode of Claim,string,"
         {
                 ""code"": ""101"",
                 ""value"": ""पिक अप""
         }",hin,TRUE,superadmin,now()
-10025,modeOfClaim,Mode of Claim,string,"
+10118,modeOfClaim,Mode of Claim,string,"
         {
                 ""code"": ""102"",
                 ""value"": ""स्थायी पते पर डिलीवरी""
         }",hin,TRUE,superadmin,now()
-10026,modeOfClaim,Mode of Claim,string,"
+10119,modeOfClaim,Mode of Claim,string,"
 	{
 		""code"": ""103"",
 		""value"": ""Delivery to present address""
 	}",hin,TRUE,superadmin,now()
-10027,gender,Gender,string,"
+10120,gender,Gender,string,"
         {
                 ""code"": ""MLE"",
                 ""value"": ""पुरुष""
         }",hin,TRUE,superadmin,now()
-10028,gender,Gender,string,"
+10121,gender,Gender,string,"
         {
                 ""code"": ""FLE"",
                 ""value"": ""महिला""
         }",hin,TRUE,superadmin,now()
-10029,gender,Gender,string,"
+10122,gender,Gender,string,"
         {
                 ""code"": ""OTH"",
                 ""value"": ""अन्य""
         }",hin,TRUE,superadmin,now()
-10030,residenceStatus,residenceStatus,string,"
+10123,residenceStatus,residenceStatus,string,"
         {
                 ""code"": ""FR"",
                 ""value"": ""परदेशी""
         }",hin,TRUE,superadmin,now()
-10031,residenceStatus,residenceStatus,string,"
+10124,residenceStatus,residenceStatus,string,"
         {
                 ""code"": ""NFR"",
                 ""value"": ""गैर-विदेशी""
         }",hin,TRUE,superadmin,now()
-10001,bloodType,Blood Type,string,"
+10125,bloodType,Blood Type,string,"
         {
                 ""code"": ""101"",
                 ""value"": ""A"",
         }",tam,TRUE,superadmin,now()
-10002,bloodType,Blood Type,string,"
+10126,bloodType,Blood Type,string,"
 	{
 		""code"": ""102"",
 		""value"": ""A+"",
 	}",tam,TRUE,superadmin,now()
-10003,bloodType,Blood Type,string,"
+10127,bloodType,Blood Type,string,"
 	{
 		""code"": ""103"",
 		""value"": ""A-"",
 	}",tam,TRUE,superadmin,now()
-10004,bloodType,Blood Type,string,"
+10128,bloodType,Blood Type,string,"
 	{
 		""code"": ""104"",
 		""value"": ""B"",
 	}",tam,TRUE,superadmin,now()
-10005,bloodType,Blood Type,string,"
+10129,bloodType,Blood Type,string,"
 	{
 		""code"": ""105"",
 		""value"": ""B+"",
 	}",tam,TRUE,superadmin,now()
-10006,bloodType,Blood Type,string,"
+10130,bloodType,Blood Type,string,"
 	{
 		""code"": ""106"",
 		""value"": ""B-"",
 	}",tam,TRUE,superadmin,now()
-10007,bloodType,Blood Type,string,"
+10131,bloodType,Blood Type,string,"
 	{
 		""code"": ""107"",
 		""value"": ""AB"",
 	}",tam,TRUE,superadmin,now()
-10008,bloodType,Blood Type,string,"
+10132,bloodType,Blood Type,string,"
 	{
 		""code"": ""108"",
 		""value"": ""AB+"",
 	}",tam,TRUE,superadmin,now()
-10009,bloodType,Blood Type,string,"
+10133,bloodType,Blood Type,string,"
 	{
 		""code"": ""109"",
 		""value"": ""AB-"",
 	}",tam,TRUE,superadmin,now()
-10010,bloodType,Blood Type,string,"
+10134,bloodType,Blood Type,string,"
 	{
 		""code"": ""110"",
 		""value"": ""O"",
 	}",tam,TRUE,superadmin,now()
-10011,bloodType,Blood Type,string,"
+10135,bloodType,Blood Type,string,"
 	{
 		""code"": ""111"",
 		""value"": ""O+""
 	}",tam,TRUE,superadmin,now()
-10012,bloodType,Blood Type,string,"
+10136,bloodType,Blood Type,string,"
 	{
 		""code"": ""112"",
 		""value"": ""O-""
 	}",tam,TRUE,superadmin,now()
-10013,bloodType,Blood Type,string,"
+10137,bloodType,Blood Type,string,"
 	{
 		""code"": ""113"",
 		""value"": ""Don't Know""
 	}",tam,TRUE,superadmin,now()
-10014,bloodType,Blood Type,string,"
+10138,bloodType,Blood Type,string,"
 	{
 		""code"": ""114"",
 		""value"": ""Not Applicable""
 	}",tam,TRUE,superadmin,now()
-10015,maritalStatus,Marital Status,string,"
+10139,maritalStatus,Marital Status,string,"
         {
                 ""code"": ""101"",
                 ""value"": ""ஒற்றை""
         }",tam,TRUE,superadmin,now()
-10016,maritalStatus,Marital Status,string,"
+10140,maritalStatus,Marital Status,string,"
         {
                 ""code"": ""102"",
                 ""value"": ""திருமணமானவர்""
         }",tam,TRUE,superadmin,now()
-10017,maritalStatus,Marital Status,string,"
+10141,maritalStatus,Marital Status,string,"
         {
                 ""code"": ""103"",
                 ""value"": ""விதவை""
         }",tam,TRUE,superadmin,now()
-10018,maritalStatus,Marital Status,string,"
+10142,maritalStatus,Marital Status,string,"
         {
                 ""code"": ""104"",
                 ""value"": ""விவாகரத்து""
         }",tam,TRUE,superadmin,now()
-10019,maritalStatus,Marital Status,string,"
+10143,maritalStatus,Marital Status,string,"
         {
                 ""code"": ""105"",
                 ""value"": ""சட்டரீதியாக பிரிந்தவர்கள்""
         }",tam,TRUE,superadmin,now()
-10020,maritalStatus,Marital Status,string,"
+10144,maritalStatus,Marital Status,string,"
         {
                 ""code"": ""106"",
                 ""value"": ""ரத்து செய்யப்பட்டது""
         }",tam,TRUE,superadmin,now()
-10021,maritalStatus,Marital Status,string,"
+10145,maritalStatus,Marital Status,string,"
         {
                 ""code"": ""107"",
                 ""value"": ""ரத்து செய்யப்பட்டது""
         }",tam,TRUE,superadmin,now()
-10022,registrationType,Registration Type,string,"
+10146,registrationType,Registration Type,string,"
         {
                 ""code"": ""Document-based"",
                 ""value"": ""ஆவண அடிப்படையிலான""
         }",tam,TRUE,superadmin,now()
-10023,registrationType,Registration Type,string,"
+10147,registrationType,Registration Type,string,"
         {
                 ""code"": ""Introducer-based"",
                 ""value"": ""அறிமுகம் சார்ந்த""
         }",tam,TRUE,superadmin,now()
-10024,modeOfClaim,Mode of Claim,string,"
+10148,modeOfClaim,Mode of Claim,string,"
         {
                 ""code"": ""101"",
                 ""value"": ""பிக்-அப்""
         }",tam,TRUE,superadmin,now()
-10025,modeOfClaim,Mode of Claim,string,"
+10149,modeOfClaim,Mode of Claim,string,"
         {
                 ""code"": ""102"",
                 ""value"": ""நிரந்தர முகவரிக்கு வழங்கல்""
         }",tam,TRUE,superadmin,now()
-10026,modeOfClaim,Mode of Claim,string,"
+10150,modeOfClaim,Mode of Claim,string,"
         {
                 ""code"": ""103"",
                 ""value"": ""தற்போதைய முகவரிக்கு வழங்கல்""
         }",tam,TRUE,superadmin,now()
-10027,gender,Gender,string,"
+10151,gender,Gender,string,"
         {
                 ""code"": ""MLE"",
                 ""value"": ""ஆண்""
         }",tam,TRUE,superadmin,now()
-10028,gender,Gender,string,"
+10152,gender,Gender,string,"
         {
                 ""code"": ""FLE"",
                 ""value"": ""பெண்""
         }",tam,TRUE,superadmin,now()
-10029,gender,Gender,string,"
+10153,gender,Gender,string,"
         {
                 ""code"": ""OTH"",
                 ""value"": ""மற்றவைகள்""
         }",tam,TRUE,superadmin,now()
-10030,residenceStatus,residenceStatus,string,"
+10154,residenceStatus,residenceStatus,string,"
         {
                 ""code"": ""FR"",
                 ""value"": ""வெளிநாட்டவர்""
         }",tam,TRUE,superadmin,now()
-10031,residenceStatus,residenceStatus,string,"
+10155,residenceStatus,residenceStatus,string,"
         {
                 ""code"": ""NFR"",
                 ""value"": ""வெளிநாட்டவர் அல்லாதவர்""
         }",tam,TRUE,superadmin,now()
-10001,bloodType,Blood Type,string,"
+10156,bloodType,Blood Type,string,"
         {
                 ""code"": ""101"",
                 ""value"": ""A"",
         }",kan,TRUE,superadmin,now()
-10002,bloodType,Blood Type,string,"
+10157,bloodType,Blood Type,string,"
 	{
 		""code"": ""102"",
 		""value"": ""A+"",
 	}",kan,TRUE,superadmin,now()
-10003,bloodType,Blood Type,string,"
+10158,bloodType,Blood Type,string,"
 	{
 		""code"": ""103"",
 		""value"": ""A-"",
 	}",kan,TRUE,superadmin,now()
-10004,bloodType,Blood Type,string,"
+10159,bloodType,Blood Type,string,"
 	{
 		""code"": ""104"",
 		""value"": ""B"",
 	}",kan,TRUE,superadmin,now()
-10005,bloodType,Blood Type,string,"
+10160,bloodType,Blood Type,string,"
 	{
 		""code"": ""105"",
 		""value"": ""B+"",
 	}",kan,TRUE,superadmin,now()
-10006,bloodType,Blood Type,string,"
+10161,bloodType,Blood Type,string,"
 	{
 		""code"": ""106"",
 		""value"": ""B-"",
 	}",kan,TRUE,superadmin,now()
-10007,bloodType,Blood Type,string,"
+10162,bloodType,Blood Type,string,"
 	{
 		""code"": ""107"",
 		""value"": ""AB"",
 	}",kan,TRUE,superadmin,now()
-10008,bloodType,Blood Type,string,"
+10163,bloodType,Blood Type,string,"
 	{
 		""code"": ""108"",
 		""value"": ""AB+"",
 	}",kan,TRUE,superadmin,now()
-10009,bloodType,Blood Type,string,"
+10164,bloodType,Blood Type,string,"
 	{
 		""code"": ""109"",
 		""value"": ""AB-"",
 	}",kan,TRUE,superadmin,now()
-10010,bloodType,Blood Type,string,"
+10165,bloodType,Blood Type,string,"
 	{
 		""code"": ""110"",
 		""value"": ""O"",
 	}",kan,TRUE,superadmin,now()
-10011,bloodType,Blood Type,string,"
+10166,bloodType,Blood Type,string,"
 	{
 		""code"": ""111"",
 		""value"": ""O+""
 	}",kan,TRUE,superadmin,now()
-10012,bloodType,Blood Type,string,"
+10167,bloodType,Blood Type,string,"
 	{
 		""code"": ""112"",
 		""value"": ""O-""
 	}",kan,TRUE,superadmin,now()
-10013,bloodType,Blood Type,string,"
+10168,bloodType,Blood Type,string,"
 	{
 		""code"": ""113"",
 		""value"": ""Don't Know""
 	}",kan,TRUE,superadmin,now()
-10014,bloodType,Blood Type,string,"
+10169,bloodType,Blood Type,string,"
 	{
 		""code"": ""114"",
 		""value"": ""Not Applicable""
 	}",kan,TRUE,superadmin,now()
-10015,maritalStatus,Marital Status,string,"
+10170,maritalStatus,Marital Status,string,"
         {
                 ""code"": ""101"",
                 ""value"": ""ಏಕ""
         }",kan,TRUE,superadmin,now()
-10016,maritalStatus,Marital Status,string,"
+10171,maritalStatus,Marital Status,string,"
         {
                 ""code"": ""102"",
                 ""value"": ""ವಿವಾಹಿತ""
         }",kan,TRUE,superadmin,now()
-10017,maritalStatus,Marital Status,string,"
+10172,maritalStatus,Marital Status,string,"
         {
                 ""code"": ""103"",
                 ""value"": ""ವಿಧವೆ""
         }",kan,TRUE,superadmin,now()
-10018,maritalStatus,Marital Status,string,"
+10173,maritalStatus,Marital Status,string,"
         {
                 ""code"": ""104"",
                 ""value"": ""ಡಿ ವೋರ್ಸ್ಡ್""
         }",kan,TRUE,superadmin,now()
-10019,maritalStatus,Marital Status,string,"
+10174,maritalStatus,Marital Status,string,"
         {
                 ""code"": ""105"",
                 ""value"": ""ಕಾನೂನುಬದ್ಧವಾಗಿ ಪ್ರತ್ಯೇಕಿಸಲಾಗಿದೆ""
         }",kan,TRUE,superadmin,now()
-10020,maritalStatus,Marital Status,string,"
+10175,maritalStatus,Marital Status,string,"
         {
                 ""code"": ""106"",
                 ""value"": ""ರದ್ದುಪಡಿಸಲಾಗಿದೆ""
         }",kan,TRUE,superadmin,now()
-10021,maritalStatus,Marital Status,string,"
+10176,maritalStatus,Marital Status,string,"
         {
                 ""code"": ""107"",
                 ""value"": ""ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ""
         }",kan,TRUE,superadmin,now()
-10022,registrationType,Registration Type,string,"
+10177,registrationType,Registration Type,string,"
         {
                 ""code"": ""Document-based"",
                 ""value"": ""ಡಾಕ್ಯುಮೆಂಟ್ ಆಧಾರಿತ""
         }",kan,TRUE,superadmin,now()
-10023,registrationType,Registration Type,string,"
+10178,registrationType,Registration Type,string,"
         {
                 ""code"": ""Introducer-based"",
                 ""value"": ""ಪರಿಚಯಕಾರರ ಆಧಾರಿತ""
         }",kan,TRUE,superadmin,now()
-10024,modeOfClaim,Mode of Claim,string,"
+10179,modeOfClaim,Mode of Claim,string,"
         {
                 ""code"": ""101"",
                 ""value"": ""ಪಿಕ್ ಅಪ್""
         }",kan,TRUE,superadmin,now()
-10025,modeOfClaim,Mode of Claim,string,"
+10180,modeOfClaim,Mode of Claim,string,"
         {
                 ""code"": ""102"",
                 ""value"": ""ಶಾಶ್ವತ ವಿಳಾಸಕ್ಕೆ ತಲುಪಿಸುವುದು""
         }",kan,TRUE,superadmin,now()
-10026,modeOfClaim,Mode of Claim,string,"
+10181,modeOfClaim,Mode of Claim,string,"
         {
                 ""code"": ""103"",
                 ""value"": ""ಪ್ರಸ್ತುತ ವಿಳಾಸಕ್ಕೆ ವಿತರಣೆ""
         }",kan,TRUE,superadmin,now()
-10027,gender,Gender,string,"
+10182,gender,Gender,string,"
         {
                 ""code"": ""MLE"",
                 ""value"": ""ಪುರುಷ""
         }",kan,TRUE,superadmin,now()
-10028,gender,Gender,string,"
+10183,gender,Gender,string,"
         {
                 ""code"": ""FLE"",
                 ""value"": ""ಹೆಣ್ಣು""
         }",kan,TRUE,superadmin,now()
-10029,gender,Gender,string,"
+10184,gender,Gender,string,"
         {
                 ""code"": ""OTH"",
                 ""value"": ""ಇತರರು""
         }",kan,TRUE,superadmin,now()
-10030,residenceStatus,residenceStatus,string,"
+10185,residenceStatus,residenceStatus,string,"
         {
                 ""code"": ""FR"",
                 ""value"": ""ವಿದೇಶಿ""
         }",kan,TRUE,superadmin,now()
-10031,residenceStatus,residenceStatus,string,"
+10186,residenceStatus,residenceStatus,string,"
         {
                 ""code"": ""NFR"",
                 ""value"": ""ವಿದೇಶಿಯರಲ್ಲದವರು""
