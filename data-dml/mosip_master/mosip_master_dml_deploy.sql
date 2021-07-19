@@ -19,7 +19,7 @@ TRUNCATE TABLE master.biometric_type cascade ;
 
 \COPY master.biometric_type (code,name,descr,lang_code,is_active,cr_by,cr_dtimes) FROM './dml/master-biometric_type.csv' delimiter ',' HEADER  csv;
 
------ TRUNCATE master.blacklisted_words TABLE Data and It's reference Data and COPY Data from CSV file -----
+----- TRUNCATE master.blocklisted_words TABLE Data and It's reference Data and COPY Data from CSV file -----
 TRUNCATE TABLE master.blocklisted_words cascade ;
 
 \COPY master.blocklisted_words (word,descr,lang_code,is_active,cr_by,cr_dtimes) FROM './dml/master-blocklisted_words.csv' delimiter ',' HEADER  csv;
