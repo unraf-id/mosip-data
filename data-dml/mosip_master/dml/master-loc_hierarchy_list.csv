@@ -1,9 +1,9 @@
 hierarchy_level,hierarchy_level_name,lang_code,is_active,cr_by,cr_dtimes
 0,विश्व,hin,TRUE,superadmin,now()
 1,देश,hin,TRUE,superadmin,now()
-2,क्षेत्र,hin,TRUE,superadmin,now()
+2,ऊपरी क्षेत्र,hin,TRUE,superadmin,now()
 3,प्रांत,hin,TRUE,superadmin,now()
-4,Faridabad,hin,TRUE,superadmin,now()
+4,शहर,hin,TRUE,superadmin,now()
 5,क्षेत्र,hin,TRUE,superadmin,now()
 6,डाक कोड,hin,TRUE,superadmin,now()
 0,உலகம்,tam,TRUE,superadmin,now()
