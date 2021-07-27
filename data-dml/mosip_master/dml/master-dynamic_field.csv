@@ -929,3 +929,12 @@ id,name,description,data_type,value_json,lang_code,is_active,cr_by,cr_dtimes
                 ""code"": ""NFR"",
                 ""value"": ""ವಿದೇಶಿಯರಲ್ಲದವರು""
         }",kan,TRUE,superadmin,now()
+10187,preferredLang,उपयोगकर्ता पसंदीदा भाषा,string,"{""value"":""हिंदी"",""code"":""hin""}",hin,TRUE,superadmin,now()
+10188,preferredLang,उपयोगकर्ता पसंदीदा भाषा,string,"{""value"":""தமிழ்‎"",""code"":""tam""}",hin,TRUE,superadmin,now()
+10189,preferredLang,उपयोगकर्ता पसंदीदा भाषा,string,"{""value"":""ಕನ್ನಡ"",""code"":""kan""}",hin,TRUE,superadmin,now()
+10190,preferredLang,ಬಳಕೆದಾರರ ಆದ್ಯತೆಯ ಭಾಷೆ,string,"{""value"":""हिंदी"",""code"":""hin""}",kan,TRUE,superadmin,now()
+10191,preferredLang,ಬಳಕೆದಾರರ ಆದ್ಯತೆಯ ಭಾಷೆ,string,"{""value"":""தமிழ்‎"",""code"":""tam""}",kan,TRUE,superadmin,now()
+10192,preferredLang,ಬಳಕೆದಾರರ ಆದ್ಯತೆಯ ಭಾಷೆ,string,"{""value"":""ಕನ್ನಡ"",""code"":""kan""}",kan,TRUE,superadmin,now()
+10193,preferredLang,பயனர் விரும்பும் மொழி,string,"{""value"":""हिंदी"",""code"":""hin""}",tam,TRUE,superadmin,now()
+10194,preferredLang,பயனர் விரும்பும் மொழி,string,"{""value"":""தமிழ்‎"",""code"":""tam""}",tam,TRUE,superadmin,now()
+10195,preferredLang,பயனர் விரும்பும் மொழி,string,"{""value"":""ಕನ್ನಡ"",""code"":""kan""}",tam,TRUE,superadmin,now()
