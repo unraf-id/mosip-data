@@ -175,10 +175,24 @@ TRUNCATE TABLE master.loc_holiday cascade ;
 
 \COPY master.loc_holiday (id,location_code,holiday_date,holiday_name,holiday_desc,lang_code,is_active,cr_by,cr_dtimes) FROM './dml/master-loc_holiday.csv' delimiter ',' HEADER  csv;
 
+
+
 ----- TRUNCATE master.machine_spec TABLE Data and It's reference Data and COPY Data from CSV file -----
 TRUNCATE TABLE master.machine_spec cascade ;
 
 \COPY master.machine_spec (id,name,brand,model,mtyp_code,min_driver_ver,descr,lang_code,is_active,cr_by,cr_dtimes) FROM './dml/master-machine_spec.csv' delimiter ',' HEADER  csv;
+
+----- TRUNCATE master.mid_seq TABLE Data and It's reference Data and COPY Data from CSV file -----
+TRUNCATE TABLE master.mid_seq cascade;
+
+\COPY master.mid_seq (curr_seq_no,cr_by ,cr_dtimes ) FROM './dml/master-mid_seq.csv' delimiter ',' HEADER  csv;
+
+
+----- TRUNCATE master.rcid_seq TABLE Data and It's reference Data and COPY Data from CSV file -----
+TRUNCATE TABLE master.rcid_seq cascade;
+
+\COPY master.rcid_seq (curr_seq_no,cr_by ,cr_dtimes ) FROM './dml/master-rcid_seq.csv' delimiter ',' HEADER  csv;
+
 
 ----- TRUNCATE master.reason_list TABLE Data and It's reference Data and COPY Data from CSV file -----
 TRUNCATE TABLE master.reason_list cascade ;
