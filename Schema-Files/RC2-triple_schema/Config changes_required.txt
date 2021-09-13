@@ -1,0 +1,4 @@
+List of the config where changes are required:
+----------------------------------------------
+-id-authentication-mz.properties
+-id-authentication-mapping.json
