@@ -1,0 +1,115 @@
+id,name,description,dataType,valueJson,langCode,isActive,
+10459,profession,Profession/ Occupation,string,"{"code":"101","value":"मुनीम"}",hin,TRUE
+10460,profession,Profession/ Occupation,string,"{"code":"102","value":"अभिनेता"}",hin,TRUE
+10461,profession,Profession/ Occupation,string,"{"code":"103","value":"मुंशी"}",hin,TRUE
+10462,profession,Profession/ Occupation,string,"{"code":"104","value":"सलाहकार"}",hin,TRUE
+10463,profession,Profession/ Occupation,string,"{"code":"105","value":"दूत"}",hin,TRUE
+10464,profession,Profession/ Occupation,string,"{"code":"106","value":"कलाकार"}",hin,TRUE
+10465,profession,Profession/ Occupation,string,"{"code":"107","value":"अंतरिक्ष यात्री"}",hin,TRUE
+10466,profession,Profession/ Occupation,string,"{"code":"108","value":"एथलीट"}",hin,TRUE
+10467,profession,Profession/ Occupation,string,"{"code":"109","value":"लेखक"}",hin,TRUE
+10468,profession,Profession/ Occupation,string,"{"code":"110","value":"बेकर नानबाई"}",hin,TRUE
+10469,profession,Profession/ Occupation,string,"{"code":"111","value":"बैंकर"}",hin,TRUE
+10470,profession,Profession/ Occupation,string,"{"code":"112","value":"नाई"}",hin,TRUE
+10471,profession,Profession/ Occupation,string,"{"code":"113","value":"लोहार"}",hin,TRUE
+10472,profession,Profession/ Occupation,string,"{"code":"114","value":"कसाई"}",hin,TRUE
+10473,profession,Profession/ Occupation,string,"{"code":"115","value":"बढ़ई"}",hin,TRUE
+10474,profession,Profession/ Occupation,string,"{"code":"116","value":"केशियर"}",hin,TRUE
+10475,profession,Profession/ Occupation,string,"{"code":"101","value":"ಅಕೌಂಟೆಂಟ್"}",kan,TRUE
+10476,profession,Profession/ Occupation,string,"{"code":"102","value":"ನಟ"}",kan,TRUE
+10477,profession,Profession/ Occupation,string,"{"code":"103","value":"ವಿಮಾಗಣಕ"}",kan,TRUE
+10478,profession,Profession/ Occupation,string,"{"code":"104","value":"ಸಲಹೆಗಾರ"}",kan,TRUE
+10479,profession,Profession/ Occupation,string,"{"code":"105","value":"ರಾಯಭಾರಿ"}",kan,TRUE
+10480,profession,Profession/ Occupation,string,"{"code":"106","value":"ಕಲಾವಿದ"}",kan,TRUE
+10481,profession,Profession/ Occupation,string,"{"code":"107","value":"ಗಗನಯಾತ್ರಿ"}",kan,TRUE
+10482,profession,Profession/ Occupation,string,"{"code":"108","value":"ಕ್ರೀಡಾಪಟು"}",kan,TRUE
+10483,profession,Profession/ Occupation,string,"{"code":"109","value":"ಲೇಖಕ"}",kan,TRUE
+10484,profession,Profession/ Occupation,string,"{"code":"110","value":"ಬೇಕರ್"}",kan,TRUE
+10485,profession,Profession/ Occupation,string,"{"code":"111","value":"ಬ್ಯಾಂಕರ್"}",kan,TRUE
+10486,profession,Profession/ Occupation,string,"{"code":"112","value":"ಬಾರ್ಬರ್"}",kan,TRUE
+10487,profession,Profession/ Occupation,string,"{"code":"113","value":"ಬ್ಲಾಕ್ಸ್ಮಿತ್"}",kan,TRUE
+10488,profession,Profession/ Occupation,string,"{"code":"114","value":"ಬುತ್ಚೆರ್"}",kan,TRUE
+10489,profession,Profession/ Occupation,string,"{"code":"115","value":"ಕಾರ್ಪೆಂಟರ್"}",kan,TRUE
+10490,profession,Profession/ Occupation,string,"{"code":"116","value":"ಕ್ಯಾಷಿಯರ್"}",kan,TRUE
+10491,profession,Profession/ Occupation,string,"{"code":"101","value":"கணக்காளர்"}",tam,TRUE
+10492,profession,Profession/ Occupation,string,"{"code":"102","value":"நடிகர்"}",tam,TRUE
+10493,profession,Profession/ Occupation,string,"{"code":"103","value":"actuary"}",tam,TRUE
+10494,profession,Profession/ Occupation,string,"{"code":"104","value":"ஆலோசகர்"}",tam,TRUE
+10495,profession,Profession/ Occupation,string,"{"code":"105","value":"தூதர்"}",tam,TRUE
+10496,profession,Profession/ Occupation,string,"{"code":"106","value":"கலைஞர்"}",tam,TRUE
+10497,profession,Profession/ Occupation,string,"{"code":"107","value":"விண்வெளி"}",tam,TRUE
+10498,profession,Profession/ Occupation,string,"{"code":"108","value":"தடகள"}",tam,TRUE
+10499,profession,Profession/ Occupation,string,"{"code":"109","value":"நூலாசிரியர்"}",tam,TRUE
+10500,profession,Profession/ Occupation,string,"{"code":"110","value":"ரொட்டி சுடுபவர்"}",tam,TRUE
+10501,profession,Profession/ Occupation,string,"{"code":"111","value":"வங்கியாளர்"}",tam,TRUE
+10502,profession,Profession/ Occupation,string,"{"code":"112","value":"பார்பர்"}",tam,TRUE
+10503,profession,Profession/ Occupation,string,"{"code":"113","value":"பிளாக்ஸ்மித்"}",tam,TRUE
+10504,profession,Profession/ Occupation,string,"{"code":"114","value":"கசாப்பு"}",tam,TRUE
+10505,profession,Profession/ Occupation,string,"{"code":"115","value":"கார்பெண்டர்"}",tam,TRUE
+10506,profession,Profession/ Occupation,string,"{"code":"116","value":"காசாளர்"}",tam,TRUE
+10507,bcertificateAvailability,Birth Cerrtificate availability,string,"{"code":"101","value":"हाँ"}",hin,TRUE
+10508,bcertificateAvailability,Birth Cerrtificate availability,string,"{"code":"102","value":"नहीं"}",hin,TRUE
+10509,bcertificateAvailability,Birth Cerrtificate availability,string,"{"code":"101","value":"ಹೌದು"}",kan,TRUE
+10510,bcertificateAvailability,Birth Cerrtificate availability,string,"{"code":"102","value":"ಯಾವುದೇ"}",kan,TRUE
+10511,bcertificateAvailability,Birth Cerrtificate availability,string,"{"code":"101","value":"ஆம்"}",tam,TRUE
+10512,bcertificateAvailability,Birth Cerrtificate availability,string,"{"code":"102","value":"இல்லை"}",tam,TRUE
+10513,applicantLanguage,Applicant language,string,"{"code":"101","value":"हिंदी"}",hin,TRUE
+10514,applicantLanguage,Applicant language,string,"{"code":"102","value":"ಕನ್ನಡ"}",hin,TRUE
+10515,applicantLanguage,Applicant language,string,"{"code":"103","value":"தமிழ்"}",hin,TRUE
+10516,applicantLanguage,Applicant language,string,"{"code":"101","value":"हिंदी"}",kan,TRUE
+10517,applicantLanguage,Applicant language,string,"{"code":"102","value":"ಕನ್ನಡ"}",kan,TRUE
+10518,applicantLanguage,Applicant language,string,"{"code":"103","value":"தமிழ்"}",kan,TRUE
+10519,applicantLanguage,Applicant language,string,"{"code":"101","value":"हिंदी"}",tam,TRUE
+10520,applicantLanguage,Applicant language,string,"{"code":"102","value":"ಕನ್ನಡ"}",tam,TRUE
+10521,applicantLanguage,Applicant language,string,"{"code":"103","value":"தமிழ்"}",tam,TRUE
+10522,dualCitizenshipAvailability,Dual citizenship availability,string,"{"code":"101","value":"हाँ"}",hin,TRUE
+10523,dualCitizenshipAvailability,Dual citizenship availability,string,"{"code":"102","value":"नहीं"}",hin,TRUE
+10524,dualCitizenshipAvailability,Dual citizenship availability,string,"{"code":"101","value":"ಹೌದು"}",kan,TRUE
+10525,dualCitizenshipAvailability,Dual citizenship availability,string,"{"code":"102","value":"ಯಾವುದೇ"}",kan,TRUE
+10526,dualCitizenshipAvailability,Dual citizenship availability,string,"{"code":"101","value":"ஆம்"}",tam,TRUE
+10527,dualCitizenshipAvailability,Dual citizenship availability,string,"{"code":"102","value":"இல்லை"}",tam,TRUE
+10528,fatherLivingStatus,Father living status,string,"{"code":"101","value":"जीवित"}",hin,TRUE
+10529,fatherLivingStatus,Father living status,string,"{"code":"102","value":"मृतक"}",hin,TRUE
+10530,fatherLivingStatus,Father living status,string,"{"code":"101","value":"ಜೀವಂತವಾಗಿ"}",kan,TRUE
+10531,fatherLivingStatus,Father living status,string,"{"code":"102","value":"ಮೃತ"}",kan,TRUE
+10532,fatherLivingStatus,Father living status,string,"{"code":"101","value":"உயிருடன்"}",tam,TRUE
+10533,fatherLivingStatus,Father living status,string,"{"code":"102","value":"இறந்தவர்"}",tam,TRUE
+10534,modeOfdelivery,Mode of Delivery,string,"{"code":"101","value":"घर पहुँचाना"}",hin,TRUE
+10535,modeOfdelivery,Mode of Delivery,string,"{"code":"102","value":"संदेशवाहक"}",hin,TRUE
+10536,modeOfdelivery,Mode of Delivery,string,"{"code":"103","value":"पद"}",hin,TRUE
+10537,modeOfdelivery,Mode of Delivery,string,"{"code":"101","value":"ಮನೆ ವಿತರಣೆ"}",kan,TRUE
+10538,modeOfdelivery,Mode of Delivery,string,"{"code":"102","value":"ಕೊರಿಯರ್"}",kan,TRUE
+10539,modeOfdelivery,Mode of Delivery,string,"{"code":"103","value":"ಪೋಸ್ಟ್"}",kan,TRUE
+10540,modeOfdelivery,Mode of Delivery,string,"{"code":"101","value":"முகப்பு DIVERY."}",tam,TRUE
+10541,modeOfdelivery,Mode of Delivery,string,"{"code":"102","value":"கூரியர்"}",tam,TRUE
+10542,modeOfdelivery,Mode of Delivery,string,"{"code":"103","value":"அஞ்சல்"}",tam,TRUE
+10543,title,Title,string,"{"code":"101","value":"श्री"}",hin,TRUE
+10544,title,Title,string,"{"code":"102","value":"श्रीमती"}",hin,TRUE
+10545,title,Title,string,"{"code":"103","value":"कुमारी"}",hin,TRUE
+10546,title,Title,string,"{"code":"104","value":"फिरना"}",hin,TRUE
+10547,title,Title,string,"{"code":"101","value":"ಶ್ರೀ"}",kan,TRUE
+10548,title,Title,string,"{"code":"102","value":"ಶ್ರೀಮತಿ"}",kan,TRUE
+10549,title,Title,string,"{"code":"103","value":"ಮಿಸ್"}",kan,TRUE
+10550,title,Title,string,"{"code":"104","value":"Vev"}",kan,TRUE
+10551,title,Title,string,"{"code":"101","value":"திரு"}",tam,TRUE
+10552,title,Title,string,"{"code":"102","value":"திருமதி"}",tam,TRUE
+10553,title,Title,string,"{"code":"103","value":"செல்வி"}",tam,TRUE
+10554,title,Title,string,"{"code":"104","value":"REV."}",tam,TRUE
+10555,motherLivingStatus,Mother living status,string,"{"code":"101","value":"जीवित"}",hin,TRUE
+10556,motherLivingStatus,Mother living status,string,"{"code":"102","value":"मृतक"}",hin,TRUE
+10557,motherLivingStatus,Mother living status,string,"{"code":"101","value":"ಜೀವಂತವಾಗಿ"}",kan,TRUE
+10558,motherLivingStatus,Mother living status,string,"{"code":"102","value":"ಮೃತ"}",kan,TRUE
+10559,motherLivingStatus,Mother living status,string,"{"code":"101","value":"உயிருடன்"}",tam,TRUE
+10560,motherLivingStatus,Mother living status,string,"{"code":"102","value":"இறந்தவர்"}",tam,TRUE
+10561,guardianLivingStatus,Guardian living status,string,"{"code":"101","value":"जीवित"}",hin,TRUE
+10562,guardianLivingStatus,Guardian living status,string,"{"code":"102","value":"मृतक"}",hin,TRUE
+10563,guardianLivingStatus,Guardian living status,string,"{"code":"101","value":"ಜೀವಂತವಾಗಿ"}",kan,TRUE
+10564,guardianLivingStatus,Guardian living status,string,"{"code":"102","value":"ಮೃತ"}",kan,TRUE
+10565,guardianLivingStatus,Guardian living status,string,"{"code":"101","value":"உயிருடன்"}",tam,TRUE
+10566,guardianLivingStatus,Guardian living status,string,"{"code":"102","value":"இறந்தவர்"}",tam,TRUE
+10567,livingStatus,Living status,string,"{"code":"101","value":"जीवित"}",hin,TRUE
+10568,livingStatus,Living status,string,"{"code":"102","value":"मृतक"}",hin,TRUE
+10569,livingStatus,Living status,string,"{"code":"101","value":"ಜೀವಂತವಾಗಿ"}",kan,TRUE
+10570,livingStatus,Living status,string,"{"code":"102","value":"ಮೃತ"}",kan,TRUE
+10571,livingStatus,Living status,string,"{"code":"101","value":"உயிருடன்"}",tam,TRUE
+10572,livingStatus,Living status,string,"{"code":"102","value":"இறந்தவர்"}",tam,TRUE
