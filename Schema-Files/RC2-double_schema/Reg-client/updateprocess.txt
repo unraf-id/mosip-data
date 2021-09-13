@@ -1,0 +1,2307 @@
+{
+	"id": "UPDATE",
+	"order": 2,
+	"flow": "UPDATE",
+	"isSubProcess": false,
+	"label": {
+		"eng": "Update UIN",
+		"ara": "تحديث UIN",
+		"fra": "Mettre à jour l'UIN"
+	},
+	"screens": [
+		{
+			"order": 1,
+			"name": "consentdet",
+			"label": {
+				"ara": "موافقة",
+				"fra": "Consentement",
+				"eng": "Consent"
+			},
+			"caption": {
+				"ara": "موافقة",
+				"fra": "Consentement",
+				"eng": "Consent"
+			},
+			"fields": [
+				{
+					"id": "consentText",
+					"inputRequired": true,
+					"type": "simpleType",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "Consent",
+					"label": {},
+					"controlType": "html",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [],
+					"fieldCategory": "evidence",
+					"alignmentGroup": null,
+					"visible": null,
+					"contactType": null,
+					"group": "Consent",
+					"groupLabel": {
+						"ara": "موافقة",
+						"fra": "Consentement",
+						"eng": "Consent"
+					},
+					"changeAction": null,
+					"transliterate": false,
+					"templateName": "Registration Consent",
+					"fieldLayout": null,
+					"locationHierarchy": null,
+					"conditionalBioAttributes": null,
+					"required": true,
+					"bioAttributes": null,
+					"requiredOn": [],
+					"subType": "consentText"
+				},
+				{
+					"id": "consent",
+					"inputRequired": true,
+					"type": "string",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "consent accepted",
+					"label": {
+						"ara": "الاسم الكامل الكامل الكامل",
+						"fra": "J'ai lu et j'accepte les termes et conditions pour partager mes PII",
+						"eng": "I have read and accept terms and conditions to share my PII"
+					},
+					"controlType": "checkbox",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [],
+					"fieldCategory": "evidence",
+					"alignmentGroup": null,
+					"visible": null,
+					"contactType": null,
+					"group": "Consent",
+					"groupLabel": {
+						"ara": "موافقة",
+						"fra": "Consentement",
+						"eng": "Consent"
+					},
+					"changeAction": null,
+					"transliterate": false,
+					"templateName": null,
+					"fieldLayout": null,
+					"locationHierarchy": null,
+					"conditionalBioAttributes": null,
+					"required": true,
+					"bioAttributes": null,
+					"requiredOn": [],
+					"subType": "consent"
+				},
+				{
+					"id": "preferredLang",
+					"inputRequired": true,
+					"type": "string",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "user preferred Language",
+					"label": {
+						"ara": "لغة الإخطار",
+						"eng": "Notification Langauge"
+					},
+					"controlType": "button",
+					"fieldType": "dynamic",
+					"format": "none",
+					"validators": [],
+					"fieldCategory": "pvt",
+					"alignmentGroup": "group1",
+					"visible": null,
+					"contactType": null,
+					"group": "PreferredLanguage",
+					"groupLabel": {
+						"ara": "لغة الإخطار",
+						"fra": "Langue de notification",
+						"eng": "Notification Langauge"
+					},
+					"changeAction": null,
+					"transliterate": false,
+					"templateName": null,
+					"fieldLayout": null,
+					"locationHierarchy": null,
+					"conditionalBioAttributes": null,
+					"required": true,
+					"bioAttributes": null,
+					"requiredOn": [],
+					"subType": "preferredLang"
+				}
+			],
+			"layoutTemplate": null,
+			"preRegFetchRequired": false,
+			"active": false
+		},
+		{
+			"order": 2,
+			"name": "DemographicDetails",
+			"label": {
+				"ara": "التفاصيل الديموغرافية",
+				"fra": "Détails démographiques",
+				"eng": "Demographic Details"
+			},
+			"caption": {
+				"ara": "التفاصيل الديموغرافية",
+				"fra": "Détails démographiques",
+				"eng": "Demographic Details"
+			},
+			"fields": [
+				{
+					"id": "fullName",
+					"inputRequired": true,
+					"type": "simpleType",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "Full Name",
+					"label": {
+						"ara": "الاسم الكامل",
+						"fra": "Nom complet",
+						"eng": "Full Name"
+					},
+					"controlType": "textbox",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [
+						{
+							"type": "regex",
+							"validator": "^(?=.{3,50}$).*",
+							"arguments": [],
+							"langCode": null
+						}
+					],
+					"fieldCategory": "pvt",
+					"alignmentGroup": null,
+					"visible": null,
+					"contactType": null,
+					"group": "FullName",
+					"groupLabel": {
+						"ara": "الاسم الكامل",
+						"fra": "Nom complet",
+						"eng": "Full Name"
+					},
+					"changeAction": null,
+					"transliterate": false,
+					"templateName": null,
+					"fieldLayout": null,
+					"locationHierarchy": null,
+					"conditionalBioAttributes": null,
+					"required": true,
+					"bioAttributes": null,
+					"requiredOn": [],
+					"subType": "name"
+				},
+				{
+					"id": "yearOfBirth",
+					"inputRequired": true,
+					"type": "string",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "yearOfBirth",
+					"label": {
+						"eng": "Year Of Birth",
+						"ara": "سنة الولادة",
+						"fra": "année de naissance",
+						"hin": "जन्म का साल",
+						"kan": "ಹುಟ್ಟಿದ ವರ್ಷ",
+						"tam": "பிறந்த வருடம்"
+					},
+					"controlType": "textbox",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [],
+					"fieldCategory": "pvt",
+					"alignmentGroup": null,
+					"visible": null,
+					"contactType": null,
+					"group": "yearOfBirth",
+					"groupLabel": {
+						"ara": "سنة الولادة",
+						"fra": "année de naissance",
+						"eng": "yearOfBirth"
+					},
+					"changeAction": null,
+					"transliterate": false,
+					"templateName": null,
+					"fieldLayout": null,
+					"locationHierarchy": null,
+					"conditionalBioAttributes": null,
+					"required": true,
+					"bioAttributes": null,
+					"requiredOn": [
+						{
+							"engine": "MVEL",
+							"expr": "identity.isNew || (identity.isUpdate && (identity.updatableFieldGroups contains 'IntroducerDetails' || identity.updatableFieldGroups contains 'DateOfBirth'))"
+						}
+					],
+					"subType": "yearOfBirth"
+				},
+				{
+					"id": "monthOfBirth",
+					"inputRequired": true,
+					"type": "string",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "monthOfBirth",
+					"label": {
+						"eng": "Month Of Birth",
+						"ara": "شهر الولادة",
+						"fra": "le mois de naissance",
+						"hin": "जन्म का माह",
+						"kan": "ಹುಟ್ಟಿದ ತಿಂಗಳು",
+						"tam": "பிறந்த மாதம்"
+					},
+					"controlType": "textbox",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [],
+					"fieldCategory": "pvt",
+					"alignmentGroup": null,
+					"visible": null,
+					"contactType": null,
+					"group": "monthOfBirth",
+					"groupLabel": {
+						"ara": "شهر الولادة",
+						"fra": "le mois de naissance",
+						"eng": "monthOfBirth"
+					},
+					"changeAction": null,
+					"transliterate": false,
+					"templateName": null,
+					"fieldLayout": null,
+					"locationHierarchy": null,
+					"conditionalBioAttributes": null,
+					"required": true,
+					"bioAttributes": null,
+					"requiredOn": [
+						{
+							"engine": "MVEL",
+							"expr": "identity.isNew || (identity.isUpdate && (identity.updatableFieldGroups contains 'IntroducerDetails' || identity.updatableFieldGroups contains 'DateOfBirth'))"
+						}
+					],
+					"subType": "monthOfBirth"
+				},
+				{
+					"id": "dayOfBirth",
+					"inputRequired": true,
+					"type": "string",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "dayOfBirth",
+					"label": {
+						"eng": "Day Of Birth",
+						"ara": "يوم الميلاد",
+						"fra": "date de naissance",
+						"hin": "जन्म तिथि",
+						"kan": "ಹುಟ್ತಿದ ದಿನ",
+						"tam": "பிறந்த நாள்"
+					},
+					"controlType": "textbox",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [],
+					"fieldCategory": "pvt",
+					"alignmentGroup": null,
+					"visible": null,
+					"contactType": null,
+					"group": "dayOfBirth",
+					"groupLabel": {
+						"ara": "يوم الميلاد",
+						"fra": "date de naissance",
+						"eng": "dayOfBirth"
+					},
+					"changeAction": null,
+					"transliterate": false,
+					"templateName": null,
+					"fieldLayout": null,
+					"locationHierarchy": null,
+					"conditionalBioAttributes": null,
+					"required": true,
+					"bioAttributes": null,
+					"requiredOn": [
+						{
+							"engine": "MVEL",
+							"expr": "identity.isNew || (identity.isUpdate && (identity.updatableFieldGroups contains 'IntroducerDetails' || identity.updatableFieldGroups contains 'DateOfBirth'))"
+						}
+					],
+					"subType": "dayOfBirth"
+				},
+				{
+					"id": "dateOfBirth",
+					"inputRequired": true,
+					"type": "string",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "dateOfBirth",
+					"label": {
+						"eng": "Date Of Birth",
+						"ara": "تاريخ الولادة",
+						"fra": "Date de naissance",
+						"hin": "जन्म की तारीख",
+						"kan": "ಹುಟ್ತಿದ ದಿನ",
+						"tam": "பிறந்த தேதி"
+					},
+					"controlType": "ageDate",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [
+						{
+							"type": "regex",
+							"validator": "^(1869|18[7-9][0-9]|19[0-9][0-9]|20[0-9][0-9])/([0][1-9]|1[0-2])/([0][1-9]|[1-2][0-9]|3[01])$",
+							"arguments": [],
+							"langCode": null
+						}
+					],
+					"fieldCategory": "pvt",
+					"alignmentGroup": null,
+					"visible": null,
+					"contactType": null,
+					"group": "DateOfBirth",
+					"groupLabel": {
+						"ara": "تاريخ الولادة",
+						"fra": "Date de naissance",
+						"eng": "DateOfBirth"
+					},
+					"changeAction": null,
+					"transliterate": false,
+					"templateName": null,
+					"fieldLayout": null,
+					"locationHierarchy": null,
+					"conditionalBioAttributes": null,
+					"required": true,
+					"bioAttributes": null,
+					"requiredOn": [
+						{
+							"engine": "MVEL",
+							"expr": "identity.isNew || (identity.isUpdate && (identity.updatableFieldGroups contains 'IntroducerDetails' || identity.updatableFieldGroups contains 'DateOfBirth'))"
+						}
+					],
+					"subType": "dateOfBirth"
+				},
+				{
+					"id": "gender",
+					"inputRequired": true,
+					"type": "simpleType",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "gender",
+					"label": {
+						"eng": "Gender",
+						"ara": "جنس",
+						"fra": "Le genre",
+						"hin": "लिंग",
+						"kan": "ಲಿಂಗ",
+						"tam": "பாலினம்"
+					},
+					"controlType": "dropdown",
+					"fieldType": "dynamic",
+					"format": "",
+					"validators": [],
+					"fieldCategory": "pvt",
+					"alignmentGroup": "group1",
+					"visible": null,
+					"contactType": null,
+					"group": "Gender",
+					"groupLabel": {
+						"ara": "جنس تذكير أو تأنيث",
+						"fra": "Genre",
+						"eng": "Gender"
+					},
+					"changeAction": null,
+					"transliterate": false,
+					"templateName": null,
+					"fieldLayout": null,
+					"locationHierarchy": null,
+					"conditionalBioAttributes": null,
+					"required": true,
+					"bioAttributes": null,
+					"requiredOn": [],
+					"subType": "gender"
+				},
+				{
+					"id": "residenceStatus",
+					"inputRequired": true,
+					"type": "simpleType",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "residenceStatus",
+					"label": {
+						"eng": "Residence Status",
+						"ara": "حالة الإقامة",
+						"fra": "Statut de résidence",
+						"hin": "आवास की स्थिति",
+						"kan": "ನಿವಾಸ ಸ್ಥಿತಿ",
+						"tam": "குடியிருப்பு நிலை"
+					},
+					"controlType": "dropdown",
+					"fieldType": "dynamic",
+					"format": "none",
+					"validators": [],
+					"fieldCategory": "kyc",
+					"alignmentGroup": "group1",
+					"visible": null,
+					"contactType": null,
+					"group": "ResidenceStatus",
+					"groupLabel": {
+						"ara": "حالة الإقامة",
+						"fra": "Statut de résidence",
+						"eng": "ResidenceStatus"
+					},
+					"changeAction": null,
+					"transliterate": false,
+					"templateName": null,
+					"fieldLayout": null,
+					"locationHierarchy": null,
+					"conditionalBioAttributes": null,
+					"required": false,
+					"bioAttributes": null,
+					"requiredOn": [],
+					"subType": "residenceStatus"
+				},
+				{
+					"id": "referenceCNIENumber",
+					"inputRequired": true,
+					"type": "string",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "CNIE",
+					"label": {
+						"eng": "Reference CNIE Number",
+						"ara": "مرجع رقم CNIE",
+						"fra": "référence Numéro CNIE",
+						"kan": "ಉಲ್ಲೇಖ CNIE ಸಂಖ್ಯೆ",
+						"hin": "संदर्भ सीएनआईई नंबर",
+						"tam": "குறிப்பு CNIE எண்"
+					},
+					"controlType": "textbox",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [
+						{
+							"type": "regex",
+							"validator": "(^[A-Z]{2}[0-9]{1,6}$)|(^[A-Z]{1}[0-9]{1,7}$)",
+							"arguments": [],
+							"langCode": null
+						}
+					],
+					"fieldCategory": "pvt",
+					"alignmentGroup": null,
+					"visible": {
+						"engine": "MVEL",
+						"expr": "( identity['residenceStatus'] != null && identity['residenceStatus'].get(0).value.equalsIgnoreCase('Non-Foreigner') && identity.age > 17 )"
+					},
+					"contactType": null,
+					"group": "PersonalInfo",
+					"groupLabel": {
+						"ara": "معلومات شخصية",
+						"fra": "Informations personnelles",
+						"eng": "PersonalInfo"
+					},
+					"changeAction": null,
+					"required": false,
+					"bioAttributes": null,
+					"requiredOn": [
+						{
+							"engine": "MVEL",
+							"expr": "( identity['residenceStatus'] != null && identity['residenceStatus'].get(0).value.equalsIgnoreCase('Non-Foreigner') && identity.age > 17 )"
+						}
+					],
+					"subType": "none"
+				},
+				{
+					"id": "referenceCNIEexpiry",
+					"inputRequired": true,
+					"type": "string",
+					"minimum": 0,
+					"maximum": 10000,
+					"description": "CNIE",
+					"label": {
+						"eng": "Reference CNIE expiry",
+						"ara": "تاريخ انتهاء صلاحية CNIE المرجعي",
+						"fra": "référence CNIE expiration",
+						"kan": "ಉಲ್ಲೇಖ CNIE ಮುಕ್ತಾಯ",
+						"hin": "संदर्भ CNIE समाप्ति",
+						"tam": "குறிப்பு CNIE காலாவதி"
+					},
+					"controlType": "date",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [],
+					"fieldCategory": "pvt",
+					"alignmentGroup": null,
+					"visible": {
+						"engine": "MVEL",
+						"expr": "( identity['residenceStatus'] != null && identity['residenceStatus'].get(0).value.equalsIgnoreCase('Non-Foreigner') && identity.age > 17 )"
+					},
+					"contactType": null,
+					"group": "PersonalInfo",
+					"groupLabel": {
+						"ara": "معلومات شخصية",
+						"fra": "Informations personnelles",
+						"eng": "PersonalInfo"
+					},
+					"changeAction": null,
+					"required": false,
+					"bioAttributes": null,
+					"requiredOn": [
+						{
+							"engine": "MVEL",
+							"expr": "( identity['residenceStatus'] != null && identity['residenceStatus'].get(0).value.equalsIgnoreCase('Non-Foreigner') && identity.age > 17 )"
+						}
+					],
+					"subType": "none"
+				},
+				{
+					"id": "nationality",
+					"inputRequired": true,
+					"type": "simpleType",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "Nationalité",
+					"label": {
+						"eng": "Nationality",
+						"ara": "جنسية",
+						"fra": "nationalité",
+						"kan": "ರಾಷ್ಟ್ರೀಯತೆ",
+						"hin": "राष्ट्रीयता",
+						"tam": "தேசியம்"
+					},
+					"controlType": "dropdown",
+					"fieldType": "dynamic",
+					"format": "none",
+					"validators": [],
+					"fieldCategory": "pvt",
+					"alignmentGroup": "cardfor",
+					"visible": {
+						"engine": "MVEL",
+						"expr": "( identity['residenceStatus'] != null && !identity['residenceStatus'].get(0).value.equalsIgnoreCase('Non-Foreigner') )"
+					},
+					"contactType": null,
+					"group": "PersonalInfo",
+					"groupLabel": {
+						"ara": "معلومات شخصية",
+						"fra": "Informations personnelles",
+						"eng": "PersonalInfo"
+					},
+					"changeAction": null,
+					"required": false,
+					"bioAttributes": null,
+					"requiredOn": [
+						{
+							"engine": "MVEL",
+							"expr": "( identity['residenceStatus'] != null && !identity['residenceStatus'].get(0).value.equalsIgnoreCase('Non-Foreigner') )"
+						}
+					],
+					"subType": "nationality"
+				},
+				{
+					"id": "resOuPass",
+					"inputRequired": true,
+					"type": "simpleType",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "Je dispose",
+					"label": {
+						"eng": "ResOuPass",
+						"ara": "resOuPass",
+						"fra": "ResOuPass",
+						"kan": "resOuPass",
+						"hin": "resOuPass",
+						"tam": "resOuPass"
+					},
+					"controlType": "dropdown",
+					"fieldType": "dynamic",
+					"format": "none",
+					"validators": [],
+					"fieldCategory": "none",
+					"alignmentGroup": "cardfor",
+					"visible": {
+						"engine": "MVEL",
+						"expr": "( identity['residenceStatus'] != null && !identity['residenceStatus'].get(0).value.equalsIgnoreCase('Non-Foreigner')  )"
+					},
+					"contactType": null,
+					"group": "PersonalInfo",
+					"groupLabel": {
+						"ara": "معلومات شخصية",
+						"fra": "Informations personnelles",
+						"eng": "PersonalInfo"
+					},
+					"changeAction": null,
+					"required": false,
+					"bioAttributes": null,
+					"requiredOn": [
+						{
+							"engine": "MVEL",
+							"expr": "( identity['residenceStatus'] != null && !identity['residenceStatus'].get(0).value.equalsIgnoreCase('Non-Foreigner')  )"
+						}
+					],
+					"subType": "resOuPass"
+				},
+				{
+					"id": "referenceResidencyNumber",
+					"inputRequired": true,
+					"type": "string",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "Numéro d'identité du résident étranger",
+					"label": {
+						"eng": "Reference Residency Number",
+						"ara": "مرجع رقم الإقامة",
+						"fra": "Numéro de résidence de référence",
+						"kan": "ರೆಸಿಡೆನ್ಸಿ ಸಂಖ್ಯೆ ಉಲ್ಲೇಖ",
+						"hin": "संदर्भ निवास संख्या",
+						"tam": "குறிப்பு குடியிருப்பு எண்"
+					},
+					"controlType": "textbox",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [
+						{
+							"type": "regex",
+							"validator": "^(?=.{3,50}$).*",
+							"arguments": [],
+							"langCode": null
+						}
+					],
+					"fieldCategory": "pvt",
+					"alignmentGroup": null,
+					"visible": {
+						"engine": "MVEL",
+						"expr": "( identity['residenceStatus'] != null && !identity['residenceStatus'].get(0).value.equalsIgnoreCase('Non-Foreigner') && identity['resOuPass'] != null && identity['resOuPass'].get(0).value.equalsIgnoreCase('Residence Card'))"
+					},
+					"contactType": null,
+					"group": "PersonalInfo",
+					"groupLabel": {
+						"ara": "معلومات شخصية",
+						"fra": "Informations personnelles",
+						"eng": "PersonalInfo"
+					},
+					"changeAction": null,
+					"required": false,
+					"bioAttributes": null,
+					"requiredOn": [
+						{
+							"engine": "MVEL",
+							"expr": "( identity['residenceStatus'] != null && !identity['residenceStatus'].get(0).value.equalsIgnoreCase('Non-Foreigner') && identity['resOuPass'] != null && identity['resOuPass'].get(0).value.equalsIgnoreCase('Residence Card'))"
+						}
+					],
+					"subType": "referenceResidencyNumber"
+				},
+				{
+					"id": "passportNumber",
+					"inputRequired": true,
+					"type": "string",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "Numéro de passport",
+					"label": {
+						"eng": "Passport Number",
+						"ara": "رقم جواز السفر",
+						"fra": "numéro de passeport",
+						"kan": "ಪಾಸ್ಪೋರ್ಟ್ ಸಂಖ್ಯೆ",
+						"hin": "पासपोर्ट संख्या",
+						"tam": "கடவுச்சீட்டு எண்"
+					},
+					"controlType": "textbox",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [
+						{
+							"type": "regex",
+							"validator": "^(?=.{1,20}$).*",
+							"arguments": [],
+							"langCode": null
+						}
+					],
+					"fieldCategory": "pvt",
+					"alignmentGroup": null,
+					"visible": {
+						"engine": "MVEL",
+						"expr": "( identity['residenceStatus'] != null && !identity['residenceStatus'].get(0).value.equalsIgnoreCase('Non-Foreigner') && identity['resOuPass'] != null && !identity['resOuPass'].get(0).value.equalsIgnoreCase('Residence Card'))"
+					},
+					"contactType": null,
+					"group": "PersonalInfo",
+					"groupLabel": {
+						"ara": "معلومات شخصية",
+						"fra": "Informations personnelles",
+						"eng": "PersonalInfo"
+					},
+					"changeAction": null,
+					"required": false,
+					"bioAttributes": null,
+					"requiredOn": [
+						{
+							"engine": "MVEL",
+							"expr": "( identity['residenceStatus'] != null && !identity['residenceStatus'].get(0).value.equalsIgnoreCase('Non-Foreigner') && identity['resOuPass'] != null && !identity['resOuPass'].get(0).value.equalsIgnoreCase('Residence Card'))"
+						}
+					],
+					"subType": "passportNumber"
+				},
+				{
+					"id": "flagb",
+					"inputRequired": true,
+					"type": "simpleType",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "Nés au maroc",
+					"label": {
+						"eng": "flagb",
+						"ara": "علم",
+						"fra": "drapeau",
+						"kan": "ಧ್ವಜ",
+						"hin": "झंडाब",
+						"tam": "கொடி"
+					},
+					"controlType": "dropdown",
+					"fieldType": "dynamic",
+					"format": "none",
+					"validators": [],
+					"fieldCategory": "none",
+					"alignmentGroup": null,
+					"visible": null,
+					"contactType": null,
+					"group": "PersonalInfo",
+					"groupLabel": {
+						"ara": "معلومات شخصية",
+						"fra": "Informations personnelles",
+						"eng": "PersonalInfo"
+					},
+					"changeAction": null,
+					"required": true,
+					"bioAttributes": null,
+					"requiredOn": [],
+					"subType": "flagb"
+				},
+				{
+					"id": "placeOfBirth",
+					"inputRequired": true,
+					"type": "simpleType",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "Lieu de naissance",
+					"label": {
+						"eng": "Place Of Birth",
+						"ara": "مكان الولادة",
+						"fra": "lieu de naissance",
+						"kan": "ಹುಟ್ಟಿದ ಸ್ಥಳ",
+						"hin": "जन्म स्थान",
+						"tam": "பிறந்த இடம்"
+					},
+					"controlType": "dropdown",
+					"fieldType": "dynamic",
+					"format": "none",
+					"validators": [],
+					"fieldCategory": "pvt",
+					"alignmentGroup": null,
+					"visible": {
+						"engine": "MVEL",
+						"expr": "( identity['flagb'] != null && identity['flagb'].get(0).value.equalsIgnoreCase('oui'))"
+					},
+					"contactType": null,
+					"group": "PersonalInfo",
+					"groupLabel": {
+						"ara": "معلومات شخصية",
+						"fra": "Informations personnelles",
+						"eng": "PersonalInfo"
+					},
+					"changeAction": null,
+					"required": false,
+					"bioAttributes": null,
+					"requiredOn": [
+						{
+							"engine": "MVEL",
+							"expr": "( identity['flagb'] != null && (identity['flagb'].get(0).value.equalsIgnoreCase('oui')))"
+						}
+					],
+					"subType": "placeOfBirth"
+				},
+				{
+					"id": "listCountry",
+					"inputRequired": true,
+					"type": "simpleType",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "Pay de naissance",
+					"label": {
+						"eng": "list Country",
+						"ara": "قائمة الدولة",
+						"fra": "liste Pays",
+						"kan": "ಪಟ್ಟಿ ದೇಶ",
+						"hin": "सूची देश",
+						"tam": "பட்டியல் நாடு"
+					},
+					"controlType": "dropdown",
+					"fieldType": "dynamic",
+					"format": "none",
+					"validators": [],
+					"fieldCategory": "pvt",
+					"alignmentGroup": null,
+					"visible": {
+						"engine": "MVEL",
+						"expr": "( identity['flagb'] != null && !(identity['flagb'].get(0).value.equalsIgnoreCase('oui')))"
+					},
+					"contactType": null,
+					"group": "PersonalInfo",
+					"groupLabel": {
+						"ara": "معلومات شخصية",
+						"fra": "Informations personnelles",
+						"eng": "PersonalInfo"
+					},
+					"changeAction": null,
+					"required": false,
+					"bioAttributes": null,
+					"requiredOn": [
+						{
+							"engine": "MVEL",
+							"expr": "( identity['flagb'] != null && !(identity['flagb'].get(0).value.equalsIgnoreCase('oui')))"
+						}
+					],
+					"subType": "listCountry"
+				},
+				{
+					"id": "flagidcs",
+					"inputRequired": true,
+					"type": "simpleType",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "IDCS flage",
+					"label": {
+						"eng": "flagidcs",
+						"ara": "سوط",
+						"fra": "flagidcs",
+						"kan": "ಧ್ವಜಗಳು",
+						"hin": "फ्लैगिड्स",
+						"tam": "கொடிகள்"
+					},
+					"controlType": "dropdown",
+					"fieldType": "dynamic",
+					"format": "none",
+					"validators": [],
+					"fieldCategory": "none",
+					"alignmentGroup": null,
+					"visible": {
+						"engine": "MVEL",
+						"expr": "( identity.isUpdate )"
+					},
+					"contactType": null,
+					"group": "PersonalInfo",
+					"groupLabel": {
+						"ara": "معلومات شخصية",
+						"fra": "Informations personnelles",
+						"eng": "PersonalInfo"
+					},
+					"changeAction": null,
+					"required": true,
+					"bioAttributes": null,
+					"requiredOn": [],
+					"subType": "flagidcs"
+				},
+				{
+					"id": "birthCertificateNumber",
+					"inputRequired": true,
+					"type": "string",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "Numéro Acte de Naissance",
+					"label": {
+						"eng": "birth Certificate Number",
+						"ara": "رقم شهادة الميلاد",
+						"fra": "Numéro Acte de Naissance",
+						"kan": "ಜನನ ಪ್ರಮಾಣಪತ್ರ ಸಂಖ್ಯೆ",
+						"hin": "जन्म प्रमाणपत्र संख्या",
+						"tam": "பிறப்புச் சான்றிதழ் எண்"
+					},
+					"controlType": "textbox",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [
+						{
+							"type": "regex",
+							"validator": "^(?=.{1,20}$).*",
+							"arguments": [],
+							"langCode": null
+						}
+					],
+					"fieldCategory": "pvt",
+					"alignmentGroup": null,
+					"visible": {
+						"engine": "MVEL",
+						"expr": "( identity['flagidcs'] != null && !(identity['flagidcs'].get(0).value.equalsIgnoreCase('oui')))"
+					},
+					"contactType": null,
+					"group": "PersonalInfo",
+					"groupLabel": {
+						"ara": "معلومات شخصية",
+						"fra": "Informations personnelles",
+						"eng": "PersonalInfo"
+					},
+					"changeAction": null,
+					"required": false,
+					"bioAttributes": null,
+					"requiredOn": [
+						{
+							"engine": "MVEL",
+							"expr": "( identity['flagidcs'] != null && !(identity['flagidcs'].get(0).value.equalsIgnoreCase('oui')))"
+						}
+					],
+					"subType": "none"
+				},
+				{
+					"id": "civilRegistryNumber",
+					"inputRequired": true,
+					"type": "string",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "Numéro Acte de Naissance digitalisé",
+					"label": {
+						"eng": "civil Registry Number",
+						"ara": "رقم السجل المدني",
+						"fra": "Numéro d'état civil",
+						"kan": "ನಾಗರಿಕ ನೋಂದಣಿ ಸಂಖ್ಯೆ",
+						"hin": "सिविल रजिस्ट्री नंबर",
+						"tam": "சிவில் பதிவு எண்"
+					},
+					"controlType": "textbox",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [],
+					"fieldCategory": "pvt",
+					"alignmentGroup": null,
+					"visible": {
+						"engine": "MVEL",
+						"expr": "( identity['flagidcs'] != null && identity['flagidcs'].get(0).value.equalsIgnoreCase('oui'))"
+					},
+					"contactType": null,
+					"group": "PersonalInfo",
+					"groupLabel": {
+						"ara": "معلومات شخصية",
+						"fra": "Informations personnelles",
+						"eng": "PersonalInfo"
+					},
+					"changeAction": null,
+					"required": false,
+					"bioAttributes": null,
+					"requiredOn": [
+						{
+							"engine": "MVEL",
+							"expr": "( identity['flagidcs'] != null && identity['flagidcs'].get(0).value.equalsIgnoreCase('oui'))"
+						}
+					],
+					"subType": "none"
+				},
+				{
+					"id": "region",
+					"inputRequired": true,
+					"type": "simpleType",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "region",
+					"label": {
+						"eng": "Region",
+						"ara": "منطقة",
+						"fra": "Région",
+						"kan": "ಪ್ರದೇಶ",
+						"hin": "ऊपरी क्षेत्र",
+						"tam": "பகுதி"
+					},
+					"controlType": "dropdown",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [
+						{
+							"type": "regex",
+							"validator": "^(?=.{0,50}$).*",
+							"arguments": [],
+							"langCode": null
+						}
+					],
+					"fieldCategory": "pvt",
+					"alignmentGroup": "permanentaddress",
+					"visible": null,
+					"contactType": "Postal",
+					"group": "Location",
+					"groupLabel": {
+						"ara": "موقع",
+						"fra": "Emplacement",
+						"eng": "Location"
+					},
+					"changeAction": null,
+					"transliterate": false,
+					"templateName": null,
+					"fieldLayout": null,
+					"locationHierarchy": null,
+					"conditionalBioAttributes": null,
+					"required": true,
+					"bioAttributes": null,
+					"requiredOn": [],
+					"subType": "Region"
+				},
+				{
+					"id": "province",
+					"inputRequired": true,
+					"type": "simpleType",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "province",
+					"label": {
+						"eng": "Province",
+						"ara": "المحافظة",
+						"fra": "Province",
+						"kan": "ಪ್ರಾಂತ್ಯ",
+						"hin": "प्रांत",
+						"tam": "மாகாணம்"
+					},
+					"controlType": "dropdown",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [
+						{
+							"type": "regex",
+							"validator": "^(?=.{0,50}$).*",
+							"arguments": [],
+							"langCode": null
+						}
+					],
+					"fieldCategory": "pvt",
+					"alignmentGroup": "permanentaddress",
+					"visible": null,
+					"contactType": "Postal",
+					"group": "Location",
+					"groupLabel": {
+						"ara": "موقع",
+						"fra": "Emplacement",
+						"eng": "Location"
+					},
+					"changeAction": null,
+					"transliterate": false,
+					"templateName": null,
+					"fieldLayout": null,
+					"locationHierarchy": null,
+					"conditionalBioAttributes": null,
+					"required": true,
+					"bioAttributes": null,
+					"requiredOn": [],
+					"subType": "Province"
+				},
+				{
+					"id": "city",
+					"inputRequired": true,
+					"type": "simpleType",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "city",
+					"label": {
+						"eng": "City",
+						"ara": "مدينة",
+						"fra": "ville",
+						"kan": "ಸಿಟಿ",
+						"hin": "शहर",
+						"tam": "நகரம்"
+					},
+					"controlType": "dropdown",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [
+						{
+							"type": "regex",
+							"validator": "^(?=.{0,50}$).*",
+							"arguments": [],
+							"langCode": null
+						}
+					],
+					"fieldCategory": "pvt",
+					"alignmentGroup": "permanentaddress",
+					"visible": null,
+					"contactType": "Postal",
+					"group": "Location",
+					"groupLabel": {
+						"ara": "موقع",
+						"fra": "Emplacement",
+						"eng": "Location"
+					},
+					"changeAction": null,
+					"transliterate": false,
+					"templateName": null,
+					"fieldLayout": null,
+					"locationHierarchy": null,
+					"conditionalBioAttributes": null,
+					"required": true,
+					"bioAttributes": null,
+					"requiredOn": [],
+					"subType": "City"
+				},
+				{
+					"id": "zone",
+					"inputRequired": true,
+					"type": "simpleType",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "zone",
+					"label": {
+						"eng": "Zone",
+						"ara": "منطقة",
+						"fra": "zone",
+						"kan": "ವಲಯ",
+						"hin": "क्षेत्र",
+						"tam": "மண்டலம்"
+					},
+					"controlType": "dropdown",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [],
+					"fieldCategory": "pvt",
+					"alignmentGroup": "permanentaddress",
+					"visible": null,
+					"contactType": null,
+					"group": "Location",
+					"groupLabel": {
+						"ara": "موقع",
+						"fra": "Emplacement",
+						"eng": "Location"
+					},
+					"changeAction": null,
+					"transliterate": false,
+					"templateName": null,
+					"fieldLayout": null,
+					"locationHierarchy": null,
+					"conditionalBioAttributes": null,
+					"required": true,
+					"bioAttributes": null,
+					"requiredOn": [],
+					"subType": "Zone"
+				},
+				{
+					"id": "postalCode",
+					"inputRequired": true,
+					"type": "string",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "postalCode",
+					"label": {
+						"eng": "Postal Code",
+						"ara": "رمز بريدي",
+						"fra": "code postal",
+						"kan": "ಅಂಚೆ",
+						"hin": "डाक का",
+						"tam": "அஞ்சல் குறியீடு"
+					},
+					"controlType": "dropdown",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [
+						{
+							"type": "regex",
+							"validator": "^[(?i)A-Z0-9]{5}$|^NA$",
+							"arguments": [],
+							"langCode": null
+						}
+					],
+					"fieldCategory": "pvt",
+					"alignmentGroup": "permanentaddress",
+					"visible": null,
+					"contactType": "Postal",
+					"group": "Location",
+					"groupLabel": {
+						"ara": "موقع",
+						"fra": "Emplacement",
+						"eng": "Location"
+					},
+					"changeAction": null,
+					"transliterate": false,
+					"templateName": null,
+					"fieldLayout": null,
+					"locationHierarchy": null,
+					"conditionalBioAttributes": null,
+					"required": true,
+					"bioAttributes": null,
+					"requiredOn": [],
+					"subType": "Postal Code"
+				},
+				{
+					"id": "commun",
+					"inputRequired": true,
+					"type": "simpleType",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "Commune",
+					"label": {
+						"eng": "common",
+						"ara": "البلدية",
+						"fra": "commun",
+						"kan": "ಸಾಮಾನ್ಯ",
+						"hin": "सामान्य",
+						"tam": "கம்யூ"
+					},
+					"controlType": "dropdown",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [],
+					"fieldCategory": "pvt",
+					"alignmentGroup": "add3",
+					"visible": null,
+					"contactType": "Postal",
+					"group": "address_info",
+					"groupLabel": {
+						"ara": "معلومات العنوان",
+						"fra": "informations sur l'adresse",
+						"eng": "address_info"
+					},
+					"changeAction": null,
+					"required": false,
+					"bioAttributes": null,
+					"requiredOn": [],
+					"subType": "commun"
+				},
+				{
+					"id": "addressType",
+					"inputRequired": true,
+					"type": "simpleType",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "Type d'habitat",
+					"label": {
+						"eng": "Address Type",
+						"ara": "نوع العنوان",
+						"fra": "Type d'adresse",
+						"kan": "ವಿಳಾಸದ ವಿಧ",
+						"hin": "पता मुद्रलेख",
+						"tam": "முகவரி வகை"
+					},
+					"controlType": "button",
+					"fieldType": "dynamic",
+					"format": "none",
+					"validators": [],
+					"fieldCategory": "kyc",
+					"alignmentGroup": null,
+					"visible": null,
+					"contactType": null,
+					"group": "address_info",
+					"groupLabel": {
+						"ara": "معلومات العنوان",
+						"fra": "informations sur l'adresse",
+						"eng": "address_info"
+					},
+					"changeAction": null,
+					"required": true,
+					"bioAttributes": null,
+					"requiredOn": [],
+					"subType": "Postal"
+				},
+				{
+					"id": "portNo",
+					"inputRequired": true,
+					"type": "string",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "N° Porte",
+					"label": {
+						"eng": "Port No",
+						"ara": "رقم المنفذ",
+						"fra": "port non",
+						"kan": "ಬಂದರು ಸಂಖ್ಯೆ",
+						"hin": "पोर्ट नंबर",
+						"tam": "துறை எண்"
+					},
+					"controlType": "textbox",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [
+						{
+							"type": "regex",
+							"validator": "^(?=.{0,10}$).*",
+							"arguments": [],
+							"langCode": null
+						}
+					],
+					"fieldCategory": "pvt",
+					"alignmentGroup": null,
+					"visible": null,
+					"contactType": "Postal",
+					"group": "address_info",
+					"groupLabel": {
+						"ara": "معلومات العنوان",
+						"fra": "informations sur l'adresse",
+						"eng": "address_info"
+					},
+					"changeAction": null,
+					"required": true,
+					"bioAttributes": null,
+					"requiredOn": [],
+					"subType": "portNo"
+				},
+				{
+					"id": "apptNo",
+					"inputRequired": true,
+					"type": "string",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "N° immeuble",
+					"label": {
+						"eng": "appt No",
+						"ara": "appt لا",
+						"fra": "appt Non",
+						"kan": "appt ಸಂಖ್ಯೆ",
+						"hin": "उपयुक्त संख्या",
+						"tam": "appt எண்"
+					},
+					"controlType": "textbox",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [
+						{
+							"type": "regex",
+							"validator": "^(?=.{0,10}$).*",
+							"arguments": [],
+							"langCode": null
+						}
+					],
+					"fieldCategory": "pvt",
+					"alignmentGroup": null,
+					"visible": {
+						"engine": "MVEL",
+						"expr": "( identity['addressType'] != null && !identity['addressType'].get(0).value.equalsIgnoreCase('individual'))"
+					},
+					"contactType": "Postal",
+					"group": "address_info",
+					"groupLabel": {
+						"ara": "معلومات العنوان",
+						"fra": "informations sur l'adresse",
+						"eng": "address_info"
+					},
+					"changeAction": null,
+					"required": false,
+					"bioAttributes": null,
+					"requiredOn": [
+						{
+							"engine": "MVEL",
+							"expr": "( identity['addressType'] != null && !identity['addressType'].get(0).value.equalsIgnoreCase('individual'))"
+						}
+					],
+					"subType": "apptNo"
+				},
+				{
+					"id": "addressLine1",
+					"inputRequired": true,
+					"type": "simpleType",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "Adresse de résidence",
+					"label": {
+						"eng": "Address Line 1",
+						"ara": "العنوان الأول",
+						"fra": "Adresse 1",
+						"kan": "ವಿಳಾಸ 1",
+						"hin": "पता पंक्ति 1",
+						"tam": "முகவரி வரி 1"
+					},
+					"controlType": "textbox",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [
+						{
+							"type": "regex",
+							"validator": "^(?=.{0,100}$).*",
+							"arguments": [],
+							"langCode": null
+						}
+					],
+					"fieldCategory": "pvt",
+					"alignmentGroup": null,
+					"visible": null,
+					"contactType": "Postal",
+					"group": "address_info",
+					"groupLabel": {
+						"ara": "معلومات العنوان",
+						"fra": "informations sur l'adresse",
+						"eng": "address_info"
+					},
+					"changeAction": null,
+					"required": true,
+					"bioAttributes": null,
+					"requiredOn": [],
+					"subType": "addressLine1"
+				},
+				{
+					"id": "phone",
+					"inputRequired": true,
+					"type": "string",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "phone",
+					"label": {
+						"eng": "Phone",
+						"ara": "هاتف",
+						"fra": "téléphoner",
+						"kan": "ಫೋನ್",
+						"hin": "फ़ोन",
+						"tam": "தொலைபேசி"
+					},
+					"controlType": "textbox",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [
+						{
+							"type": "regex",
+							"validator": "^[+]*([0-9]{1})([0-9]{9})$",
+							"arguments": [],
+							"langCode": null
+						}
+					],
+					"fieldCategory": "pvt",
+					"alignmentGroup": "contact",
+					"visible": null,
+					"contactType": "phone",
+					"group": "Phone",
+					"groupLabel": {
+						"ara": "هاتف",
+						"fra": "Téléphone",
+						"eng": "Phone"
+					},
+					"changeAction": null,
+					"transliterate": false,
+					"templateName": null,
+					"fieldLayout": null,
+					"locationHierarchy": null,
+					"conditionalBioAttributes": null,
+					"required": true,
+					"bioAttributes": null,
+					"requiredOn": [],
+					"subType": "Phone"
+				},
+				{
+					"id": "email",
+					"inputRequired": true,
+					"type": "string",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "Email",
+					"label": {
+						"eng": "Email",
+						"ara": "البريد الإلكتروني",
+						"fra": "e-mail",
+						"kan": "ಇಮೇಲ್",
+						"hin": "ईमेल",
+						"tam": "மின்னஞ்சல்"
+					},
+					"controlType": "textbox",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [
+						{
+							"type": "regex",
+							"validator": "^([a-zA-Z0-9_\\-\\.]+)@([a-zA-Z0-9_\\-\\.]+)\\.([a-zA-Z]{2,5})$",
+							"arguments": [],
+							"langCode": null
+						}
+					],
+					"fieldCategory": "pvt",
+					"alignmentGroup": "cont",
+					"visible": null,
+					"contactType": "email",
+					"group": "Email",
+					"groupLabel": {
+						"ara": "بريد الالكتروني",
+						"fra": "E-mail",
+						"eng": "Email"
+					},
+					"changeAction": null,
+					"required": true,
+					"bioAttributes": null,
+					"requiredOn": [],
+					"subType": "Email"
+				},
+				{
+					"id": "introducerType",
+					"inputRequired": true,
+					"type": "simpleType",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "Type de Tuteur",
+					"label": {
+						"eng": "introducer Type",
+						"ara": "نوع الوصي",
+						"fra": "Type de tuteur",
+						"kan": "ಪರಿಚಯಕಾರರ ಪ್ರಕಾರ",
+						"hin": "परिचयकर्ता प्रकार",
+						"tam": "அறிமுகம் வகை"
+					},
+					"controlType": "button",
+					"fieldType": "dynamic",
+					"format": "none",
+					"validators": [],
+					"fieldCategory": "kyc",
+					"alignmentGroup": null,
+					"visible": {
+						"engine": "MVEL",
+						"expr": "( identity['age'] != null && identity.age < 6 )"
+					},
+					"contactType": null,
+					"group": "introducerDetails",
+					"groupLabel": {
+						"ara": "مقدمه التفاصيل",
+						"fra": "introducteurDétails",
+						"eng": "introducerDetails"
+					},
+					"changeAction": null,
+					"required": false,
+					"bioAttributes": null,
+					"requiredOn": [
+						{
+							"engine": "MVEL",
+							"expr": "( identity.age < 6 )"
+						}
+					],
+					"subType": "guardianType"
+				},
+				{
+					"id": "introducerName",
+					"inputRequired": true,
+					"type": "simpleType",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "entrer le nom de l'introducteur",
+					"label": {
+						"eng": "Introducer Name",
+						"ara": "اسم المُعرّف",
+						"fra": "Nom de l'introducteur",
+						"kan": "ಪರಿಚಯಿಸುವವರ ಹೆಸರು",
+						"hin": "परिचयकर्ता का नाम",
+						"tam": "அறிமுகப்படுத்தியவர் பெயர்"
+					},
+					"controlType": "textbox",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [
+						{
+							"type": "regex",
+							"validator": "^(?=.{3,50}$).*",
+							"arguments": [],
+							"langCode": null
+						}
+					],
+					"fieldCategory": "evidence",
+					"alignmentGroup": "parent1",
+					"visible": {
+						"engine": "MVEL",
+						"expr": "( identity.age < 6 ) && ( identity['introducerType'] != null && identity['introducerType'].get(0).value.equalsIgnoreCase('Autres')) "
+					},
+					"contactType": null,
+					"group": "introducerDetails",
+					"groupLabel": {
+						"ara": "مقدمه التفاصيل",
+						"fra": "introducteurDétails",
+						"eng": "introducerDetails"
+					},
+					"changeAction": null,
+					"required": false,
+					"bioAttributes": null,
+					"requiredOn": [
+						{
+							"engine": "MVEL",
+							"expr": "( identity['introducerType'] != null && identity['introducerType'].get(0).value.equalsIgnoreCase('Autres')) && ( ( identity.isNew && identity.age < 6 ) || ( identity.isUpdate && identity.age < 6 ) )"
+						}
+					],
+					"subType": "introducerName"
+				},
+				{
+					"id": "relationWithChild",
+					"inputRequired": true,
+					"type": "simpleType",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "Lien de parenté",
+					"label": {
+						"eng": "Relation With Child",
+						"ara": "العلاقة مع الطفل",
+						"fra": "relation avec l'enfant",
+						"kan": "ಮಗುವಿನೊಂದಿಗೆ ಸಂಬಂಧ",
+						"hin": "बच्चे के साथ संबंध",
+						"tam": "குழந்தையுடன் உறவு"
+					},
+					"controlType": "dropdown",
+					"fieldType": "dynamic",
+					"format": "none",
+					"validators": [],
+					"fieldCategory": "pvt",
+					"alignmentGroup": "parent1",
+					"visible": {
+						"engine": "MVEL",
+						"expr": "( identity.age < 6 ) && ( identity['introducerType'] != null && identity['introducerType'].get(0).value.equalsIgnoreCase('Autres')) "
+					},
+					"contactType": null,
+					"group": "introducerDetails",
+					"groupLabel": {
+						"ara": "مقدمه التفاصيل",
+						"fra": "introducteurDétails",
+						"eng": "introducerDetails"
+					},
+					"changeAction": null,
+					"required": false,
+					"bioAttributes": null,
+					"requiredOn": [
+						{
+							"engine": "MVEL",
+							"expr": "( identity.age < 6 ) && ( identity['introducerType'] != null && identity['introducerType'].get(0).value.equalsIgnoreCase('Autres')) "
+						}
+					],
+					"subType": "relationWithChild"
+				},
+				{
+					"id": "introducerRID",
+					"inputRequired": true,
+					"type": "string",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "entrer le RID introducteur",
+					"label": {
+						"eng": "Introducer RID",
+						"ara": "مقدم RID",
+						"fra": "introducteur RID",
+						"kan": "ಪರಿಚಯಕಾರ RID",
+						"hin": "परिचयकर्ता  RID",
+						"tam": "அறிமுகம் RID"
+					},
+					"controlType": "textbox",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [],
+					"fieldCategory": "evidence",
+					"alignmentGroup": "guard",
+					"visible": {
+						"engine": "MVEL",
+						"expr": "( identity.age < 6 ) && ( identity['introducerType'] != null && identity['introducerType'].get(0).value.equalsIgnoreCase('Autres')) "
+					},
+					"contactType": null,
+					"group": "introducerDetails",
+					"groupLabel": {
+						"ara": "مقدمه التفاصيل",
+						"fra": "introducteurDétails",
+						"eng": "introducerDetails"
+					},
+					"changeAction": null,
+					"required": false,
+					"bioAttributes": null,
+					"requiredOn": [
+						{
+							"engine": "MVEL",
+							"expr": " ( (identity.age < 6) && ((identity.introducerUIN == nil || identity.introducerUIN == empty) && (identity.introducerCNIE == nil || identity.introducerCNIE == empty))) ||  ( (identity.get('ageGroup') == 'INFANT') && (identity.introducerUIN == nil || identity.introducerUIN == empty) ) "
+						}
+					],
+					"subType": "RID"
+				},
+				{
+					"id": "introducerUIN",
+					"inputRequired": true,
+					"type": "string",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "entrer l'introducteur UIN",
+					"label": {
+						"eng": "Introducer UIN",
+						"ara": "مقدم UIN",
+						"fra": "introducteur UIN",
+						"kan": "ಪರಿಚಯಕಾರ  UIN",
+						"hin": "परिचयकर्ता  UIN",
+						"tam": "அறிமுகம் UIN"
+					},
+					"controlType": "textbox",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [],
+					"fieldCategory": "evidence",
+					"alignmentGroup": "guardCNIE",
+					"visible": {
+						"engine": "MVEL",
+						"expr": "( identity['introducerType'] != null && identity['introducerType'].get(0).value.equalsIgnoreCase('Autres')) && ( identity.age < 6 ) "
+					},
+					"contactType": null,
+					"group": "introducerDetails",
+					"groupLabel": {
+						"ara": "مقدمه التفاصيل",
+						"fra": "introducteurDétails",
+						"eng": "introducerDetails"
+					},
+					"changeAction": null,
+					"required": false,
+					"bioAttributes": null,
+					"requiredOn": [
+						{
+							"engine": "MVEL",
+							"expr": " ( ( identity['introducerType'] != null && identity['introducerType'].get(0).value.equalsIgnoreCase('Autres')) && (identity.age < 6) && ((identity.introducerRID == nil || identity.introducerRID == empty) && (identity.introducerCNIE == nil || identity.introducerCNIE == empty))) ||  ( (identity.get('ageGroup') == 'INFANT') && (identity.introducerRID == nil || identity.introducerRID == empty) ) "
+						}
+					],
+					"subType": "UIN"
+				},
+				{
+					"id": "introducerCNIE",
+					"inputRequired": true,
+					"type": "string",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "entrez l'introducteur CNIE",
+					"label": {
+						"eng": "Introducer CNIE",
+						"ara": "مقدم CNIE",
+						"fra": "introducteur CNIE",
+						"kan": "ಪರಿಚಯಕಾರ  CNIE",
+						"hin": "परिचयकर्ता  CNIE",
+						"tam": "அறிமுகம் CNIE"
+					},
+					"controlType": "textbox",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [
+						{
+							"type": "regex",
+							"validator": "(^[A-Z]{2}[0-9]{1,6}$)|(^[A-Z]{1}[0-9]{1,7}$)",
+							"arguments": [],
+							"langCode": null
+						}
+					],
+					"fieldCategory": "pvt",
+					"alignmentGroup": null,
+					"visible": {
+						"engine": "MVEL",
+						"expr": "( identity['introducerType'] != null && identity['introducerType'].get(0).value.equalsIgnoreCase('Autres')) && ( identity.age < 6 )"
+					},
+					"contactType": null,
+					"group": "introducerDetails",
+					"groupLabel": {
+						"ara": "مقدمه التفاصيل",
+						"fra": "introducteurDétails",
+						"eng": "introducerDetails"
+					},
+					"changeAction": null,
+					"required": false,
+					"bioAttributes": null,
+					"requiredOn": [
+						{
+							"engine": "MVEL",
+							"expr": " ( ( identity['introducerType'] != null && identity['introducerType'].get(0).value.equalsIgnoreCase('Autres')) && (identity.age < 6) && ((identity.introducerRID == nil || identity.introducerRID == empty) && (identity.introducerUIN == nil || identity.introducerUIN == empty)))  "
+						}
+					],
+					"subType": "none"
+				},
+				{
+					"id": "CivillastName",
+					"inputRequired": false,
+					"type": "simpleType",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "Civil Nom",
+					"label": {
+						"eng": "Civil Last Name",
+						"ara": "الاسم الأخير المدني",
+						"fra": "Nom civil",
+						"kan": "ನಾಗರಿಕ ಕೊನೆಯ ಹೆಸರು",
+						"hin": "सिविल अंतिम नाम",
+						"tam": "சிவில் கடைசி பெயர்"
+					},
+					"controlType": "textbox",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [],
+					"fieldCategory": "pvt",
+					"alignmentGroup": null,
+					"visible": null,
+					"contactType": null,
+					"group": "CivillastName",
+					"groupLabel": {
+						"ara": "الاسم",
+						"fra": "NomCivil",
+						"eng": "CivillastName"
+					},
+					"changeAction": null,
+					"required": false,
+					"bioAttributes": null,
+					"requiredOn": [],
+					"subType": "none"
+				},
+				{
+					"id": "CivilfirstName",
+					"inputRequired": false,
+					"type": "simpleType",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "Civil Prénom",
+					"label": {
+						"eng": "Civil First Name",
+						"ara": "الاسم الأول المدني",
+						"fra": "Prénom civil",
+						"kan": "ನಾಗರಿಕ ಮೊದಲ ಹೆಸರು",
+						"hin": "सिविल प्रथम नाम",
+						"tam": "சிவில் முதல் பெயர்"
+					},
+					"controlType": "textbox",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [],
+					"fieldCategory": "pvt",
+					"alignmentGroup": null,
+					"visible": null,
+					"contactType": null,
+					"group": "CivilfirstName",
+					"groupLabel": {
+						"ara": "الاسم الأول المدني",
+						"fra": "Prénom Civil",
+						"eng": "CivilfirstName"
+					},
+					"changeAction": null,
+					"required": false,
+					"bioAttributes": null,
+					"requiredOn": [],
+					"subType": "none"
+				}
+			],
+			"layoutTemplate": null,
+			"preRegFetchRequired": false,
+			"active": false
+		},
+		{
+			"order": 3,
+			"name": "Documents",
+			"label": {
+				"ara": "تحميل الوثيقة",
+				"fra": "Des documents",
+				"eng": "Document Upload"
+			},
+			"caption": {
+				"ara": "وثائق",
+				"fra": "Des documents",
+				"eng": "Documents"
+			},
+			"fields": [
+				{
+					"id": "proofOfAddress",
+					"inputRequired": true,
+					"type": "documentType",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "proofOfAddress",
+					"label": {
+						"ara": "إثبات العنوان",
+						"fra": "Address Proof",
+						"eng": "Address Proof"
+					},
+					"controlType": "fileupload",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [],
+					"fieldCategory": "pvt",
+					"alignmentGroup": null,
+					"visible": null,
+					"contactType": null,
+					"group": "Documents",
+					"groupLabel": {
+						"ara": "وثائق",
+						"fra": "Documents",
+						"eng": "Documents"
+					},
+					"changeAction": null,
+					"transliterate": false,
+					"templateName": null,
+					"fieldLayout": null,
+					"locationHierarchy": null,
+					"conditionalBioAttributes": null,
+					"required": false,
+					"bioAttributes": null,
+					"requiredOn": [
+						{
+							"engine": "MVEL",
+							"expr": "identity.updatableFieldGroups contains 'Address' || identity.updatableFieldGroups contains 'Location'"
+						}
+					],
+					"subType": "POA"
+				},
+				{
+					"id": "proofOfIdentity",
+					"inputRequired": true,
+					"type": "documentType",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "proofOfIdentity",
+					"label": {
+						"ara": "إثبات الهوية",
+						"fra": "Identity Proof",
+						"eng": "Identity Proof"
+					},
+					"controlType": "fileupload",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [],
+					"fieldCategory": "pvt",
+					"alignmentGroup": null,
+					"visible": null,
+					"contactType": null,
+					"group": "Documents",
+					"groupLabel": {
+						"ara": "وثائق",
+						"fra": "Documents",
+						"eng": "Documents"
+					},
+					"changeAction": null,
+					"transliterate": false,
+					"templateName": null,
+					"fieldLayout": null,
+					"locationHierarchy": null,
+					"conditionalBioAttributes": null,
+					"required": false,
+					"bioAttributes": null,
+					"requiredOn": [
+						{
+							"engine": "MVEL",
+							"expr": "identity.updatableFieldGroups contains 'FullName' || identity.updatableFieldGroups contains 'DateOfBirth'"
+						}
+					],
+					"subType": "POI"
+				},
+				{
+					"id": "proofOfRelationship",
+					"inputRequired": true,
+					"type": "documentType",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "proofOfRelationship",
+					"label": {
+						"ara": "إثبات العلاقة",
+						"fra": "Relationship Proof",
+						"eng": "Relationship Proof"
+					},
+					"controlType": "fileupload",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [],
+					"fieldCategory": "pvt",
+					"alignmentGroup": null,
+					"visible": null,
+					"contactType": null,
+					"group": "Documents",
+					"groupLabel": {
+						"ara": "وثائق",
+						"fra": "Documents",
+						"eng": "Documents"
+					},
+					"changeAction": null,
+					"transliterate": false,
+					"templateName": null,
+					"fieldLayout": null,
+					"locationHierarchy": null,
+					"conditionalBioAttributes": null,
+					"required": false,
+					"bioAttributes": null,
+					"requiredOn": [
+						{
+							"engine": "MVEL",
+							"expr": "identity.get('ageGroup') == 'INFANT' || identity.updatableFieldGroups contains 'IntroducerDetails'"
+						}
+					],
+					"subType": "POR"
+				},
+				{
+					"id": "proofOfDateOfBirth",
+					"inputRequired": true,
+					"type": "documentType",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "proofOfDateOfBirth",
+					"label": {
+						"ara": "دليل DOB",
+						"fra": "DOB Proof",
+						"eng": "DOB Proof"
+					},
+					"controlType": "fileupload",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [],
+					"fieldCategory": "pvt",
+					"alignmentGroup": null,
+					"visible": null,
+					"contactType": null,
+					"group": "Documents",
+					"groupLabel": {
+						"ara": "وثائق",
+						"fra": "Documents",
+						"eng": "Documents"
+					},
+					"changeAction": null,
+					"transliterate": false,
+					"templateName": null,
+					"fieldLayout": null,
+					"locationHierarchy": null,
+					"conditionalBioAttributes": null,
+					"required": false,
+					"bioAttributes": null,
+					"requiredOn": [
+						{
+							"engine": "MVEL",
+							"expr": "identity.updatableFieldGroups contains 'DateOfBirth'"
+						}
+					],
+					"subType": "POB"
+				},
+				{
+					"id": "proofOfException",
+					"inputRequired": true,
+					"type": "documentType",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "proofOfException",
+					"label": {
+						"ara": "إثبات الاستثناء",
+						"fra": "Exception Proof",
+						"eng": "Exception Proof"
+					},
+					"controlType": "fileupload",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [],
+					"fieldCategory": "evidence",
+					"alignmentGroup": null,
+					"visible": null,
+					"contactType": null,
+					"group": "Documents",
+					"groupLabel": {
+						"ara": "وثائق",
+						"fra": "Documents",
+						"eng": "Documents"
+					},
+					"changeAction": null,
+					"transliterate": false,
+					"templateName": null,
+					"fieldLayout": null,
+					"locationHierarchy": null,
+					"conditionalBioAttributes": null,
+					"required": false,
+					"bioAttributes": null,
+					"requiredOn": [],
+					"subType": "POE"
+				}
+			],
+			"layoutTemplate": null,
+			"preRegFetchRequired": false,
+			"active": false
+		},
+		{
+			"order": 4,
+			"name": "BiometricDetails",
+			"label": {
+				"ara": "التفاصيل البيومترية",
+				"fra": "Détails biométriques",
+				"eng": "Biometric Details"
+			},
+			"caption": {
+				"ara": "التفاصيل البيومترية",
+				"fra": "Détails biométriques",
+				"eng": "Biometric Details"
+			},
+			"fields": [
+				{
+					"id": "individualBiometrics",
+					"inputRequired": true,
+					"type": "biometricsType",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "",
+					"label": {
+						"ara": "القياسات الحيوية الفردية",
+						"fra": "Biométrie du demandeur",
+						"eng": "Applicant Biometrics"
+					},
+					"controlType": "biometrics",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [],
+					"fieldCategory": "pvt",
+					"alignmentGroup": null,
+					"visible": null,
+					"contactType": null,
+					"group": "Biometrics",
+					"groupLabel": {
+						"ara": "القياسات الحيوية",
+						"fra": "Biométrie",
+						"eng": "Biometrics"
+					},
+					"changeAction": null,
+					"transliterate": false,
+					"templateName": null,
+					"fieldLayout": null,
+					"locationHierarchy": null,
+					"conditionalBioAttributes": [
+						{
+							"ageGroup": "INFANT",
+							"process": "ALL",
+							"validationExpr": "face",
+							"bioAttributes": [
+								"face"
+							]
+						}
+					],
+					"required": true,
+					"bioAttributes": [
+						"leftEye",
+						"rightEye",
+						"rightIndex",
+						"rightLittle",
+						"rightRing",
+						"rightMiddle",
+						"leftIndex",
+						"leftLittle",
+						"leftRing",
+						"leftMiddle",
+						"leftThumb",
+						"rightThumb",
+						"face"
+					],
+					"requiredOn": [
+						{
+							"engine": "MVEL",
+							"expr": "identity.updatableFieldGroups contains 'Biometrics'"
+						}
+					],
+					"subType": "applicant"
+				},
+				{
+					"id": "individualAuthBiometrics",
+					"inputRequired": true,
+					"type": "biometricsType",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "Biométrie du candidat pout authentication",
+					"label": {
+						"ara": "القياسات الحيوية للمصادقة",
+						"tam": "அங்கீகார பயோமெட்ரிக்ஸ்",
+						"fra": "Authentication Biometrics",
+						"kan": "ಅಥೆನ್ ಟಿಕೇಶನ್ ಬಯೋಮೆಟ್ರಿಕ್ಸ್",
+						"hin": "प्रमाणीकरण बायोमेट्रिक्स",
+						"eng": "Authentication Biometrics"
+					},
+					"controlType": "biometrics",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [],
+					"fieldCategory": "pvt",
+					"alignmentGroup": null,
+					"visible": null,
+					"contactType": null,
+					"group": "Biometrics",
+					"changeAction": null,
+					"required": false,
+					"bioAttributes": [
+						"leftEye",
+						"rightEye",
+						"rightIndex",
+						"rightLittle",
+						"rightRing",
+						"rightMiddle",
+						"leftIndex",
+						"leftLittle",
+						"leftRing",
+						"leftMiddle",
+						"leftThumb",
+						"rightThumb",
+						"face"
+					],
+					"requiredOn": [
+						{
+							"engine": "MVEL",
+							"expr": "!(identity.get('ageGroup') == 'INFANT') && identity.isUpdate && !(identity.updatableFieldGroups contains 'Biometrics' || identity.updatableFieldGroups contains 'introducerDetails')"
+						}
+					],
+					"subType": "applicant-auth"
+				},
+				{
+					"id": "introducerBiometrics",
+					"inputRequired": true,
+					"type": "biometricsType",
+					"minimum": 0,
+					"maximum": 0,
+					"description": "",
+					"label": {
+						"ara": "المقاييس الحيوية المقدّمة",
+						"tam": "அறிமுகம் பயோமெட்ரிக்ஸ்",
+						"fra": "Introducteur BiomÃ©trie",
+						"kan": "ಪರಿಚಯಕಾರ ಬಯೋಮೆಟ್ರಿಕ್ಸ್",
+						"hin": "परिचयकर्ता बायोमेट्रिक्स",
+						"eng": "Introducer Biometrics"
+					},
+					"controlType": "biometrics",
+					"fieldType": "default",
+					"format": "none",
+					"validators": [],
+					"fieldCategory": "pvt",
+					"alignmentGroup": null,
+					"visible": null,
+					"contactType": null,
+					"group": "Biometrics",
+					"groupLabel": {
+						"ara": "الاسم الكامل",
+						"fra": "Nom complet",
+						"eng": "Full Name"
+					},
+					"changeAction": null,
+					"transliterate": false,
+					"templateName": null,
+					"fieldLayout": null,
+					"locationHierarchy": null,
+					"conditionalBioAttributes": [
+						{
+							"ageGroup": "INFANT",
+							"process": "ALL",
+							"validationExpr": "leftEye || rightEye || rightIndex || rightLittle || rightRing || rightMiddle || leftIndex || leftLittle || leftRing || leftMiddle || leftThumb || rightThumb || face",
+							"bioAttributes": [
+								"leftEye",
+								"rightEye",
+								"rightIndex",
+								"rightLittle",
+								"rightRing",
+								"rightMiddle",
+								"leftIndex",
+								"leftLittle",
+								"leftRing",
+								"leftMiddle",
+								"leftThumb",
+								"rightThumb",
+								"face"
+							]
+						}
+					],
+					"required": false,
+					"bioAttributes": [
+						"leftEye",
+						"rightEye",
+						"rightIndex",
+						"rightLittle",
+						"rightRing",
+						"rightMiddle",
+						"leftIndex",
+						"leftLittle",
+						"leftRing",
+						"leftMiddle",
+						"leftThumb",
+						"rightThumb",
+						"face"
+					],
+					"requiredOn": [
+						{
+							"engine": "MVEL",
+							"expr": "(identity.get('ageGroup') == 'INFANT') || (identity.isUpdate && identity.updatableFieldGroups contains 'IntroducerDetails') || !(identity.get('introducerName') == nil || identity.get('introducerName') == empty)"
+						}
+					],
+					"subType": "introducer"
+				}
+			],
+			"layoutTemplate": null,
+			"preRegFetchRequired": false,
+			"active": false
+		}
+	],
+	"icon": "UINUpdate.png",
+	"isActive": true,
+	"autoSelectedGroups": [
+		"Consent",
+		"PreferredLanguage",
+		"Documents",
+		"Biometrics"
+	]
+}
