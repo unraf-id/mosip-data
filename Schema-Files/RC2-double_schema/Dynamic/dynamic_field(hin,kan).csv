@@ -1,0 +1,49 @@
+id,name,description,dataType,valueJson,langCode,isActive
+10573,flagb,flagb,string,"{"code":"10","value":"ओउ"}",hin,TRUE
+10574,flagb,flagb,string,"{"code":"10","value":"ಓಯ್"}",kan,TRUE
+10575,flagb,flagb,string,"{"code":"20","value":"गैर"}",hin,TRUE
+10576,flagb,flagb,string,"{"code":"20","value":"ನಾನ್"}",kan,TRUE
+10577,nationality,nationality,string,"{"code":"10","value":"फ़्रैन्काइज़"}",hin,TRUE
+10578,nationality,nationality,string,"{"code":"10","value":"ಫ್ರಾಂಕೈಸ್"}",kan,TRUE
+10579,nationality,nationality,string,"{"code":"20","value":"जिप्टियन"}",hin,TRUE
+10580,nationality,nationality,string,"{"code":"20","value":"ಜಿಪ್ಟಿಯನ್"}",kan,TRUE
+10581,placeOfBirth,placeOfBirth,string,"{"code":"10","value":"रबत-अगदाली"}",hin,TRUE
+10582,placeOfBirth,placeOfBirth,string,"{"code":"10","value":"ರಬತ್-ಅಗ್ದಲ್"}",kan,TRUE
+10583,placeOfBirth,placeOfBirth,string,"{"code":"30","value":"कासा-मारीफ"}",hin,TRUE
+10584,placeOfBirth,placeOfBirth,string,"{"code":"30","value":"ಕಾಸಾ-ಮಾರಿಫ್"}",kan,TRUE
+10585,relationWithChild,relationWithChild,string,"{"code":"10","value":"पेरे"}",hin,TRUE
+10586,relationWithChild,relationWithChild,string,"{"code":"10","value":"ಪೆರೆ"}",kan,TRUE
+10587,relationWithChild,relationWithChild,string,"{"code":"20","value":"मेर"}",hin,TRUE
+10588,relationWithChild,relationWithChild,string,"{"code":"20","value":"ಹೆಚ್ಚು"}",kan,TRUE
+10589,relationWithChild,relationWithChild,string,"{"code":"30","value":"ओंक्ल"}",hin,TRUE
+10590,relationWithChild,relationWithChild,string,"{"code":"30","value":"ಅಂಕಲ್"}",kan,TRUE
+10591,flagidcs,flagidcs,string,"{"code":"10","value":"उई"}",hin,TRUE
+10592,flagidcs,flagidcs,string,"{"code":"10","value":"ಓಯ್"}",kan,TRUE
+10593,flagidcs,flagidcs,string,"{"code":"20","value":"गैर"}",hin,TRUE
+10594,flagidcs,flagidcs,string,"{"code":"20","value":"ನಾನ್"}",kan,TRUE
+10595,guardianType,guardianType,string,"{"code":"10","value":"ಗಾರ್ಡಿಯನ್ ನ್ಯಾಯಾಧೀಶರು"}",kan,TRUE
+10596,guardianType,guardianType,string,"{"code":"10","value":"संरक्षक न्यायाधीश"}",hin,TRUE
+10597,guardianType,guardianType,string,"{"code":"20","value":"ಕ್ರೌನ್ ಪ್ರಾಸಿಕ್ಯೂಟರ್"}",kan,TRUE
+10598,guardianType,guardianType,string,"{"code":"20","value":"सरकारी अभियोक्ता"}",hin,TRUE
+10599,guardianType,guardianType,string,"{"code":"30","value":"अन्य"}",kan,TRUE
+10600,guardianType,guardianType,string,"{"code":"30","value":"ಇತರೆ"}",hin,TRUE
+10601,addressType,addressType,string,"{"code":"10","value":"व्यक्ति"}",hin,TRUE
+10602,addressType,addressType,string,"{"code":"10","value":"ವೈಯಕ್ತಿಕ"}",kan,TRUE
+10603,addressType,addressType,string,"{"code":"20","value":"ಸಾಮೂಹಿಕ"}",kan,TRUE
+10604,addressType,addressType,string,"{"code":"20","value":"सामूहिक"}",hin,TRUE
+10605,resOuPass,resOuPass,string,"{"code":"10","value":"ನಿವಾಸ ಕಾರ್ಡ್"}",kan,TRUE
+10606,resOuPass,resOuPass,string,"{"code":"10","value":"निवास कार्ड"}",hin,TRUE
+10607,resOuPass,resOuPass,string,"{"code":"20","value":"ಪಾಸ್ಪೋರ್ಟ್"}",kan,TRUE
+10608,resOuPass,resOuPass,string,"{"code":"20","value":"पासपोर्ट"}",hin,TRUE
+10609,scanDeviceName,scanDeviceName,string,"{"code":"10","value":"EPSON पूर्णता V19"}",kan,TRUE
+10610,scanDeviceName,scanDeviceName,string,"{"code":"10","value":"EPSON ಪರಿಪೂರ್ಣತೆ V19"}",hin,TRUE
+10611,scanDeviceName,scanDeviceName,string,"{"code":"20","value":"HP HD ವೆಬ್‌ಕ್ಯಾಮ್ 0"}",kan,TRUE
+10612,scanDeviceName,scanDeviceName,string,"{"code":"20","value":"एचपी एचडी वेब कैमरा 0"}",hin,TRUE
+10613,listCountry,listCountry,string,"{"code":"10","value":"ಫ್ರಾನ್ಸ್"}",kan,TRUE
+10614,listCountry,listCountry,string,"{"code":"10","value":"फ्रांस"}",hin,TRUE
+10615,listCountry,listCountry,string,"{"code":"20","value":"ಈಜಿಪ್ಟ್"}",kan,TRUE
+10616,listCountry,listCountry,string,"{"code":"20","value":"मिस्र"}",hin,TRUE
+10617,flagPlaceOfBirth,flagPlaceOfBirth,string,"{"code":"10","value":"ಹೌದು"}",kan,TRUE
+10618,flagPlaceOfBirth,flagPlaceOfBirth,string,"{"code":"10","value":"हाँ"}",hin,TRUE
+10619,flagPlaceOfBirth,flagPlaceOfBirth,string,"{"code":"20","value":"ನಾನ್"}",kan,TRUE
+10620,flagPlaceOfBirth,flagPlaceOfBirth,string,"{"code":"20","value":"गैर"}",hin,TRUE
