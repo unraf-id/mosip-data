@@ -3669,7 +3669,7 @@
 				}
 			],
 			"layoutTemplate": null,
-			"preRegFetchRequired": true,
+			"preRegFetchRequired": false,
 			"active": false
 		},
 		{

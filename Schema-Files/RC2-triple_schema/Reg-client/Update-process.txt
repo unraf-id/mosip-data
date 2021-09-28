@@ -11,8 +11,7 @@
 		"kan": "UIN ನವೀಕರಿಸಿ",
 		"hin": "UIN अपडेट करें"
 	},
-	"screens": [
-		{
+	"screens": [{
 			"order": 1,
 			"name": "consentdet",
 			"label": {
@@ -23,8 +22,7 @@
 				"kan": "ಒಪ್ಪಿಗೆ",
 				"hin": "सहमति"
 			},
-			"fields": [
-				{
+			"fields": [{
 					"id": "consentText",
 					"inputRequired": true,
 					"type": "simpleType",
@@ -162,8 +160,7 @@
 				"tam": "மக்கள்தொகை விவரங்கள்",
 				"kan": "ಜನಸಂಖ್ಯಾ ವಿವರಗಳು"
 			},
-			"fields": [
-				{
+			"fields": [{
 					"id": "fullName",
 					"inputRequired": true,
 					"type": "simpleType",
@@ -181,14 +178,12 @@
 					"controlType": "textbox",
 					"fieldType": "default",
 					"format": "none",
-					"validators": [
-						{
-							"type": "regex",
-							"validator": "^(?=.{3,50}$).*",
-							"arguments": [],
-							"langCode": null
-						}
-					],
+					"validators": [{
+						"type": "regex",
+						"validator": "^(?=.{3,50}$).*",
+						"arguments": [],
+						"langCode": null
+					}],
 					"fieldCategory": "pvt",
 					"alignmentGroup": null,
 					"visible": null,
@@ -229,14 +224,12 @@
 					"controlType": "textbox",
 					"fieldType": "default",
 					"format": "none",
-					"validators": [
-						{
-							"type": "regex",
-							"validator": "^(?=.{3,50}$).*",
-							"arguments": [],
-							"langCode": null
-						}
-					],
+					"validators": [{
+						"type": "regex",
+						"validator": "^(?=.{3,50}$).*",
+						"arguments": [],
+						"langCode": null
+					}],
 					"fieldCategory": "pvt",
 					"alignmentGroup": null,
 					"visible": null,
@@ -277,14 +270,12 @@
 					"controlType": "textbox",
 					"fieldType": "default",
 					"format": "none",
-					"validators": [
-						{
-							"type": "regex",
-							"validator": "^(?=.{3,50}$).*",
-							"arguments": [],
-							"langCode": null
-						}
-					],
+					"validators": [{
+						"type": "regex",
+						"validator": "^(?=.{3,50}$).*",
+						"arguments": [],
+						"langCode": null
+					}],
 					"fieldCategory": "pvt",
 					"alignmentGroup": null,
 					"visible": null,
@@ -325,14 +316,12 @@
 					"controlType": "textbox",
 					"fieldType": "default",
 					"format": "none",
-					"validators": [
-						{
-							"type": "regex",
-							"validator": "^(?=.{3,50}$).*",
-							"arguments": [],
-							"langCode": null
-						}
-					],
+					"validators": [{
+						"type": "regex",
+						"validator": "^(?=.{3,50}$).*",
+						"arguments": [],
+						"langCode": null
+					}],
 					"fieldCategory": "pvt",
 					"alignmentGroup": null,
 					"visible": null,
@@ -375,14 +364,12 @@
 					"controlType": "ageDate",
 					"fieldType": "default",
 					"format": "none",
-					"validators": [
-						{
-							"type": "regex",
-							"validator": "^(1869|18[7-9][0-9]|19[0-9][0-9]|20[0-9][0-9])/([0][1-9]|1[0-2])/([0][1-9]|[1-2][0-9]|3[01])$",
-							"arguments": [],
-							"langCode": null
-						}
-					],
+					"validators": [{
+						"type": "regex",
+						"validator": "^(1869|18[7-9][0-9]|19[0-9][0-9]|20[0-9][0-9])/([0][1-9]|1[0-2])/([0][1-9]|[1-2][0-9]|3[01])$",
+						"arguments": [],
+						"langCode": null
+					}],
 					"fieldCategory": "pvt",
 					"alignmentGroup": null,
 					"visible": null,
@@ -404,12 +391,10 @@
 					"conditionalBioAttributes": null,
 					"required": true,
 					"bioAttributes": null,
-					"requiredOn": [
-						{
-							"engine": "MVEL",
-							"expr": "identity.isNew || (identity.isUpdate && (identity.updatableFieldGroups contains 'IntroducerDetails' || identity.updatableFieldGroups contains 'DateOfBirth'))"
-						}
-					],
+					"requiredOn": [{
+						"engine": "MVEL",
+						"expr": "identity.isNew || (identity.isUpdate && (identity.updatableFieldGroups contains 'IntroducerDetails' || identity.updatableFieldGroups contains 'DateOfBirth'))"
+					}],
 					"subType": "dateOfBirth"
 				},
 				{
@@ -471,14 +456,12 @@
 					"controlType": "textbox",
 					"fieldType": "default",
 					"format": "none",
-					"validators": [
-						{
-							"type": "regex",
-							"validator": "^(?=.{0,50}$).*",
-							"arguments": [],
-							"langCode": null
-						}
-					],
+					"validators": [{
+						"type": "regex",
+						"validator": "^(?=.{0,50}$).*",
+						"arguments": [],
+						"langCode": null
+					}],
 					"fieldCategory": "pvt",
 					"alignmentGroup": "permanentaddress",
 					"visible": null,
@@ -517,14 +500,12 @@
 					"controlType": "textbox",
 					"fieldType": "default",
 					"format": "none",
-					"validators": [
-						{
-							"type": "regex",
-							"validator": "^(?=.{3,50}$).*",
-							"arguments": [],
-							"langCode": null
-						}
-					],
+					"validators": [{
+						"type": "regex",
+						"validator": "^(?=.{3,50}$).*",
+						"arguments": [],
+						"langCode": null
+					}],
 					"fieldCategory": "pvt",
 					"alignmentGroup": "temporaryaddress",
 					"visible": null,
@@ -602,14 +583,12 @@
 					"controlType": "textbox",
 					"fieldType": "default",
 					"format": "none",
-					"validators": [
-						{
-							"type": "regex",
-							"validator": "^(?=.{3,50}$).*",
-							"arguments": [],
-							"langCode": null
-						}
-					],
+					"validators": [{
+						"type": "regex",
+						"validator": "^(?=.{3,50}$).*",
+						"arguments": [],
+						"langCode": null
+					}],
 					"fieldCategory": "pvt",
 					"alignmentGroup": "address",
 					"visible": null,
@@ -921,14 +900,12 @@
 					"controlType": "textbox",
 					"fieldType": "default",
 					"format": "kyc",
-					"validators": [
-						{
-							"type": "regex",
-							"validator": "^([0-9]{9}[x|X|v|V]|[0-9]{12})$",
-							"arguments": [],
-							"langCode": null
-						}
-					],
+					"validators": [{
+						"type": "regex",
+						"validator": "^([0-9]{9}[x|X|v|V]|[0-9]{12})$",
+						"arguments": [],
+						"langCode": null
+					}],
 					"fieldCategory": "pvt",
 					"alignmentGroup": "National Identity",
 					"visible": null,
@@ -1006,14 +983,12 @@
 					"controlType": "textbox",
 					"fieldType": "default",
 					"format": "none",
-					"validators": [
-						{
-							"type": "regex",
-							"validator": "^([A-Z]{1}[0-9]{7})$",
-							"arguments": [],
-							"langCode": null
-						}
-					],
+					"validators": [{
+						"type": "regex",
+						"validator": "^([A-Z]{1}[0-9]{7})$",
+						"arguments": [],
+						"langCode": null
+					}],
 					"fieldCategory": "pvt",
 					"alignmentGroup": "National Identity",
 					"visible": null,
@@ -1130,14 +1105,12 @@
 					"controlType": "textbox",
 					"fieldType": "default",
 					"format": "none",
-					"validators": [
-						{
-							"type": "regex",
-							"validator": "^[0-9]{3,20}$",
-							"arguments": [],
-							"langCode": null
-						}
-					],
+					"validators": [{
+						"type": "regex",
+						"validator": "^[0-9]{3,20}$",
+						"arguments": [],
+						"langCode": null
+					}],
 					"fieldCategory": "pvt",
 					"alignmentGroup": "Dual Citizenship",
 					"visible": null,
@@ -1215,14 +1188,12 @@
 					"controlType": "textbox",
 					"fieldType": "default",
 					"format": "none",
-					"validators": [
-						{
-							"type": "regex",
-							"validator": "^[0-9]{3,20}$",
-							"arguments": [],
-							"langCode": null
-						}
-					],
+					"validators": [{
+						"type": "regex",
+						"validator": "^[0-9]{3,20}$",
+						"arguments": [],
+						"langCode": null
+					}],
 					"fieldCategory": "pvt",
 					"alignmentGroup": "Dual Citizenship",
 					"visible": null,
@@ -1382,14 +1353,12 @@
 					"controlType": "dropdown",
 					"fieldType": "default",
 					"format": "none",
-					"validators": [
-						{
-							"type": "regex",
-							"validator": "^(?=.{0,50}$).*",
-							"arguments": [],
-							"langCode": null
-						}
-					],
+					"validators": [{
+						"type": "regex",
+						"validator": "^(?=.{0,50}$).*",
+						"arguments": [],
+						"langCode": null
+					}],
 					"fieldCategory": "pvt",
 					"alignmentGroup": "permanentaddress",
 					"visible": null,
@@ -1428,14 +1397,12 @@
 					"controlType": "dropdown",
 					"fieldType": "default",
 					"format": "none",
-					"validators": [
-						{
-							"type": "regex",
-							"validator": "^(?=.{0,50}$).*",
-							"arguments": [],
-							"langCode": null
-						}
-					],
+					"validators": [{
+						"type": "regex",
+						"validator": "^(?=.{0,50}$).*",
+						"arguments": [],
+						"langCode": null
+					}],
 					"fieldCategory": "pvt",
 					"alignmentGroup": "permanentaddress",
 					"visible": null,
@@ -1474,14 +1441,12 @@
 					"controlType": "dropdown",
 					"fieldType": "default",
 					"format": "none",
-					"validators": [
-						{
-							"type": "regex",
-							"validator": "^(?=.{0,50}$).*",
-							"arguments": [],
-							"langCode": null
-						}
-					],
+					"validators": [{
+						"type": "regex",
+						"validator": "^(?=.{0,50}$).*",
+						"arguments": [],
+						"langCode": null
+					}],
 					"fieldCategory": "pvt",
 					"alignmentGroup": "permanentaddress",
 					"visible": null,
@@ -1559,14 +1524,12 @@
 					"controlType": "dropdown",
 					"fieldType": "default",
 					"format": "none",
-					"validators": [
-						{
-							"type": "regex",
-							"validator": "^[(?i)A-Z0-9]{5}$|^NA$",
-							"arguments": [],
-							"langCode": null
-						}
-					],
+					"validators": [{
+						"type": "regex",
+						"validator": "^[(?i)A-Z0-9]{5}$|^NA$",
+						"arguments": [],
+						"langCode": null
+					}],
 					"fieldCategory": "pvt",
 					"alignmentGroup": "permanentaddress",
 					"visible": null,
@@ -1605,14 +1568,12 @@
 					"controlType": "textbox",
 					"fieldType": "default",
 					"format": "none",
-					"validators": [
-						{
-							"type": "regex",
-							"validator": "^[+]*([0-9]{1})([0-9]{9})$",
-							"arguments": [],
-							"langCode": null
-						}
-					],
+					"validators": [{
+						"type": "regex",
+						"validator": "^[+]*([0-9]{1})([0-9]{9})$",
+						"arguments": [],
+						"langCode": null
+					}],
 					"fieldCategory": "pvt",
 					"alignmentGroup": "contact",
 					"visible": null,
@@ -1651,14 +1612,12 @@
 					"controlType": "textbox",
 					"fieldType": "default",
 					"format": "none",
-					"validators": [
-						{
-							"type": "regex",
-							"validator": "^[+]*([0-9]{1})([0-9]{9})$",
-							"arguments": [],
-							"langCode": null
-						}
-					],
+					"validators": [{
+						"type": "regex",
+						"validator": "^[+]*([0-9]{1})([0-9]{9})$",
+						"arguments": [],
+						"langCode": null
+					}],
 					"fieldCategory": "pvt",
 					"alignmentGroup": "Contact Details",
 					"visible": null,
@@ -1697,14 +1656,12 @@
 					"controlType": "textbox",
 					"fieldType": "default",
 					"format": "none",
-					"validators": [
-						{
-							"type": "regex",
-							"validator": "^[A-Za-z0-9_\\-]+(\\.[A-Za-z0-9_]+)*@[A-Za-z0-9_-]+(\\.[A-Za-z0-9_]+)*(\\.[a-zA-Z]{2,})$",
-							"arguments": [],
-							"langCode": null
-						}
-					],
+					"validators": [{
+						"type": "regex",
+						"validator": "^[A-Za-z0-9_\\-]+(\\.[A-Za-z0-9_]+)*@[A-Za-z0-9_-]+(\\.[A-Za-z0-9_]+)*(\\.[a-zA-Z]{2,})$",
+						"arguments": [],
+						"langCode": null
+					}],
 					"fieldCategory": "pvt",
 					"alignmentGroup": "contact",
 					"visible": null,
@@ -1743,14 +1700,12 @@
 					"controlType": "textbox",
 					"fieldType": "default",
 					"format": "none",
-					"validators": [
-						{
-							"type": "regex",
-							"validator": "^(?=.{3,50}$).*",
-							"arguments": [],
-							"langCode": null
-						}
-					],
+					"validators": [{
+						"type": "regex",
+						"validator": "^(?=.{3,50}$).*",
+						"arguments": [],
+						"langCode": null
+					}],
 					"fieldCategory": "pvt",
 					"alignmentGroup": "Father Details",
 					"visible": null,
@@ -1867,14 +1822,12 @@
 					"controlType": "textbox",
 					"fieldType": "default",
 					"format": "none",
-					"validators": [
-						{
-							"type": "regex",
-							"validator": "^(?=.{0,50}$).*",
-							"arguments": [],
-							"langCode": null
-						}
-					],
+					"validators": [{
+						"type": "regex",
+						"validator": "^(?=.{0,50}$).*",
+						"arguments": [],
+						"langCode": null
+					}],
 					"fieldCategory": "pvt",
 					"alignmentGroup": "Father Details",
 					"visible": null,
@@ -1952,14 +1905,12 @@
 					"controlType": "textbox",
 					"fieldType": "default",
 					"format": "none",
-					"validators": [
-						{
-							"type": "regex",
-							"validator": "^(?=.{3,50}$).*",
-							"arguments": [],
-							"langCode": null
-						}
-					],
+					"validators": [{
+						"type": "regex",
+						"validator": "^(?=.{3,50}$).*",
+						"arguments": [],
+						"langCode": null
+					}],
 					"fieldCategory": "pvt",
 					"alignmentGroup": "Mother Details",
 					"visible": null,
@@ -2037,14 +1988,12 @@
 					"controlType": "textbox",
 					"fieldType": "default",
 					"format": "none",
-					"validators": [
-						{
-							"type": "regex",
-							"validator": "^(?=.{0,50}$).*",
-							"arguments": [],
-							"langCode": null
-						}
-					],
+					"validators": [{
+						"type": "regex",
+						"validator": "^(?=.{0,50}$).*",
+						"arguments": [],
+						"langCode": null
+					}],
 					"fieldCategory": "pvt",
 					"alignmentGroup": "Mother Details",
 					"visible": null,
@@ -2083,14 +2032,12 @@
 					"controlType": "textbox",
 					"fieldType": "default",
 					"format": "none",
-					"validators": [
-						{
-							"type": "regex",
-							"validator": "^(?=.{0,50}$).*",
-							"arguments": [],
-							"langCode": null
-						}
-					],
+					"validators": [{
+						"type": "regex",
+						"validator": "^(?=.{0,50}$).*",
+						"arguments": [],
+						"langCode": null
+					}],
 					"fieldCategory": "pvt",
 					"alignmentGroup": "Mother Details",
 					"visible": null,
@@ -2190,12 +2137,10 @@
 					"conditionalBioAttributes": null,
 					"required": false,
 					"bioAttributes": null,
-					"requiredOn": [
-						{
-							"engine": "MVEL",
-							"expr": "( identity.isNew && identity.get('ageGroup') == 'INFANT' ) || ( identity.isUpdate && identity.get('ageGroup') == 'INFANT' ) || ( !(identity.get('introducerRID') == nil || identity.get('introducerRID') == empty) ||   !(identity.get('introducerUIN') == nil || identity.get('introducerUIN') == empty))"
-						}
-					],
+					"requiredOn": [{
+						"engine": "MVEL",
+						"expr": "( identity.isNew && identity.get('ageGroup') == 'INFANT' ) || ( identity.isUpdate && identity.get('ageGroup') == 'INFANT' ) || ( !(identity.get('introducerRID') == nil || identity.get('introducerRID') == empty) ||   !(identity.get('introducerUIN') == nil || identity.get('introducerUIN') == empty))"
+					}],
 					"subType": "introducerName"
 				},
 				{
@@ -2216,14 +2161,12 @@
 					"controlType": "textbox",
 					"fieldType": "default",
 					"format": "none",
-					"validators": [
-						{
-							"type": "regex",
-							"validator": "^([0-9]{10,30})$",
-							"arguments": [],
-							"langCode": null
-						}
-					],
+					"validators": [{
+						"type": "regex",
+						"validator": "^([0-9]{10,30})$",
+						"arguments": [],
+						"langCode": null
+					}],
 					"fieldCategory": "evidence",
 					"alignmentGroup": "introducer",
 					"visible": null,
@@ -2243,12 +2186,10 @@
 					"conditionalBioAttributes": null,
 					"required": false,
 					"bioAttributes": null,
-					"requiredOn": [
-						{
-							"engine": "MVEL",
-							"expr": "( !(identity.get('introducerName') == nil || identity.get('introducerName') == empty) &&   (identity.get('introducerUIN') == nil || identity.get('introducerUIN') == empty))"
-						}
-					],
+					"requiredOn": [{
+						"engine": "MVEL",
+						"expr": "( !(identity.get('introducerName') == nil || identity.get('introducerName') == empty) &&   (identity.get('introducerUIN') == nil || identity.get('introducerUIN') == empty))"
+					}],
 					"subType": "RID"
 				},
 				{
@@ -2269,14 +2210,12 @@
 					"controlType": "textbox",
 					"fieldType": "default",
 					"format": "none",
-					"validators": [
-						{
-							"type": "regex",
-							"validator": "^([0-9]{10,30})$",
-							"arguments": [],
-							"langCode": null
-						}
-					],
+					"validators": [{
+						"type": "regex",
+						"validator": "^([0-9]{10,30})$",
+						"arguments": [],
+						"langCode": null
+					}],
 					"fieldCategory": "evidence",
 					"alignmentGroup": "introducer",
 					"visible": null,
@@ -2296,12 +2235,10 @@
 					"conditionalBioAttributes": null,
 					"required": false,
 					"bioAttributes": null,
-					"requiredOn": [
-						{
-							"engine": "MVEL",
-							"expr": "( !(identity.get('introducerName') == nil || identity.get('introducerName') == empty) &&   (identity.get('introducerRID') == nil || identity.get('introducerRID') == empty))"
-						}
-					],
+					"requiredOn": [{
+						"engine": "MVEL",
+						"expr": "( !(identity.get('introducerName') == nil || identity.get('introducerName') == empty) &&   (identity.get('introducerRID') == nil || identity.get('introducerRID') == empty))"
+					}],
 					"subType": "UIN"
 				},
 				{
@@ -2320,14 +2257,12 @@
 					"controlType": "textbox",
 					"fieldType": "default",
 					"format": "none",
-					"validators": [
-						{
-							"type": "regex",
-							"validator": "^(?=.{3,50}$).*",
-							"arguments": [],
-							"langCode": null
-						}
-					],
+					"validators": [{
+						"type": "regex",
+						"validator": "^(?=.{3,50}$).*",
+						"arguments": [],
+						"langCode": null
+					}],
 					"fieldCategory": "pvt",
 					"alignmentGroup": "Spouse Details",
 					"visible": null,
@@ -2405,14 +2340,12 @@
 					"controlType": "textbox",
 					"fieldType": "default",
 					"format": "none",
-					"validators": [
-						{
-							"type": "regex",
-							"validator": "^(?=.{0,50}$).*",
-							"arguments": [],
-							"langCode": null
-						}
-					],
+					"validators": [{
+						"type": "regex",
+						"validator": "^(?=.{0,50}$).*",
+						"arguments": [],
+						"langCode": null
+					}],
 					"fieldCategory": "pvt",
 					"alignmentGroup": "Spouse Details",
 					"visible": null,
@@ -2451,14 +2384,12 @@
 					"controlType": "textbox",
 					"fieldType": "default",
 					"format": "none",
-					"validators": [
-						{
-							"type": "regex",
-							"validator": "^(?=.{0,50}$).*",
-							"arguments": [],
-							"langCode": null
-						}
-					],
+					"validators": [{
+						"type": "regex",
+						"validator": "^(?=.{0,50}$).*",
+						"arguments": [],
+						"langCode": null
+					}],
 					"fieldCategory": "pvt",
 					"alignmentGroup": "Spouse Details",
 					"visible": null,
@@ -2536,14 +2467,12 @@
 					"controlType": "textbox",
 					"fieldType": "default",
 					"format": "none",
-					"validators": [
-						{
-							"type": "regex",
-							"validator": "^(?=.{3,50}$).*",
-							"arguments": [],
-							"langCode": null
-						}
-					],
+					"validators": [{
+						"type": "regex",
+						"validator": "^(?=.{3,50}$).*",
+						"arguments": [],
+						"langCode": null
+					}],
 					"fieldCategory": "pvt",
 					"alignmentGroup": "Sibling Details",
 					"visible": null,
@@ -2738,14 +2667,12 @@
 					"controlType": "textbox",
 					"fieldType": "default",
 					"format": "none",
-					"validators": [
-						{
-							"type": "regex",
-							"validator": "^(?=.{0,50}$).*",
-							"arguments": [],
-							"langCode": null
-						}
-					],
+					"validators": [{
+						"type": "regex",
+						"validator": "^(?=.{0,50}$).*",
+						"arguments": [],
+						"langCode": null
+					}],
 					"fieldCategory": "pvt",
 					"alignmentGroup": "Sibling Details",
 					"visible": null,
@@ -2823,14 +2750,12 @@
 					"controlType": "textbox",
 					"fieldType": "default",
 					"format": "none",
-					"validators": [
-						{
-							"type": "regex",
-							"validator": "^(?=.{3,50}$).*",
-							"arguments": [],
-							"langCode": null
-						}
-					],
+					"validators": [{
+						"type": "regex",
+						"validator": "^(?=.{3,50}$).*",
+						"arguments": [],
+						"langCode": null
+					}],
 					"fieldCategory": "pvt",
 					"alignmentGroup": "Sibling Details",
 					"visible": null,
@@ -3025,14 +2950,12 @@
 					"controlType": "textbox",
 					"fieldType": "default",
 					"format": "none",
-					"validators": [
-						{
-							"type": "regex",
-							"validator": "^(?=.{0,50}$).*",
-							"arguments": [],
-							"langCode": null
-						}
-					],
+					"validators": [{
+						"type": "regex",
+						"validator": "^(?=.{0,50}$).*",
+						"arguments": [],
+						"langCode": null
+					}],
 					"fieldCategory": "pvt",
 					"alignmentGroup": "Sibling Details",
 					"visible": null,
@@ -3110,14 +3033,12 @@
 					"controlType": "textbox",
 					"fieldType": "default",
 					"format": "none",
-					"validators": [
-						{
-							"type": "regex",
-							"validator": "^(?=.{3,50}$).*",
-							"arguments": [],
-							"langCode": null
-						}
-					],
+					"validators": [{
+						"type": "regex",
+						"validator": "^(?=.{3,50}$).*",
+						"arguments": [],
+						"langCode": null
+					}],
 					"fieldCategory": "pvt",
 					"alignmentGroup": "Child Details",
 					"visible": null,
@@ -3312,14 +3233,12 @@
 					"controlType": "textbox",
 					"fieldType": "default",
 					"format": "none",
-					"validators": [
-						{
-							"type": "regex",
-							"validator": "^(?=.{0,50}$).*",
-							"arguments": [],
-							"langCode": null
-						}
-					],
+					"validators": [{
+						"type": "regex",
+						"validator": "^(?=.{0,50}$).*",
+						"arguments": [],
+						"langCode": null
+					}],
 					"fieldCategory": "pvt",
 					"alignmentGroup": "Child Details",
 					"visible": null,
@@ -3397,14 +3316,12 @@
 					"controlType": "textbox",
 					"fieldType": "default",
 					"format": "none",
-					"validators": [
-						{
-							"type": "regex",
-							"validator": "^(?=.{3,50}$).*",
-							"arguments": [],
-							"langCode": null
-						}
-					],
+					"validators": [{
+						"type": "regex",
+						"validator": "^(?=.{3,50}$).*",
+						"arguments": [],
+						"langCode": null
+					}],
 					"fieldCategory": "pvt",
 					"alignmentGroup": "Child Details",
 					"visible": null,
@@ -3599,14 +3516,12 @@
 					"controlType": "textbox",
 					"fieldType": "default",
 					"format": "none",
-					"validators": [
-						{
-							"type": "regex",
-							"validator": "^(?=.{0,50}$).*",
-							"arguments": [],
-							"langCode": null
-						}
-					],
+					"validators": [{
+						"type": "regex",
+						"validator": "^(?=.{0,50}$).*",
+						"arguments": [],
+						"langCode": null
+					}],
 					"fieldCategory": "pvt",
 					"alignmentGroup": "Child Details",
 					"visible": null,
@@ -3670,7 +3585,7 @@
 				}
 			],
 			"layoutTemplate": null,
-			"preRegFetchRequired": true,
+			"preRegFetchRequired": false,
 			"active": false
 		},
 		{
@@ -3681,8 +3596,7 @@
 				"fra": "Des documents",
 				"eng": "Document Upload"
 			},
-			"fields": [
-				{
+			"fields": [{
 					"id": "proofOfAddress",
 					"inputRequired": true,
 					"type": "documentType",
@@ -3719,12 +3633,10 @@
 					"conditionalBioAttributes": null,
 					"required": false,
 					"bioAttributes": null,
-					"requiredOn": [
-						{
-							"engine": "MVEL",
-							"expr": "identity.isNew || ( identity.isUpdate && (identity.updatableFields contains 'addressLine1'))"
-						}
-					],
+					"requiredOn": [{
+						"engine": "MVEL",
+						"expr": "identity.isNew || ( identity.isUpdate && (identity.updatableFields contains 'addressLine1'))"
+					}],
 					"subType": "POA"
 				},
 				{
@@ -3765,12 +3677,10 @@
 					"conditionalBioAttributes": null,
 					"required": true,
 					"bioAttributes": null,
-					"requiredOn": [
-						{
-							"engine": "MVEL",
-							"expr": "identity.isNew || ( identity.isUpdate && identity.updatableFields contains 'fullName')"
-						}
-					],
+					"requiredOn": [{
+						"engine": "MVEL",
+						"expr": "identity.isNew || ( identity.isUpdate && identity.updatableFields contains 'fullName')"
+					}],
 					"subType": "POI"
 				},
 				{
@@ -3811,12 +3721,10 @@
 					"conditionalBioAttributes": null,
 					"required": false,
 					"bioAttributes": null,
-					"requiredOn": [
-						{
-							"engine": "MVEL",
-							"expr": "( identity.isNew && identity.get('ageGroup') == 'INFANT' ) || ( identity.isUpdate && (identity.updatableFieldGroups contains 'IntroducerDetails' || identity.get('ageGroup') == 'INFANT'))"
-						}
-					],
+					"requiredOn": [{
+						"engine": "MVEL",
+						"expr": "( identity.isNew && identity.get('ageGroup') == 'INFANT' ) || ( identity.isUpdate && (identity.updatableFieldGroups contains 'IntroducerDetails' || identity.get('ageGroup') == 'INFANT'))"
+					}],
 					"subType": "POR"
 				},
 				{
@@ -3857,12 +3765,10 @@
 					"conditionalBioAttributes": null,
 					"required": false,
 					"bioAttributes": null,
-					"requiredOn": [
-						{
-							"engine": "MVEL",
-							"expr": "identity.isUpdate && identity.updatableFields contains 'dateOfBirth'"
-						}
-					],
+					"requiredOn": [{
+						"engine": "MVEL",
+						"expr": "identity.isUpdate && identity.updatableFields contains 'dateOfBirth'"
+					}],
 					"subType": "POB"
 				},
 				{
@@ -3919,8 +3825,7 @@
 				"kan": "ಬಯೋಮೆಟ್ರಿಕ್ ವಿವರಗಳು",
 				"hin": "बॉयोमीट्रिक विवरण"
 			},
-			"fields": [
-				{
+			"fields": [{
 					"id": "individualBiometrics",
 					"inputRequired": true,
 					"type": "biometricsType",
@@ -3955,16 +3860,14 @@
 					"templateName": null,
 					"fieldLayout": null,
 					"locationHierarchy": null,
-					"conditionalBioAttributes": [
-						{
-							"ageGroup": "INFANT",
-							"process": "ALL",
-							"validationExpr": "face",
-							"bioAttributes": [
-								"face"
-							]
-						}
-					],
+					"conditionalBioAttributes": [{
+						"ageGroup": "INFANT",
+						"process": "ALL",
+						"validationExpr": "face",
+						"bioAttributes": [
+							"face"
+						]
+					}],
 					"required": true,
 					"bioAttributes": [
 						"leftEye",
@@ -3981,12 +3884,10 @@
 						"rightThumb",
 						"face"
 					],
-					"requiredOn": [
-						{
-							"engine": "MVEL",
-							"expr": "(identity.isNew || identity.isLost || ( identity.isUpdate && identity.updatableFieldGroups contains 'Biometrics'))"
-						}
-					],
+					"requiredOn": [{
+						"engine": "MVEL",
+						"expr": "(identity.updatableFieldGroups contains 'Biometrics')"
+					}],
 					"subType": "applicant"
 				},
 				{
@@ -4013,7 +3914,21 @@
 					"visible": null,
 					"contactType": null,
 					"group": "Biometrics",
+					"groupLabel": {
+						"ara": "القياسات الحيوية للمصادقة",
+						"tam": "அங்கீகார பயோமெட்ரிக்ஸ்",
+						"fra": "Authentication Biometrics",
+						"kan": "ಅಥೆನ್ ಟಿಕೇಶನ್ ಬಯೋಮೆಟ್ರಿಕ್ಸ್",
+						"hin": "प्रमाणीकरण बायोमेट्रिक्स",
+						"eng": "Authentication Biometrics"
+					},
 					"changeAction": null,
+					"conditionalBioAttributes": [{
+						"ageGroup": "ALL",
+						"process": "ALL",
+						"validationExpr": "leftEye || rightEye || rightIndex || rightLittle || rightRing || rightMiddle || leftIndex || leftLittle || leftRing || leftMiddle || leftThumb || rightThumb || face",
+						"bioAttributes": ["leftEye", "rightEye", "rightIndex", "rightLittle", "rightRing", "rightMiddle", "leftIndex", "leftLittle", "leftRing", "leftMiddle", "leftThumb", "rightThumb", "face"]
+					}],
 					"required": false,
 					"bioAttributes": [
 						"leftEye",
@@ -4030,12 +3945,10 @@
 						"rightThumb",
 						"face"
 					],
-					"requiredOn": [
-						{
-							"engine": "MVEL",
-							"expr": "(identity.get('ageGroup') == 'INFANT') && identity.isUpdate && identity.updatableFieldGroups contains 'introducerDetails'"
-						}
-					],
+					"requiredOn": [{
+						"engine": "MVEL",
+						"expr": "!(identity.updatableFieldGroups contains 'Biometrics')"
+					}],
 					"subType": "applicant-auth"
 				},
 				{
@@ -4073,28 +3986,26 @@
 					"templateName": null,
 					"fieldLayout": null,
 					"locationHierarchy": null,
-					"conditionalBioAttributes": [
-						{
-							"ageGroup": "INFANT",
-							"process": "ALL",
-							"validationExpr": "leftEye || rightEye || rightIndex || rightLittle || rightRing || rightMiddle || leftIndex || leftLittle || leftRing || leftMiddle || leftThumb || rightThumb || face",
-							"bioAttributes": [
-								"leftEye",
-								"rightEye",
-								"rightIndex",
-								"rightLittle",
-								"rightRing",
-								"rightMiddle",
-								"leftIndex",
-								"leftLittle",
-								"leftRing",
-								"leftMiddle",
-								"leftThumb",
-								"rightThumb",
-								"face"
-							]
-						}
-					],
+					"conditionalBioAttributes": [{
+						"ageGroup": "INFANT",
+						"process": "ALL",
+						"validationExpr": "leftEye || rightEye || rightIndex || rightLittle || rightRing || rightMiddle || leftIndex || leftLittle || leftRing || leftMiddle || leftThumb || rightThumb || face",
+						"bioAttributes": [
+							"leftEye",
+							"rightEye",
+							"rightIndex",
+							"rightLittle",
+							"rightRing",
+							"rightMiddle",
+							"leftIndex",
+							"leftLittle",
+							"leftRing",
+							"leftMiddle",
+							"leftThumb",
+							"rightThumb",
+							"face"
+						]
+					}],
 					"required": false,
 					"bioAttributes": [
 						"leftEye",
@@ -4111,12 +4022,10 @@
 						"rightThumb",
 						"face"
 					],
-					"requiredOn": [
-						{
-							"engine": "MVEL",
-							"expr": "identity.updatableFieldGroups contains 'Biometrics' && (identity.get('ageGroup') == 'INFANT')"
-						}
-					],
+					"requiredOn": [{
+						"engine": "MVEL",
+						"expr": "identity.updatableFieldGroups contains 'Biometrics' && (identity.get('ageGroup') == 'INFANT')"
+					}],
 					"subType": "applicant"
 				}
 			],
