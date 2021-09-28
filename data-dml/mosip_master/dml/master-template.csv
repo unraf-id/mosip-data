@@ -1488,51 +1488,51 @@ Merci de vous être inscrit sur la plateforme d'identité numérique. Votre iden
 11. Code postal: ${POSTALCODE}
 12. Numéro de mobile: ${PHONE}
 13. Email: ${EMAIL}",10005,Inscription,reg-sms-notification,fra,TRUE,superadmin,now()
-1136,पावती एसएमएस टेम्पलेट,पंजीकरण पावती खाका,txt,velocity,"प्रिय $ {FULLNAME},
-डिजिटल पहचान मंच के साथ पंजीकरण के लिए धन्यवाद। आपके पंजीकरण आईडी है """" $ {RID} """"। जनसांख्यिकीय विवरण इस प्रकार हैं:
-1. दिनांक: $ {Date}
-2. पूरा नाम: $ {} FULLNAME
-3. जन्म तिथि: $ {जन्म तिथि}
-4. लिंग: $ {} लिंग
-5. पता पंक्ति 1: $ {} ADDRESSLINE1
-6. पता पंक्ति 2: $ {} ADDRESSLINE2
-7. पता पंक्ति 3: $ {} ADDRESSLINE3
-8. क्षेत्र: $ {REGION}
-9. शहर: $ {} शहर
-10 प्रांत: $ {प्रांत}
-11. पिन कोड: $ {} PostalCode
-12. मोबाइल नंबर: $ {} फोन
-13. ई-मेल: $ {EMAIL}",10005,पंजीकरण,reg-sms-notification,hin,TRUE,superadmin,now()
-1136,ஒப்புகை எஸ்எம்எஸ் டெம்ப்ளேட்,பதிவு ஒப்புகை டெம்ப்ளேட்,txt,velocity,"அன்பே $ {FULLNAME என்பவர்},
-டிஜிட்டல் அடையாள மேடையில் பதிவு செய்ததற்கு நன்றி. உங்களின் பதிவுக் அடையாள உள்ளது """" $ {RID என்பது} """". பின்வருமாறு மக்கள் தொகை விவரங்கள்:
-1. தேதி: $ {தேதி}
-2. முழு பெயர்: $ {FULLNAME என்பவர்}
-3. பிறந்த தேதி: $ {பிறப்புச்}
-4. பாலினம்: $ {பாலினம்}
-5. முகவரி வரி 1: $ {ADDRESSLINE1}
-6. முகவரி வரி 2: $ {ADDRESSLINE2}
-7. முகவரி வரி 3: $ {ADDRESSLINE3}
-8. பகுதி: $ {மண்டலத்திற்கான}
-9. பெருநகரம்: $ {நகரம்}
-10. மாகாணம்: $ {மாகாணம்}
-11. அஞ்சல் குறியீடு: $ {POSTALCODE}
-12. மொபைல் எண்: $ {தொலைபேசி}
-13. மின்னஞ்சல்: $ {EMAIL ஐ}",10005,பதிவு,reg-sms-notification,tam,TRUE,superadmin,now()
-1136,ಸ್ವೀಕೃತಿ ಎಸ್ಎಂಎಸ್ ಟೆಂಪ್ಲೇಟು,ನೋಂದಣಿ ಸ್ವೀಕೃತಿ ಟೆಂಪ್ಲೇಟು,txt,velocity,"ಆತ್ಮೀಯ $ {FULLNAME ಅವರನ್ನು},
-ಡಿಜಿಟಲ್ ಐಡೆಂಟಿಟಿ ವೇದಿಕೆ ನೋಂದಾಯಿಸಿಕೊಳ್ಳುವ ಧನ್ಯವಾದಗಳು. ""$ {ಹೋಗಲಾಡಿಸಲು}"" ""ನಿಮ್ಮ ನೋಂದಣಿ ಐಡಿ ಆಗಿದೆ"". ಕೆಳಗಿನಂತೆ ಜನಸಂಖ್ಯಾ ವಿವರಗಳಿವೆ:
-1. ದಿನಾಂಕ: $ {ದಿನಾಂಕ}
-2. ಪೂರ್ಣ ಹೆಸರು: $ {FULLNAME ಅವರನ್ನು}
-3. ಜನ್ಮದಿನಾಂಕ: $ {ಡಿಓಬಿ}
-4. ಲಿಂಗ: $ {ಲಿಂಗ}
-5. ವಿಳಾಸ ಸಾಲು 1: $ {ADDRESSLINE1}
-6. ವಿಳಾಸ ಸಾಲು 2: $ {ADDRESSLINE2}
-7. ವಿಳಾಸ ಸಾಲು 3: $ {ADDRESSLINE3}
-8. ಪ್ರದೇಶ: $ {ಪ್ರದೇಶಕ್ಕೆ}
-9. ಸಿಟಿ: $ {city}
-10. ಪ್ರಾಂತ್ಯ: $ {PROVINCE}
-11. ಕೋಡ್: $ {POSTALCODE}
-12. ಮೊಬೈಲ್ ಸಂಖ್ಯೆ: $ {ಫೋನ್}
-13. ಇಮೇಲ್: $ {EMAIL} ಗೆ",10005,ನೋಂದಣಿ,reg-sms-notification,kan,TRUE,superadmin,now()
+1136,पावती एसएमएस टेम्पलेट,पंजीकरण पावती खाका,txt,velocity,"प्रिय ${FULLNAME},
+डिजिटल पहचान मंच के साथ पंजीकरण के लिए धन्यवाद। आपके पंजीकरण आईडी है """" ${RID} """"। जनसांख्यिकीय विवरण इस प्रकार हैं:
+1. दिनांक: ${Date}
+2. पूरा नाम: ${FULLNAME}
+3. जन्म तिथि: ${DOB}
+4. लिंग: ${GENDER}
+5. पता पंक्ति 1: ${ADDRESSLINE1}
+6. पता पंक्ति 2: ${ADDRESSLINE2}
+7. पता पंक्ति 3: ${ADDRESSLINE3}
+8. क्षेत्र: ${REGION}
+9. शहर: ${CITY}
+10 प्रांत: ${PROVINCE}
+11. पिन कोड: ${POSTALCODE}
+12. मोबाइल नंबर: ${PHONE}
+13. ई-मेल: ${EMAIL}",10005,पंजीकरण,reg-sms-notification,hin,TRUE,superadmin,now()
+1136,ஒப்புகை எஸ்எம்எஸ் டெம்ப்ளேட்,பதிவு ஒப்புகை டெம்ப்ளேட்,txt,velocity,"அன்பே ${FULLNAME},
+டிஜிட்டல் அடையாள மேடையில் பதிவு செய்ததற்கு நன்றி. உங்களின் பதிவுக் அடையாள உள்ளது """"${RID}"""". பின்வருமாறு மக்கள் தொகை விவரங்கள்:
+1. தேதி: ${Date}
+2. முழு பெயர்: ${FULLNAME}
+3. பிறந்த தேதி: ${DOB}
+4. பாலினம்: ${GENDER}
+5. முகவரி வரி 1: ${ADDRESSLINE1}
+6. முகவரி வரி 2: ${ADDRESSLINE2}
+7. முகவரி வரி 3: ${ADDRESSLINE3}
+8. பகுதி: ${REGION}
+9. பெருநகரம்: ${CITY}
+10. மாகாணம்: ${PROVINCE}
+11. அஞ்சல் குறியீடு: ${POSTALCODE}
+12. மொபைல் எண்: ${PHONE}
+13. மின்னஞ்சல்: ${EMAIL}",10005,பதிவு,reg-sms-notification,tam,TRUE,superadmin,now()
+1136,ಸ್ವೀಕೃತಿ ಎಸ್ಎಂಎಸ್ ಟೆಂಪ್ಲೇಟು,ನೋಂದಣಿ ಸ್ವೀಕೃತಿ ಟೆಂಪ್ಲೇಟು,txt,velocity,"ಆತ್ಮೀಯ ${FULLNAME},
+ಡಿಜಿಟಲ್ ಐಡೆಂಟಿಟಿ ವೇದಿಕೆ ನೋಂದಾಯಿಸಿಕೊಳ್ಳುವ ಧನ್ಯವಾದಗಳು. """"${RID}"""". ಕೆಳಗಿನಂತೆ ಜನಸಂಖ್ಯಾ ವಿವರಗಳಿವೆ:
+1. ದಿನಾಂಕ: ${Date}
+2. ಪೂರ್ಣ ಹೆಸರು: ${FULLNAME}
+3. ಜನ್ಮದಿನಾಂಕ: ${DOB}
+4. ಲಿಂಗ: ${GENDER}
+5. ವಿಳಾಸ ಸಾಲು 1: ${ADDRESSLINE1}
+6. ವಿಳಾಸ ಸಾಲು 2: ${ADDRESSLINE2}
+7. ವಿಳಾಸ ಸಾಲು 3: ${ADDRESSLINE3}
+8. ಪ್ರದೇಶ: ${REGION}
+9. ಸಿಟಿ: ${CITY}
+10. ಪ್ರಾಂತ್ಯ: ${PROVINCE}
+11. ಕೋಡ್: ${POSTALCODE}
+12. ಮೊಬೈಲ್ ಸಂಖ್ಯೆ: ${PHONE}
+13. ಇಮೇಲ್: ${EMAIL} ಗೆ",10005,ನೋಂದಣಿ,reg-sms-notification,kan,TRUE,superadmin,now()
 1137,Acknowledgement Email Template,Registration Acknowledgement Template,txt,velocity,"Dear ${FULLNAME},
 Thank you for registering with Digital Identity platform . Your registration id is """"${RID}"""". The demographic details are as follows:
 1. Date: ${Date}
@@ -1548,8 +1548,8 @@ Thank you for registering with Digital Identity platform . Your registration id 
 11. Postal Code: ${POSTALCODE}
 12. Mobile Number: ${PHONE}
 13. Email: ${EMAIL}",10005,Registration,reg-email-notification,eng,TRUE,superadmin,now()
-1137,نموذج البريد الإلكتروني شكرًا,نموذج شكر التسجيل,txt,velocity,"عزيزي ${FULLNAME} ،
-شكرًا لك على التسجيل في منصة الهوية الرقمية. معرف التسجيل الخاص بك هو """" ${RID} """". التفاصيل الديموغرافية كما يلي:
+1137,نموذج البريد الإلكتروني شكرًا,نموذج شكر التسجيل,txt,velocity,"عزيزيعزيزي ${FULLNAME}،
+شكرًا لك على التسجيل في منصة الهوية الرقمية. معرف التسجيل الخاص بك هو """"${RID}"""". التفاصيل الديموغرافية كما يلي:
 1. تاريخ : ${Date}
 2. الاسم الكامل: ${FULLNAME}
 3. تاريخ الميلاد: ${DOB}
@@ -1578,51 +1578,51 @@ Merci de vous être inscrit sur la plateforme d'identité numérique. Votre iden
 11. Code postal: ${POSTALCODE}
 12. Numéro de mobile: ${PHONE}
 13. Email: ${EMAIL}",10005,Inscription,reg-email-notification,fra,TRUE,superadmin,now()
-1137,पावती ईमेल टेम्पलेट,पंजीकरण पावती खाका,txt,velocity,"प्रिय $ {FULLNAME},
-डिजिटल पहचान मंच के साथ पंजीकरण के लिए धन्यवाद। आपके पंजीकरण आईडी है """" $ {RID} """"। जनसांख्यिकीय विवरण इस प्रकार हैं:
-1. दिनांक: $ {Date}
-2. पूरा नाम: $ {} FULLNAME
-3. जन्म तिथि: $ {जन्म तिथि}
-4. लिंग: $ {} लिंग
-5. पता पंक्ति 1: $ {} ADDRESSLINE1
-6. पता पंक्ति 2: $ {} ADDRESSLINE2
-7. पता पंक्ति 3: $ {} ADDRESSLINE3
-8. क्षेत्र: $ {REGION}
-9. शहर: $ {} शहर
-10 प्रांत: $ {प्रांत}
-11. पिन कोड: $ {} PostalCode
-12. मोबाइल नंबर: $ {} फोन
-13. ई-मेल: $ {EMAIL}",10005,पंजीकरण,reg-email-notification,hin,TRUE,superadmin,now()
-1137,ஒப்புகை மின்னஞ்சல் டெம்ப்ளேட்,பதிவு ஒப்புகை டெம்ப்ளேட்,txt,velocity,"அன்பே $ {FULLNAME என்பவர்},
-டிஜிட்டல் அடையாள மேடையில் பதிவு செய்ததற்கு நன்றி. உங்களின் பதிவுக் அடையாள உள்ளது """" $ {RID என்பது} """". பின்வருமாறு மக்கள் தொகை விவரங்கள்:
-1. தேதி: $ {தேதி}
-2. முழு பெயர்: $ {FULLNAME என்பவர்}
-3. பிறந்த தேதி: $ {பிறப்புச்}
-4. பாலினம்: $ {பாலினம்}
-5. முகவரி வரி 1: $ {ADDRESSLINE1}
-6. முகவரி வரி 2: $ {ADDRESSLINE2}
-7. முகவரி வரி 3: $ {ADDRESSLINE3}
-8. பகுதி: $ {மண்டலத்திற்கான}
-9. பெருநகரம்: $ {நகரம்}
-10. மாகாணம்: $ {மாகாணம்}
-11. அஞ்சல் குறியீடு: $ {POSTALCODE}
-12. மொபைல் எண்: $ {தொலைபேசி}
-13. மின்னஞ்சல்: $ {EMAIL ஐ}",10005,பதிவு,reg-email-notification,tam,TRUE,superadmin,now()
-1137,ಸ್ವೀಕೃತಿ ಇಮೇಲ್ ಟೆಂಪ್ಲೇಟು,ನೋಂದಣಿ ಸ್ವೀಕೃತಿ ಟೆಂಪ್ಲೇಟು,txt,velocity,"ಆತ್ಮೀಯ $ {FULLNAME ಅವರನ್ನು},
-ಡಿಜಿಟಲ್ ಐಡೆಂಟಿಟಿ ವೇದಿಕೆ ನೋಂದಾಯಿಸಿಕೊಳ್ಳುವ ಧನ್ಯವಾದಗಳು. ""$ {ಹೋಗಲಾಡಿಸಲು}"" ""ನಿಮ್ಮ ನೋಂದಣಿ ಐಡಿ ಆಗಿದೆ"". ಕೆಳಗಿನಂತೆ ಜನಸಂಖ್ಯಾ ವಿವರಗಳಿವೆ:
-1. ದಿನಾಂಕ: $ {ದಿನಾಂಕ}
-2. ಪೂರ್ಣ ಹೆಸರು: $ {FULLNAME ಅವರನ್ನು}
-3. ಜನ್ಮದಿನಾಂಕ: $ {ಡಿಓಬಿ}
-4. ಲಿಂಗ: $ {ಲಿಂಗ}
-5. ವಿಳಾಸ ಸಾಲು 1: $ {ADDRESSLINE1}
-6. ವಿಳಾಸ ಸಾಲು 2: $ {ADDRESSLINE2}
-7. ವಿಳಾಸ ಸಾಲು 3: $ {ADDRESSLINE3}
-8. ಪ್ರದೇಶ: $ {ಪ್ರದೇಶಕ್ಕೆ}
-9. ಸಿಟಿ: $ {city}
-10. ಪ್ರಾಂತ್ಯ: $ {PROVINCE}
-11. ಕೋಡ್: $ {POSTALCODE}
-12. ಮೊಬೈಲ್ ಸಂಖ್ಯೆ: $ {ಫೋನ್}
-13. ಇಮೇಲ್: $ {EMAIL} ಗೆ",10005,ನೋಂದಣಿ,reg-email-notification,kan,TRUE,superadmin,now()
+1137,पावती ईमेल टेम्पलेट,पंजीकरण पावती खाका,txt,velocity,"प्रिय ${FULLNAME},
+डिजिटल पहचान मंच के साथ पंजीकरण के लिए धन्यवाद। आपके पंजीकरण आईडी है """" ${RID} """"। जनसांख्यिकीय विवरण इस प्रकार हैं:
+1. दिनांक: ${Date}
+2. पूरा नाम: ${FULLNAME}
+3. जन्म तिथि: ${DOB}
+4. लिंग: ${GENDER}
+5. पता पंक्ति 1: ${ADDRESSLINE1}
+6. पता पंक्ति 2: ${ADDRESSLINE2}
+7. पता पंक्ति 3: ${ADDRESSLINE3}
+8. क्षेत्र: ${REGION}
+9. शहर: ${CITY}
+10 प्रांत: ${PROVINCE}
+11. पिन कोड: ${POSTALCODE}
+12. मोबाइल नंबर: ${PHONE}
+13. ई-मेल: ${EMAIL}",10005,पंजीकरण,reg-email-notification,hin,TRUE,superadmin,now()
+1137,ஒப்புகை மின்னஞ்சல் டெம்ப்ளேட்,பதிவு ஒப்புகை டெம்ப்ளேட்,txt,velocity,"அன்பே ${FULLNAME},
+டிஜிட்டல் அடையாள மேடையில் பதிவு செய்ததற்கு நன்றி. உங்களின் பதிவுக் அடையாள உள்ளது """" ${RID} """". பின்வருமாறு மக்கள் தொகை விவரங்கள்:
+1. தேதி: ${Date}
+2. முழு பெயர்: ${FULLNAME}
+3. பிறந்த தேதி: ${DOB}
+4. பாலினம்: ${GENDER}
+5. முகவரி வரி 1: ${ADDRESSLINE1}
+6. முகவரி வரி 2: ${ADDRESSLINE2}
+7. முகவரி வரி 3: ${ADDRESSLINE3}
+8. பகுதி: ${REGION}
+9. பெருநகரம்: ${CITY}
+10. மாகாணம்: ${PROVINCE}
+11. அஞ்சல் குறியீடு: ${POSTALCODE}
+12. மொபைல் எண்: ${PHONE}
+13. மின்னஞ்சல்: ${EMAIL}",10005,பதிவு,reg-email-notification,tam,TRUE,superadmin,now()
+1137,ಸ್ವೀಕೃತಿ ಇಮೇಲ್ ಟೆಂಪ್ಲೇಟು,ನೋಂದಣಿ ಸ್ವೀಕೃತಿ ಟೆಂಪ್ಲೇಟು,txt,velocity,"ಆತ್ಮೀಯ ${FULLNAME},
+ಡಿಜಿಟಲ್ ಐಡೆಂಟಿಟಿ ವೇದಿಕೆ ನೋಂದಾಯಿಸಿಕೊಳ್ಳುವ ಧನ್ಯವಾದಗಳು. """"${RID}"""". ಕೆಳಗಿನಂತೆ ಜನಸಂಖ್ಯಾ ವಿವರಗಳಿವೆ:
+1. ದಿನಾಂಕ: ${Date}
+2. ಪೂರ್ಣ ಹೆಸರು: ${FULLNAME}
+3. ಜನ್ಮದಿನಾಂಕ: ${DOB}
+4. ಲಿಂಗ: ${GENDER}
+5. ವಿಳಾಸ ಸಾಲು 1: ${ADDRESSLINE1}
+6. ವಿಳಾಸ ಸಾಲು 2: ${ADDRESSLINE2}
+7. ವಿಳಾಸ ಸಾಲು 3: ${ADDRESSLINE3}
+8. ಪ್ರದೇಶ: ${REGION}
+9. ಸಿಟಿ: ${CITY}
+10. ಪ್ರಾಂತ್ಯ: ${PROVINCE}
+11. ಕೋಡ್: ${POSTALCODE}
+12. ಮೊಬೈಲ್ ಸಂಖ್ಯೆ: ${PHONE}
+13. ಇಮೇಲ್: ${EMAIL} ಗೆ",10005,ನೋಂದಣಿ,reg-email-notification,kan,TRUE,superadmin,now()
 1142,auth otp service,auth otp service for sending otp,txt,velocity,يرجى الاطلاع على otp $otp,10001,ما قبل التسجيل,auth-otp-sms-template,ara,TRUE,superadmin,now()
 1142,auth otp service,auth otp service for sending otp,txt,velocity,Please find the otp $otp,10001,Pre-Registration,auth-otp-sms-template,eng,TRUE,superadmin,now()
 1142,auth otp service,auth otp service for sending otp,txt,velocity,Please find the otp $otp,10001,Pré-inscription,auth-otp-sms-template,fra,TRUE,superadmin,now()
@@ -1749,27 +1749,27 @@ Je comprends également que ces informations seront stockées et traitées dans 
 1155,اعتراف قالب البريد الإلكتروني,تسجيل قالب الاعتراف,txt,velocity,"العزيز ${ResidentName}, شكرًا لك على تحديث التفاصيل الخاصة بك باستخدام نظام الهوية الرقمية. معرف التسجيل الخاص بك هو ""${RID}"".",10005,التسجيل,updateUIN-email-notification,ara,TRUE,superadmin,now()
 1155,Acknowledgement Email Template,Registration Acknowledgement Template,txt,velocity,"Dear ${ResidentName}, Thank you for updating your details with Digital Identity platform. Your registration id is ""${RID}"".",10005,Registration,updateUIN-email-notification,eng,TRUE,superadmin,now()
 1155,Modèle d'email de reconnaissance,Modèle de confirmation d'inscription,txt,velocity,"Dear ${ResidentName}, Merci de mettre à jour vos coordonnées avec la plateforme d’identité numérique. Votre identifiant d'inscription est ""${RID}"".",10005,Inscription,updateUIN-email-notification,fra,TRUE,superadmin,now()
-1155,पावती ईमेल टेम्पलेट,पंजीकरण पावती खाका,txt,velocity,"प्रिय $ {ResidentName}, डिजिटल पहचान मंच के साथ अपने विवरण को अद्यतन करने के लिए धन्यवाद। आपका पंजीकरण आईडी ""$ {RID}"" है।",10005,पंजीकरण,updateUIN-email-notification,hin,TRUE,superadmin,now()
-1155,ஒப்புகை மின்னஞ்சல் டெம்ப்ளேட்,பதிவு ஒப்புகை டெம்ப்ளேட்,txt,velocity,"அன்பே $ {ResidentName}, டிஜிட்டல் அடையாள மேடையில் உங்கள் விவரங்களை புதுப்பித்ததற்கு நன்றி. உங்களின் பதிவுக் ஐடி ""$ {RID என்பது}"" ஆகும்.",10005,பதிவு,updateUIN-email-notification,tam,TRUE,superadmin,now()
-1155,ಸ್ವೀಕೃತಿ ಇಮೇಲ್ ಟೆಂಪ್ಲೇಟು,ನೋಂದಣಿ ಸ್ವೀಕೃತಿ ಟೆಂಪ್ಲೇಟು,txt,velocity,"$ ಆತ್ಮೀಯ {ResidentName}, ಡಿಜಿಟಲ್ ಐಡೆಂಟಿಟಿ ವೇದಿಕೆ ನಿಮ್ಮ ವಿವರಗಳನ್ನು ಅಪ್ಡೇಟ್ ಧನ್ಯವಾದಗಳು. ನಿಮ್ಮ ನೋಂದಣಿ ಐಡಿ ""$ {ಹೋಗಲಾಡಿಸಲು}"" ಆಗಿದೆ.",10005,ನೋಂದಣಿ,updateUIN-email-notification,kan,TRUE,superadmin,now()
+1155,पावती ईमेल टेम्पलेट,पंजीकरण पावती खाका,txt,velocity,"प्रिय ${ResidentName}, डिजिटल पहचान मंच के साथ अपने विवरण को अद्यतन करने के लिए धन्यवाद। आपका पंजीकरण आईडी ""${RID}"" है।",10005,पंजीकरण,updateUIN-email-notification,hin,TRUE,superadmin,now()
+1155,ஒப்புகை மின்னஞ்சல் டெம்ப்ளேட்,பதிவு ஒப்புகை டெம்ப்ளேட்,txt,velocity,"அன்பே ${ResidentName}, டிஜிட்டல் அடையாள மேடையில் உங்கள் விவரங்களை புதுப்பித்ததற்கு நன்றி. உங்களின் பதிவுக் ஐடி ""${RID}"" ஆகும்.",10005,பதிவு,updateUIN-email-notification,tam,TRUE,superadmin,now()
+1155,ಸ್ವೀಕೃತಿ ಇಮೇಲ್ ಟೆಂಪ್ಲೇಟು,ನೋಂದಣಿ ಸ್ವೀಕೃತಿ ಟೆಂಪ್ಲೇಟು,txt,velocity," ಆತ್ಮೀಯ ${ResidentName}, ಡಿಜಿಟಲ್ ಐಡೆಂಟಿಟಿ ವೇದಿಕೆ ನಿಮ್ಮ ವಿವರಗಳನ್ನು ಅಪ್ಡೇಟ್ ಧನ್ಯವಾದಗಳು. ನಿಮ್ಮ ನೋಂದಣಿ ಐಡಿ ""${RID}"" ಆಗಿದೆ.",10005,ನೋಂದಣಿ,updateUIN-email-notification,kan,TRUE,superadmin,now()
 1156,قالب الاعتراف,تسجيل قالب الاعتراف,txt,velocity,"العزيز ${ResidentName}, شكرًا لك على تحديث التفاصيل الخاصة بك باستخدام نظام الهوية الرقمية. معرف التسجيل الخاص بك هو ""${RID}"".",10005,التسجيل,updateUIN-sms-notification,ara,TRUE,superadmin,now()
 1156,Acknowledgement SMS Template,Registration Acknowledgement Template,txt,velocity,"Dear ${ResidentName}, Thank you for updating your details with Digital Identity platform. Your registration id is ""${RID}"".",10005,Registration,updateUIN-sms-notification,eng,TRUE,superadmin,now()
 1156,Modèle de SMS de reconnaissance,Modèle de confirmation d'inscription,txt,velocity,"Dear ${ResidentName}, Merci de mettre à jour vos coordonnées avec la plateforme d’identité numérique. Votre identifiant d'inscription est ""${RID}"".",10005,Inscription,updateUIN-sms-notification,fra,TRUE,superadmin,now()
-1156,पावती एसएमएस टेम्पलेट,पंजीकरण पावती खाका,txt,velocity,"प्रिय $ {ResidentName}, डिजिटल पहचान मंच के साथ अपने विवरण को अद्यतन करने के लिए धन्यवाद। आपका पंजीकरण आईडी ""$ {RID}"" है।",10005,पंजीकरण,updateUIN-sms-notification,hin,TRUE,superadmin,now()
-1156,ஒப்புகை எஸ்எம்எஸ் டெம்ப்ளேட்,பதிவு ஒப்புகை டெம்ப்ளேட்,txt,velocity,"அன்பே $ {ResidentName}, டிஜிட்டல் அடையாள மேடையில் உங்கள் விவரங்களை புதுப்பித்ததற்கு நன்றி. உங்களின் பதிவுக் ஐடி ""$ {RID என்பது}"" ஆகும்.",10005,பதிவு,updateUIN-sms-notification,tam,TRUE,superadmin,now()
-1156,ಸ್ವೀಕೃತಿ ಎಸ್ಎಂಎಸ್ ಟೆಂಪ್ಲೇಟು,ನೋಂದಣಿ ಸ್ವೀಕೃತಿ ಟೆಂಪ್ಲೇಟು,txt,velocity,"$ ಆತ್ಮೀಯ {ResidentName}, ಡಿಜಿಟಲ್ ಐಡೆಂಟಿಟಿ ವೇದಿಕೆ ನಿಮ್ಮ ವಿವರಗಳನ್ನು ಅಪ್ಡೇಟ್ ಧನ್ಯವಾದಗಳು. ನಿಮ್ಮ ನೋಂದಣಿ ಐಡಿ ""$ {ಹೋಗಲಾಡಿಸಲು}"" ಆಗಿದೆ.",10005,ನೋಂದಣಿ,updateUIN-sms-notification,kan,TRUE,superadmin,now()
+1156,पावती एसएमएस टेम्पलेट,पंजीकरण पावती खाका,txt,velocity,"प्रिय ${ResidentName}, डिजिटल पहचान मंच के साथ अपने विवरण को अद्यतन करने के लिए धन्यवाद। आपका पंजीकरण आईडी ""${RID}"" है।",10005,पंजीकरण,updateUIN-sms-notification,hin,TRUE,superadmin,now()
+1156,ஒப்புகை எஸ்எம்எஸ் டெம்ப்ளேட்,பதிவு ஒப்புகை டெம்ப்ளேட்,txt,velocity,"அன்பே ${ResidentName}, டிஜிட்டல் அடையாள மேடையில் உங்கள் விவரங்களை புதுப்பித்ததற்கு நன்றி. உங்களின் பதிவுக் ஐடி ""${RID}"" ஆகும்.",10005,பதிவு,updateUIN-sms-notification,tam,TRUE,superadmin,now()
+1156,ಸ್ವೀಕೃತಿ ಎಸ್ಎಂಎಸ್ ಟೆಂಪ್ಲೇಟು,ನೋಂದಣಿ ಸ್ವೀಕೃತಿ ಟೆಂಪ್ಲೇಟು,txt,velocity," ಆತ್ಮೀಯ ${ResidentName}, ಡಿಜಿಟಲ್ ಐಡೆಂಟಿಟಿ ವೇದಿಕೆ ನಿಮ್ಮ ವಿವರಗಳನ್ನು ಅಪ್ಡೇಟ್ ಧನ್ಯವಾದಗಳು. ನಿಮ್ಮ ನೋಂದಣಿ ಐಡಿ ""${RID}"" ಆಗಿದೆ.",10005,ನೋಂದಣಿ,updateUIN-sms-notification,kan,TRUE,superadmin,now()
 1157,اعتراف قالب البريد الإلكتروني,تسجيل قالب الاعتراف,txt,velocity,"عزيزي المستخدم ، شكرًا لك على طلبك لاسترداد رقم التعريف الشخصي المفقود. معرف التسجيل الخاص بك لهذا الطلب هو ""${RID}"".",10005,التسجيل,lostUIN-email-notification,ara,TRUE,superadmin,now()
 1157,Acknowledgement Email Template,Registration Acknowledgement Template,txt,velocity,"Dear user, Thank you for your request to retrieve your lost UIN. Your registration id for this request is  ""${RID}"".",10005,Registration,lostUIN-email-notification,eng,TRUE,superadmin,now()
 1157,Modèle d'email de reconnaissance,Modèle de confirmation d'inscription,txt,velocity,"Cher utilisateur, Merci pour votre demande de récupération de votre UIN perdu. Votre identifiant d'enregistrement pour cette demande est  ""${RID}"".",10005,Inscription,lostUIN-email-notification,fra,TRUE,superadmin,now()
-1157,पावती ईमेल टेम्पलेट,पंजीकरण पावती खाका,txt,velocity,"प्रिय उपयोगकर्ता, अपने खोए हुए यूआईएन पुनः प्राप्त करने के लिए आपके अनुरोध के लिए धन्यवाद। इस अनुरोध के लिए आपका पंजीकरण आईडी ""$ {RID}"" है।",10005,पंजीकरण,lostUIN-email-notification,hin,TRUE,superadmin,now()
-1157,ஒப்புகை மின்னஞ்சல் டெம்ப்ளேட்,பதிவு ஒப்புகை டெம்ப்ளேட்,txt,velocity,"அன்பே பயனர், உங்கள் இழந்த UIN மீட்டெடுக்க, உங்களின் கோரிக்கைக்கு நன்றி. இந்தக் கோரிக்கைக்கான பதிவு ஐடி ""$ {RID என்பது}"" ஆகும்.",10005,பதிவு,lostUIN-email-notification,tam,TRUE,superadmin,now()
-1157,ಸ್ವೀಕೃತಿ ಇಮೇಲ್ ಟೆಂಪ್ಲೇಟು,ನೋಂದಣಿ ಸ್ವೀಕೃತಿ ಟೆಂಪ್ಲೇಟು,txt,velocity,"ಬಳಕೆದಾರ ಆತ್ಮೀಯ, ನಿಮ್ಮ ಕಳೆದುಕೊಂಡ, UIN ಹಿಂಪಡೆಯಲು ನಿಮ್ಮ ಕೋರಿಕೆಗೆ ಧನ್ಯವಾದಗಳು. ಈ ವಿನಂತಿಗೆ ನೋಂದಣಿ ಐಡಿ ""$ {ಹೋಗಲಾಡಿಸಲು}"" ಆಗಿದೆ.",10005,ನೋಂದಣಿ,lostUIN-email-notification,kan,TRUE,superadmin,now()
+1157,पावती ईमेल टेम्पलेट,पंजीकरण पावती खाका,txt,velocity,"प्रिय उपयोगकर्ता, अपने खोए हुए यूआईएन पुनः प्राप्त करने के लिए आपके अनुरोध के लिए धन्यवाद। इस अनुरोध के लिए आपका पंजीकरण आईडी ""${RID}"" है।",10005,पंजीकरण,lostUIN-email-notification,hin,TRUE,superadmin,now()
+1157,ஒப்புகை மின்னஞ்சல் டெம்ப்ளேட்,பதிவு ஒப்புகை டெம்ப்ளேட்,txt,velocity,"அன்பே பயனர், உங்கள் இழந்த UIN மீட்டெடுக்க, உங்களின் கோரிக்கைக்கு நன்றி. இந்தக் கோரிக்கைக்கான பதிவு ஐடி ""${RID}"" ஆகும்.",10005,பதிவு,lostUIN-email-notification,tam,TRUE,superadmin,now()
+1157,ಸ್ವೀಕೃತಿ ಇಮೇಲ್ ಟೆಂಪ್ಲೇಟು,ನೋಂದಣಿ ಸ್ವೀಕೃತಿ ಟೆಂಪ್ಲೇಟು,txt,velocity,"ಬಳಕೆದಾರ ಆತ್ಮೀಯ, ನಿಮ್ಮ ಕಳೆದುಕೊಂಡ, UIN ಹಿಂಪಡೆಯಲು ನಿಮ್ಮ ಕೋರಿಕೆಗೆ ಧನ್ಯವಾದಗಳು. ಈ ವಿನಂತಿಗೆ ನೋಂದಣಿ ಐಡಿ ""${RID}"" ಆಗಿದೆ.",10005,ನೋಂದಣಿ,lostUIN-email-notification,kan,TRUE,superadmin,now()
 1158,قالب رسالة شكر وتقدير الإلكتروني,تسجيل قالب الاعتراف,txt,velocity,"عزيزي المستخدم ، شكرًا لك على طلبك لاسترداد رقم التعريف الشخصي المفقود. معرف التسجيل الخاص بك لهذا الطلب هو ""${RID}"".",10005,التسجيل,lostUIN-sms-notification,ara,TRUE,superadmin,now()
 1158,Acknowledgement SMS Template,Registration Acknowledgement Template,txt,velocity,"Dear user, Thank you for your request to retrieve your lost UIN. Your registration id for this request is  ""${RID}"".",10005,Registration,lostUIN-sms-notification,eng,TRUE,superadmin,now()
 1158,Modèle de SMS de reconnaissance,Modèle de confirmation d'inscription,txt,velocity,"Cher utilisateur, Merci pour votre demande de récupération de votre UIN perdu. Votre identifiant d'enregistrement pour cette demande est  ""${RID}"".",10005,Inscription,lostUIN-sms-notification,fra,TRUE,superadmin,now()
-1158,पावती एसएमएस टेम्पलेट,पंजीकरण पावती खाका,txt,velocity,"प्रिय उपयोगकर्ता, अपने खोए हुए यूआईएन पुनः प्राप्त करने के लिए आपके अनुरोध के लिए धन्यवाद। इस अनुरोध के लिए आपका पंजीकरण आईडी ""$ {RID}"" है।",10005,पंजीकरण,lostUIN-sms-notification,hin,TRUE,superadmin,now()
-1158,ஒப்புகை எஸ்எம்எஸ் டெம்ப்ளேட்,பதிவு ஒப்புகை டெம்ப்ளேட்,txt,velocity,"அன்பே பயனர், உங்கள் இழந்த UIN மீட்டெடுக்க, உங்களின் கோரிக்கைக்கு நன்றி. இந்தக் கோரிக்கைக்கான பதிவு ஐடி ""$ {RID என்பது}"" ஆகும்.",10005,பதிவு,lostUIN-sms-notification,tam,TRUE,superadmin,now()
-1158,ಸ್ವೀಕೃತಿ ಎಸ್ಎಂಎಸ್ ಟೆಂಪ್ಲೇಟು,ನೋಂದಣಿ ಸ್ವೀಕೃತಿ ಟೆಂಪ್ಲೇಟು,txt,velocity,"ಬಳಕೆದಾರ ಆತ್ಮೀಯ, ನಿಮ್ಮ ಕಳೆದುಕೊಂಡ, UIN ಹಿಂಪಡೆಯಲು ನಿಮ್ಮ ಕೋರಿಕೆಗೆ ಧನ್ಯವಾದಗಳು. ಈ ವಿನಂತಿಗೆ ನೋಂದಣಿ ಐಡಿ ""$ {ಹೋಗಲಾಡಿಸಲು}"" ಆಗಿದೆ.",10005,ನೋಂದಣಿ,lostUIN-sms-notification,kan,TRUE,superadmin,now()
+1158,पावती एसएमएस टेम्पलेट,पंजीकरण पावती खाका,txt,velocity,"प्रिय उपयोगकर्ता, अपने खोए हुए यूआईएन पुनः प्राप्त करने के लिए आपके अनुरोध के लिए धन्यवाद। इस अनुरोध के लिए आपका पंजीकरण आईडी ""${RID}"" है।",10005,पंजीकरण,lostUIN-sms-notification,hin,TRUE,superadmin,now()
+1158,ஒப்புகை எஸ்எம்எஸ் டெம்ப்ளேட்,பதிவு ஒப்புகை டெம்ப்ளேட்,txt,velocity,"அன்பே பயனர், உங்கள் இழந்த UIN மீட்டெடுக்க, உங்களின் கோரிக்கைக்கு நன்றி. இந்தக் கோரிக்கைக்கான பதிவு ஐடி ""${RID}"" ஆகும்.",10005,பதிவு,lostUIN-sms-notification,tam,TRUE,superadmin,now()
+1158,ಸ್ವೀಕೃತಿ ಎಸ್ಎಂಎಸ್ ಟೆಂಪ್ಲೇಟು,ನೋಂದಣಿ ಸ್ವೀಕೃತಿ ಟೆಂಪ್ಲೇಟು,txt,velocity,"ಬಳಕೆದಾರ ಆತ್ಮೀಯ, ನಿಮ್ಮ ಕಳೆದುಕೊಂಡ, UIN ಹಿಂಪಡೆಯಲು ನಿಮ್ಮ ಕೋರಿಕೆಗೆ ಧನ್ಯವಾದಗಳು. ಈ ವಿನಂತಿಗೆ ನೋಂದಣಿ ಐಡಿ ""${RID}"" ಆಗಿದೆ.",10005,ನೋಂದಣಿ,lostUIN-sms-notification,kan,TRUE,superadmin,now()
 1159,Template for Cancel Appointment,Template for Cancel Appointment,txt,velocity,"Dear $name,
 
 Your appointment for pre-registration id, $PRID and appointment date and time, $Appointmentdate $Appointmenttime has been canceled due to a government emergency/holiday. Please re-book another slot for Registration.
