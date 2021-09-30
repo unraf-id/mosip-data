@@ -36,19 +36,19 @@ Thank You",10003,Registration Processor,RPR_DUP_UIN_EMAIL,eng,TRUE,superadmin,no
 Votre demande d'UIN pour l'ID d'enregistrement: $!RID a échoué car un duplicata d'UIN a été trouvé par rapport à vos informations. Veuillez vous rendre au bureau d’enregistrement le plus proche ou sur https://mosip.io/grievances
 
 Merci",10003,Processeur dinscription,RPR_DUP_UIN_EMAIL,fra,TRUE,superadmin,now()
-1107,डुप्लिकेट यूआईएन ईमेल के लिए खाका,डुप्लिकेट यूआईएन ईमेल के लिए खाका,txt,velocity,"प्रिय $! Name_eng,
+1107,डुप्लिकेट यूआईएन ईमेल के लिए खाका,डुप्लिकेट यूआईएन ईमेल के लिए खाका,txt,velocity,"प्रिय $!name_hin,
 
-पंजीकरण आईडी के लिए यूआईएन के लिए आपका अनुरोध: क्योंकि एक नकली यूआईएन आपके विवरण के खिलाफ पाया गया है $ RID नाकाम रही है। कृपया अपने निकटतम पंजीकरण कार्यालय पर जाएँ या जाएँ https://mosip.io/grievances
+पंजीकरण आईडी के लिए यूआईएन के लिए आपका अनुरोध: क्योंकि एक नकली यूआईएन आपके विवरण के खिलाफ पाया गया है $!RID नाकाम रही है। कृपया अपने निकटतम पंजीकरण कार्यालय पर जाएँ या जाएँ https://mosip.io/grievances
 
 जी शुक्रिया",10003,पंजीकरण प्रोसेसर,RPR_DUP_UIN_EMAIL,hin,TRUE,superadmin,now()
-1107,போலி UIN மின்னஞ்சல் டெம்ப்ளேட்,போலி UIN மின்னஞ்சல் டெம்ப்ளேட்,txt,velocity,"அன்பே $! Name_eng,
+1107,போலி UIN மின்னஞ்சல் டெம்ப்ளேட்,போலி UIN மின்னஞ்சல் டெம்ப்ளேட்,txt,velocity,"அன்பே $!name_tam,
 
-பதிவு ஐடி UIN உங்கள் கோரிக்கை: ஒரு போலி UIN உங்கள் விவரங்களை எதிராக கண்டறியப்பட்டுள்ளது ஏனெனில் $ RID என்பது தோல்வியடைந்தது. உங்கள் அருகில் உள்ள பதிவு அலுவலகம் செல்லுங்கள் அல்லது https://mosip.io/grievances பார்வையிடவும்
+பதிவு ஐடி UIN உங்கள் கோரிக்கை: ஒரு போலி UIN உங்கள் விவரங்களை எதிராக கண்டறியப்பட்டுள்ளது ஏனெனில் $!RID என்பது தோல்வியடைந்தது. உங்கள் அருகில் உள்ள பதிவு அலுவலகம் செல்லுங்கள் அல்லது https://mosip.io/grievances பார்வையிடவும்
 
 நன்றி",10003,பதிவு செயலி,RPR_DUP_UIN_EMAIL,tam,TRUE,superadmin,now()
-1107,"ನಕಲಿ, UIN ಇಮೇಲ್ ಟೆಂಪ್ಲೇಟ್","ನಕಲಿ, UIN ಇಮೇಲ್ ಟೆಂಪ್ಲೇಟ್",txt,velocity,"$ ಆತ್ಮೀಯ! Name_eng,
+1107,"ನಕಲಿ, UIN ಇಮೇಲ್ ಟೆಂಪ್ಲೇಟ್","ನಕಲಿ, UIN ಇಮೇಲ್ ಟೆಂಪ್ಲೇಟ್",txt,velocity," ಆತ್ಮೀಯ $!name_kan,
 
-ನೋಂದಣಿ ಚೀಟಿಗಳನ್ನು, UIN ನಿಮ್ಮ ವಿನಂತಿಯನ್ನು! ನಕಲು, UIN ನಿಮ್ಮ ವಿವರಗಳನ್ನು ವಿರುದ್ಧ ಕಂಡು ಬಂದಿದ್ದರಿಂದ $ ಹೋಗಲಾಡಿಸಲು ವಿಫಲವಾಗಿದೆ. ನಿಮ್ಮ ಹತ್ತಿರದ ನೋಂದಣಿ ಕಚೇರಿಯಲ್ಲಿ ಭೇಟಿ ಅಥವಾ https://mosip.io/grievances ಭೇಟಿ ನೀಡಿ
+ನೋಂದಣಿ ಚೀಟಿಗಳನ್ನು, UIN ನಿಮ್ಮ ವಿನಂತಿಯನ್ನು! ನಕಲು, UIN ನಿಮ್ಮ ವಿವರಗಳನ್ನು ವಿರುದ್ಧ ಕಂಡು ಬಂದಿದ್ದರಿಂದ $!RID ಹೋಗಲಾಡಿಸಲು ವಿಫಲವಾಗಿದೆ. ನಿಮ್ಮ ಹತ್ತಿರದ ನೋಂದಣಿ ಕಚೇರಿಯಲ್ಲಿ ಭೇಟಿ ಅಥವಾ https://mosip.io/grievances ಭೇಟಿ ನೀಡಿ
 
 ಧನ್ಯವಾದಗಳು",10003,ನೋಂದಣಿ ಪ್ರೊಸೆಸರ್,RPR_DUP_UIN_EMAIL,kan,TRUE,superadmin,now()
 1108,Template for duplicate UIN SMS,Template for duplicate UIN SMS,txt,velocity,"Dear $!name_eng,
@@ -60,15 +60,21 @@ Your request for UIN for Registration ID: $!RID has failed because a duplicate U
 1108,Modèle de message didentité en double,Modèle de message didentité en double,txt,velocity,"Cher $!name_fra,
 
 Votre demande d'UIN pour l'ID d'enregistrement: $!RID a échoué car un duplicata d'UIN a été trouvé par rapport à vos informations. Veuillez vous rendre au bureau d’enregistrement le plus proche ou sur https://mosip.io/grievances",10003,Processeur dinscription,RPR_DUP_UIN_SMS,fra,TRUE,superadmin,now()
-1108,डुप्लिकेट यूआईएन एसएमएस के लिए खाका,डुप्लिकेट यूआईएन एसएमएस के लिए खाका,txt,velocity,"प्रिय $! Name_eng,
+1108,डुप्लिकेट यूआईएन एसएमएस के लिए खाका,डुप्लिकेट यूआईएन एसएमएस के लिए खाका,txt,velocity,"प्रिय $!name_hin,
 
-पंजीकरण आईडी के लिए यूआईएन के लिए आपका अनुरोध: क्योंकि एक नकली यूआईएन आपके विवरण के खिलाफ पाया गया है $ RID नाकाम रही है। कृपया अपने निकटतम पंजीकरण कार्यालय पर जाएँ या जाएँ https://mosip.io/grievances",10003,पंजीकरण प्रोसेसर,RPR_DUP_UIN_SMS,hin,TRUE,superadmin,now()
-1108,போலி UIN எஸ்எம்எஸ் டெம்ப்ளேட்,போலி UIN எஸ்எம்எஸ் டெம்ப்ளேட்,txt,velocity,"அன்பே $! Name_eng,
+पंजीकरण आईडी के लिए यूआईएन के लिए आपका अनुरोध: क्योंकि एक नकली यूआईएन आपके विवरण के खिलाफ पाया गया है $!RID नाकाम रही है। कृपया अपने निकटतम पंजीकरण कार्यालय पर जाएँ या जाएँ https://mosip.io/grievances
 
-பதிவு ஐடி UIN உங்கள் கோரிக்கை: ஒரு போலி UIN உங்கள் விவரங்களை எதிராக கண்டறியப்பட்டுள்ளது ஏனெனில் $ RID என்பது தோல்வியடைந்தது. உங்கள் அருகில் உள்ள பதிவு அலுவலகம் செல்லுங்கள் அல்லது https://mosip.io/grievances பார்வையிடவும்",10003,பதிவு செயலி,RPR_DUP_UIN_SMS,tam,TRUE,superadmin,now()
-1108,"ನಕಲಿ, UIN ಎಸ್ಎಂಎಸ್ ಟೆಂಪ್ಲೇಟು","ನಕಲಿ, UIN ಎಸ್ಎಂಎಸ್ ಟೆಂಪ್ಲೇಟು",txt,velocity,"$ ಆತ್ಮೀಯ! Name_eng,
+जी शुक्रिया",10003,पंजीकरण प्रोसेसर,RPR_DUP_UIN_SMS,hin,TRUE,superadmin,now()
+1108,போலி UIN எஸ்எம்எஸ் டெம்ப்ளேட்,போலி UIN எஸ்எம்எஸ் டெம்ப்ளேட்,txt,velocity,"அன்பே $!name_tam,
 
-ನೋಂದಣಿ ಚೀಟಿಗಳನ್ನು, UIN ನಿಮ್ಮ ವಿನಂತಿಯನ್ನು! ನಕಲು, UIN ನಿಮ್ಮ ವಿವರಗಳನ್ನು ವಿರುದ್ಧ ಕಂಡು ಬಂದಿದ್ದರಿಂದ $ ಹೋಗಲಾಡಿಸಲು ವಿಫಲವಾಗಿದೆ. ನಿಮ್ಮ ಹತ್ತಿರದ ನೋಂದಣಿ ಕಚೇರಿಯಲ್ಲಿ ಭೇಟಿ ಅಥವಾ https://mosip.io/grievances ಭೇಟಿ ನೀಡಿ",10003,ನೋಂದಣಿ ಪ್ರೊಸೆಸರ್,RPR_DUP_UIN_SMS,kan,TRUE,superadmin,now()
+பதிவு ஐடி UIN உங்கள் கோரிக்கை: ஒரு போலி UIN உங்கள் விவரங்களை எதிராக கண்டறியப்பட்டுள்ளது ஏனெனில் $!RID என்பது தோல்வியடைந்தது. உங்கள் அருகில் உள்ள பதிவு அலுவலகம் செல்லுங்கள் அல்லது https://mosip.io/grievances பார்வையிடவும்
+
+நன்றி",10003,பதிவு செயலி,RPR_DUP_UIN_SMS,tam,TRUE,superadmin,now()
+1108,"ನಕಲಿ, UIN ಎಸ್ಎಂಎಸ್ ಟೆಂಪ್ಲೇಟು","ನಕಲಿ, UIN ಎಸ್ಎಂಎಸ್ ಟೆಂಪ್ಲೇಟು",txt,velocity," ಆತ್ಮೀಯ $!name_kan,
+
+ನೋಂದಣಿ ಚೀಟಿಗಳನ್ನು, UIN ನಿಮ್ಮ ವಿನಂತಿಯನ್ನು! ನಕಲು, UIN ನಿಮ್ಮ ವಿವರಗಳನ್ನು ವಿರುದ್ಧ ಕಂಡು ಬಂದಿದ್ದರಿಂದ $!RID ಹೋಗಲಾಡಿಸಲು ವಿಫಲವಾಗಿದೆ. ನಿಮ್ಮ ಹತ್ತಿರದ ನೋಂದಣಿ ಕಚೇರಿಯಲ್ಲಿ ಭೇಟಿ ಅಥವಾ https://mosip.io/grievances ಭೇಟಿ ನೀಡಿ
+
+ಧನ್ಯವಾದಗಳು",10003,ನೋಂದಣಿ ಪ್ರೊಸೆಸರ್,RPR_DUP_UIN_SMS,kan,TRUE,superadmin,now()
 1109,Template for Technical Issue Email,Template for Technical Issue Email,txt,velocity,"Dear $!name_eng,
 
 Your request for UIN for Registration ID: $!RID has failed because of a technical issue. Please visit your nearest Registration office or visit https://mosip.io/grievances
@@ -84,19 +90,19 @@ Thank You",10003,Registration Processor,RPR_TEC_ISSUE_EMAIL,eng,TRUE,superadmin,
 Votre demande d'UIN pour l'ID d'enregistrement: $!RID a échoué en raison d'un problème technique. Veuillez vous rendre au bureau d’enregistrement le plus proche ou sur https://mosip.io/grievances
 
 Merci",10003,Processeur dinscription,RPR_TEC_ISSUE_EMAIL,fra,TRUE,superadmin,now()
-1109,के लिए तकनीकी समस्या ईमेल टेम्पलेट,के लिए तकनीकी समस्या ईमेल टेम्पलेट,txt,velocity,"प्रिय $! Name_eng,
+1109,के लिए तकनीकी समस्या ईमेल टेम्पलेट,के लिए तकनीकी समस्या ईमेल टेम्पलेट,txt,velocity,"प्रिय $!name_hin,
 
-पंजीकरण आईडी के लिए यूआईएन के लिए आपका अनुरोध: $ RID एक तकनीकी समस्या के कारण विफल रहा है। कृपया अपने निकटतम पंजीकरण कार्यालय पर जाएँ या जाएँ https://mosip.io/grievances
+पंजीकरण आईडी के लिए यूआईएन के लिए आपका अनुरोध: $!RID एक तकनीकी समस्या के कारण विफल रहा है। कृपया अपने निकटतम पंजीकरण कार्यालय पर जाएँ या जाएँ https://mosip.io/grievances
 
 जी शुक्रिया",10003,पंजीकरण प्रोसेसर,RPR_TEC_ISSUE_EMAIL,hin,TRUE,superadmin,now()
-1109,தொழில்நுட்ப வெளியீடு மின்னஞ்சல் டெம்ப்ளேட்,தொழில்நுட்ப வெளியீடு மின்னஞ்சல் டெம்ப்ளேட்,txt,velocity,"அன்பே $! Name_eng,
+1109,தொழில்நுட்ப வெளியீடு மின்னஞ்சல் டெம்ப்ளேட்,தொழில்நுட்ப வெளியீடு மின்னஞ்சல் டெம்ப்ளேட்,txt,velocity,"அன்பே $!name_tam,
 
-பதிவு ஐடி UIN உங்கள் கோரிக்கை: $ RID என்பது ஏனெனில் ஒரு தொழில்நுட்ப இதழின் தோல்வியடைந்தது. உங்கள் அருகில் உள்ள பதிவு அலுவலகம் செல்லுங்கள் அல்லது https://mosip.io/grievances பார்வையிடவும்
+பதிவு ஐடி UIN உங்கள் கோரிக்கை: $!RID என்பது ஏனெனில் ஒரு தொழில்நுட்ப இதழின் தோல்வியடைந்தது. உங்கள் அருகில் உள்ள பதிவு அலுவலகம் செல்லுங்கள் அல்லது https://mosip.io/grievances பார்வையிடவும்
 
 நன்றி",10003,பதிவு செயலி,RPR_TEC_ISSUE_EMAIL,tam,TRUE,superadmin,now()
-1109,ತಾಂತ್ರಿಕ ಸಂಚಿಕೆ ಇಮೇಲ್ ಟೆಂಪ್ಲೇಟ್,ತಾಂತ್ರಿಕ ಸಂಚಿಕೆ ಇಮೇಲ್ ಟೆಂಪ್ಲೇಟ್,txt,velocity,"$ ಆತ್ಮೀಯ! Name_eng,
+1109,ತಾಂತ್ರಿಕ ಸಂಚಿಕೆ ಇಮೇಲ್ ಟೆಂಪ್ಲೇಟ್,ತಾಂತ್ರಿಕ ಸಂಚಿಕೆ ಇಮೇಲ್ ಟೆಂಪ್ಲೇಟ್,txt,velocity," ಆತ್ಮೀಯ $!name_kan,
 
-ನೋಂದಣಿ ಚೀಟಿಗಳನ್ನು, UIN ನಿಮ್ಮ ವಿನಂತಿಯನ್ನು! $ ಹೋಗಲಾಡಿಸಲು ಕಾರಣ ತಾಂತ್ರಿಕ ಸಮಸ್ಯೆಯನ್ನು ಆಫ್ ವಿಫಲವಾಗಿದೆ. ನಿಮ್ಮ ಹತ್ತಿರದ ನೋಂದಣಿ ಕಚೇರಿಯಲ್ಲಿ ಭೇಟಿ ಅಥವಾ https://mosip.io/grievances ಭೇಟಿ ನೀಡಿ
+ನೋಂದಣಿ ಚೀಟಿಗಳನ್ನು, UIN ನಿಮ್ಮ ವಿನಂತಿಯನ್ನು $!RID ಹೋಗಲಾಡಿಸಲು ಕಾರಣ ತಾಂತ್ರಿಕ ಸಮಸ್ಯೆಯನ್ನು ಆಫ್ ವಿಫಲವಾಗಿದೆ. ನಿಮ್ಮ ಹತ್ತಿರದ ನೋಂದಣಿ ಕಚೇರಿಯಲ್ಲಿ ಭೇಟಿ ಅಥವಾ https://mosip.io/grievances ಭೇಟಿ ನೀಡಿ
 
 ಧನ್ಯವಾದಗಳು",10003,ನೋಂದಣಿ ಪ್ರೊಸೆಸರ್,RPR_TEC_ISSUE_EMAIL,kan,TRUE,superadmin,now()
 1110,Template for Technical Issue SMS,Template for Technical Issue SMS,txt,velocity,"Dear $!name_eng,
@@ -108,21 +114,23 @@ Your request for UIN for Registration ID: $!RID has failed because of a technica
 1110,Modèle de message de problème technique,Modèle de message de problème technique,txt,velocity,"Cher $!name_fra,
 
 Votre demande d'UIN pour l'ID d'enregistrement: $!RID a échoué en raison d'un problème technique. Veuillez vous rendre au bureau d’enregistrement le plus proche ou sur https://mosip.io/grievances",10003,Processeur dinscription,RPR_TEC_ISSUE_SMS,fra,TRUE,superadmin,now()
-1110,तकनीकी समस्या एसएमएस के लिए खाका,तकनीकी समस्या एसएमएस के लिए खाका,txt,velocity,"प्रिय $! Name_eng,
+1110,तकनीकी समस्या एसएमएस के लिए खाका,तकनीकी समस्या एसएमएस के लिए खाका,txt,velocity,"प्रिय $!name_hin,
 
-पंजीकरण आईडी के लिए यूआईएन के लिए आपका अनुरोध: $ RID एक तकनीकी समस्या के कारण विफल रहा है। कृपया अपने निकटतम पंजीकरण कार्यालय पर जाएँ या जाएँ https://mosip.io/grievances",10003,पंजीकरण प्रोसेसर,RPR_TEC_ISSUE_SMS,hin,TRUE,superadmin,now()
-1110,தொழில்நுட்ப வெளியீடு எஸ்எம்எஸ் டெம்ப்ளேட்,தொழில்நுட்ப வெளியீடு எஸ்எம்எஸ் டெம்ப்ளேட்,txt,velocity,"அன்பே $! Name_eng,
+पंजीकरण आईडी के लिए यूआईएन के लिए आपका अनुरोध: $!RID एक तकनीकी समस्या के कारण विफल रहा है। कृपया अपने निकटतम पंजीकरण कार्यालय पर जाएँ या जाएँ https://mosip.io/grievances",10003,पंजीकरण प्रोसेसर,RPR_TEC_ISSUE_SMS,hin,TRUE,superadmin,now()
+1110,தொழில்நுட்ப வெளியீடு எஸ்எம்எஸ் டெம்ப்ளேட்,தொழில்நுட்ப வெளியீடு எஸ்எம்எஸ் டெம்ப்ளேட்,txt,velocity,"அன்பே $!name_tam,
 
-பதிவு ஐடி UIN உங்கள் கோரிக்கை: $ RID என்பது ஏனெனில் ஒரு தொழில்நுட்ப இதழின் தோல்வியடைந்தது. உங்கள் அருகில் உள்ள பதிவு அலுவலகம் செல்லுங்கள் அல்லது https://mosip.io/grievances பார்வையிடவும்",10003,பதிவு செயலி,RPR_TEC_ISSUE_SMS,tam,TRUE,superadmin,now()
-1110,ತಾಂತ್ರಿಕ ಸಂಚಿಕೆ ಎಸ್ಎಂಎಸ್ ಟೆಂಪ್ಲೇಟು,ತಾಂತ್ರಿಕ ಸಂಚಿಕೆ ಎಸ್ಎಂಎಸ್ ಟೆಂಪ್ಲೇಟು,txt,velocity,"$ ಆತ್ಮೀಯ! Name_eng,
+பதிவு ஐடி UIN உங்கள் கோரிக்கை: $!RID என்பது ஏனெனில் ஒரு தொழில்நுட்ப இதழின் தோல்வியடைந்தது. உங்கள் அருகில் உள்ள பதிவு அலுவலகம் செல்லுங்கள் அல்லது https://mosip.io/grievances பார்வையிடவும்",10003,பதிவு செயலி,RPR_TEC_ISSUE_SMS,tam,TRUE,superadmin,now()
+1110,ತಾಂತ್ರಿಕ ಸಂಚಿಕೆ ಎಸ್ಎಂಎಸ್ ಟೆಂಪ್ಲೇಟು,ತಾಂತ್ರಿಕ ಸಂಚಿಕೆ ಎಸ್ಎಂಎಸ್ ಟೆಂಪ್ಲೇಟು,txt,velocity," ಆತ್ಮೀಯ $!name_kan,
 
-ನೋಂದಣಿ ಚೀಟಿಗಳನ್ನು, UIN ನಿಮ್ಮ ವಿನಂತಿಯನ್ನು! $ ಹೋಗಲಾಡಿಸಲು ಕಾರಣ ತಾಂತ್ರಿಕ ಸಮಸ್ಯೆಯನ್ನು ಆಫ್ ವಿಫಲವಾಗಿದೆ. ನಿಮ್ಮ ಹತ್ತಿರದ ನೋಂದಣಿ ಕಚೇರಿಯಲ್ಲಿ ಭೇಟಿ ಅಥವಾ https://mosip.io/grievances ಭೇಟಿ ನೀಡಿ",10003,ನೋಂದಣಿ ಪ್ರೊಸೆಸರ್,RPR_TEC_ISSUE_SMS,kan,TRUE,superadmin,now()
-1111,Template for UIN generation Email,Template for UIN generation Email,txt,velocity,"Dear $name_eng,
+ನೋಂದಣಿ ಚೀಟಿಗಳನ್ನು, UIN ನಿಮ್ಮ ವಿನಂತಿಯನ್ನು $!RID ಹೋಗಲಾಡಿಸಲು ಕಾರಣ ತಾಂತ್ರಿಕ ಸಮಸ್ಯೆಯನ್ನು ಆಫ್ ವಿಫಲವಾಗಿದೆ. ನಿಮ್ಮ ಹತ್ತಿರದ ನೋಂದಣಿ ಕಚೇರಿಯಲ್ಲಿ ಭೇಟಿ ಅಥವಾ https://mosip.io/grievances ಭೇಟಿ ನೀಡಿ
+
+ಧನ್ಯವಾದಗಳು",10003,ನೋಂದಣಿ ಪ್ರೊಸೆಸರ್,RPR_TEC_ISSUE_SMS,kan,TRUE,superadmin,now()
+1111,Template for UIN generation Email,Template for UIN generation Email,txt,velocity,"Dear $!name_eng,
 
 Your UIN for Registration ID: $!RID has been successfully generated and will reach soon at your postal address.
 
 Thank You",10003,Registration Processor,RPR_UIN_GEN_EMAIL,eng,TRUE,superadmin,now()
-1111,قالب لتوليد الهوية البريد الإلكتروني,قالب لتوليد الهوية البريد الإلكتروني,txt,velocity,"$name_ara،
+1111,قالب لتوليد الهوية البريد الإلكتروني,قالب لتوليد الهوية البريد الإلكتروني,txt,velocity,"$!name_ara،
 
 تم إنشاء رقم UIN الخاص بك لمعرف التسجيل: $!RID بنجاح وسيصل قريباً إلى عنوانك البريدي.
 
@@ -132,19 +140,19 @@ Thank You",10003,Registration Processor,RPR_UIN_GEN_EMAIL,eng,TRUE,superadmin,no
 Votre UIN pour ID d’enregistrement: $!RID a été généré avec succès et vous parviendra sous peu à votre adresse postale.
 
 Merci",10003,Processeur dinscription,RPR_UIN_GEN_EMAIL,fra,TRUE,superadmin,now()
-1111,के लिए यूआईएन पीढ़ी ईमेल टेम्पलेट,के लिए यूआईएन पीढ़ी ईमेल टेम्पलेट,txt,velocity,"प्रिय $ name_eng,
+1111,के लिए यूआईएन पीढ़ी ईमेल टेम्पलेट,के लिए यूआईएन पीढ़ी ईमेल टेम्पलेट,txt,velocity,"प्रिय $!name_hin,
 
-! पंजीकरण आईडी के लिए आपका UIN: $ RID सफलतापूर्वक तैयार की गई है और अपने डाक पते पर जल्द ही पहुंच जाएगा।
+! पंजीकरण आईडी के लिए आपका UIN: $!RID सफलतापूर्वक तैयार की गई है और अपने डाक पते पर जल्द ही पहुंच जाएगा।
 
 जी शुक्रिया",10003,पंजीकरण प्रोसेसर,RPR_UIN_GEN_EMAIL,hin,TRUE,superadmin,now()
-1111,UIN தலைமுறை மின்னஞ்சல் டெம்ப்ளேட்,UIN தலைமுறை மின்னஞ்சல் டெம்ப்ளேட்,txt,velocity,"அன்பே $ name_eng,
+1111,UIN தலைமுறை மின்னஞ்சல் டெம்ப்ளேட்,UIN தலைமுறை மின்னஞ்சல் டெம்ப்ளேட்,txt,velocity,"அன்பே $!name_tam,
 
-! பதிவு ஐடி உங்கள் UIN: $ RID என்பது வெற்றிகரமாக உருவாக்கப்பட்டது செய்யப்பட்டு உங்கள் அஞ்சல் முகவரியில் விரைவில் சென்றடையும்.
+! பதிவு ஐடி உங்கள் UIN: $!RID என்பது வெற்றிகரமாக உருவாக்கப்பட்டது செய்யப்பட்டு உங்கள் அஞ்சல் முகவரியில் விரைவில் சென்றடையும்.
 
 நன்றி",10003,பதிவு செயலி,RPR_UIN_GEN_EMAIL,tam,TRUE,superadmin,now()
-1111,UIN ಪೀಳಿಗೆಯ ಇಮೇಲ್ ಟೆಂಪ್ಲೇಟ್,UIN ಪೀಳಿಗೆಯ ಇಮೇಲ್ ಟೆಂಪ್ಲೇಟ್,txt,velocity,"ಆತ್ಮೀಯ $ name_eng,
+1111,UIN ಪೀಳಿಗೆಯ ಇಮೇಲ್ ಟೆಂಪ್ಲೇಟ್,UIN ಪೀಳಿಗೆಯ ಇಮೇಲ್ ಟೆಂಪ್ಲೇಟ್,txt,velocity,"ಆತ್ಮೀಯ $!name_kan,
 
-ನೋಂದಣಿ! ಐಡಿ ನಿಮ್ಮ UIN: $ ಹೋಗಲಾಡಿಸಲು ಯಶಸ್ವಿಯಾಗಿ ರಚಿಸಲಾಗಿದೆ ಮತ್ತು ನಿಮ್ಮ ಅಂಚೆ ವಿಳಾಸದಲ್ಲಿ ಶೀಘ್ರದಲ್ಲೇ ತಲುಪುತ್ತದೆ.
+ನೋಂದಣಿ! ಐಡಿ ನಿಮ್ಮ UIN: $!RID ಹೋಗಲಾಡಿಸಲು ಯಶಸ್ವಿಯಾಗಿ ರಚಿಸಲಾಗಿದೆ ಮತ್ತು ನಿಮ್ಮ ಅಂಚೆ ವಿಳಾಸದಲ್ಲಿ ಶೀಘ್ರದಲ್ಲೇ ತಲುಪುತ್ತದೆ.
 
 ಧನ್ಯವಾದಗಳು",10003,ನೋಂದಣಿ ಪ್ರೊಸೆಸರ್,RPR_UIN_GEN_EMAIL,kan,TRUE,superadmin,now()
 1112,Template for UIN generation SMS,Template for UIN generation SMS,txt,velocity,"Dear $name_eng,
@@ -156,15 +164,21 @@ Your UIN for Registration ID: $!RID has been successfully generated and will rea
 1112,Modèle de message de génération didentité,Modèle de message de génération didentité,txt,velocity,"Cher $!name_fra,
 
 Votre UIN pour ID d’enregistrement: $!RID a été généré avec succès et vous parviendra sous peu à votre adresse postale.",10003,Processeur dinscription,RPR_UIN_GEN_SMS,fra,TRUE,superadmin,now()
-1112,यूआईएन पीढ़ी एसएमएस के लिए खाका,यूआईएन पीढ़ी एसएमएस के लिए खाका,txt,velocity,"प्रिय $ name_eng,
+1112,यूआईएन पीढ़ी एसएमएस के लिए खाका,यूआईएन पीढ़ी एसएमएस के लिए खाका,txt,velocity,"प्रिय $!name_hin,
 
-! पंजीकरण आईडी के लिए आपका UIN: $ RID सफलतापूर्वक तैयार की गई है और अपने डाक पते पर जल्द ही पहुंच जाएगा।",10003,पंजीकरण प्रोसेसर,RPR_UIN_GEN_SMS,hin,TRUE,superadmin,now()
-1112,UIN தலைமுறை எஸ்எம்எஸ் டெம்ப்ளேட்,UIN தலைமுறை எஸ்எம்எஸ் டெம்ப்ளேட்,txt,velocity,"அன்பே $ name_eng,
+! पंजीकरण आईडी के लिए आपका UIN: $!RID सफलतापूर्वक तैयार की गई है और अपने डाक पते पर जल्द ही पहुंच जाएगा।
 
-! பதிவு ஐடி உங்கள் UIN: $ RID என்பது வெற்றிகரமாக உருவாக்கப்பட்டது செய்யப்பட்டு உங்கள் அஞ்சல் முகவரியில் விரைவில் சென்றடையும்.",10003,பதிவு செயலி,RPR_UIN_GEN_SMS,tam,TRUE,superadmin,now()
-1112,UIN ಪೀಳಿಗೆಯ ಎಸ್ಎಂಎಸ್ ಟೆಂಪ್ಲೇಟು,UIN ಪೀಳಿಗೆಯ ಎಸ್ಎಂಎಸ್ ಟೆಂಪ್ಲೇಟು,txt,velocity,"ಆತ್ಮೀಯ $ name_eng,
+जी शुक्रिया",10003,पंजीकरण प्रोसेसर,RPR_UIN_GEN_SMS,hin,TRUE,superadmin,now()
+1112,UIN தலைமுறை எஸ்எம்எஸ் டெம்ப்ளேட்,UIN தலைமுறை எஸ்எம்எஸ் டெம்ப்ளேட்,txt,velocity,"அன்பே $!name_tam,
 
-ನೋಂದಣಿ! ಐಡಿ ನಿಮ್ಮ UIN: $ ಹೋಗಲಾಡಿಸಲು ಯಶಸ್ವಿಯಾಗಿ ರಚಿಸಲಾಗಿದೆ ಮತ್ತು ನಿಮ್ಮ ಅಂಚೆ ವಿಳಾಸದಲ್ಲಿ ಶೀಘ್ರದಲ್ಲೇ ತಲುಪುತ್ತದೆ.",10003,ನೋಂದಣಿ ಪ್ರೊಸೆಸರ್,RPR_UIN_GEN_SMS,kan,TRUE,superadmin,now()
+! பதிவு ஐடி உங்கள் UIN: $!RID என்பது வெற்றிகரமாக உருவாக்கப்பட்டது செய்யப்பட்டு உங்கள் அஞ்சல் முகவரியில் விரைவில் சென்றடையும்.
+
+நன்றி",10003,பதிவு செயலி,RPR_UIN_GEN_SMS,tam,TRUE,superadmin,now()
+1112,UIN ಪೀಳಿಗೆಯ ಎಸ್ಎಂಎಸ್ ಟೆಂಪ್ಲೇಟು,UIN ಪೀಳಿಗೆಯ ಎಸ್ಎಂಎಸ್ ಟೆಂಪ್ಲೇಟು,txt,velocity,"ಆತ್ಮೀಯ $!name_kan,
+
+ನೋಂದಣಿ! ಐಡಿ ನಿಮ್ಮ UIN: $!RID ಹೋಗಲಾಡಿಸಲು ಯಶಸ್ವಿಯಾಗಿ ರಚಿಸಲಾಗಿದೆ ಮತ್ತು ನಿಮ್ಮ ಅಂಚೆ ವಿಳಾಸದಲ್ಲಿ ಶೀಘ್ರದಲ್ಲೇ ತಲುಪುತ್ತದೆ.
+
+ಧನ್ಯವಾದಗಳು",10003,ನೋಂದಣಿ ಪ್ರೊಸೆಸರ್,RPR_UIN_GEN_SMS,kan,TRUE,superadmin,now()
 1113,Template for update details Email,Template for update details Email,txt,velocity,"Dear $!name_eng,
 
 Your UIN details for the Registration ID: $!RID have been updated and a physical copy of your UIN card will reach you soon at your postal address.
@@ -180,19 +194,19 @@ Thank You",10003,Registration Processor,RPR_UIN_UPD_EMAIL,eng,TRUE,superadmin,no
 Les détails de votre UIN correspondant à l’ID d’enregistrement: $!RID ont été mis à jour. Une copie physique de votre UIN vous parviendra sous peu à votre adresse postale.
 
 Merci",10003,Processeur dinscription,RPR_UIN_UPD_EMAIL,fra,TRUE,superadmin,now()
-1113,के लिए अद्यतन विवरण ईमेल टेम्पलेट,के लिए अद्यतन विवरण ईमेल टेम्पलेट,txt,velocity,"प्रिय $! Name_eng,
+1113,के लिए अद्यतन विवरण ईमेल टेम्पलेट,के लिए अद्यतन विवरण ईमेल टेम्पलेट,txt,velocity,"प्रिय $!name_hin,
 
-पंजीकरण आईडी के लिए आपका यूआईएन विवरण: $ छुटकारा अपडेट किए गए हैं और अपने यूआईएन कार्ड की एक भौतिक प्रतिलिपि आपके डाक पते पर ही आप तक पहुंच जाएगा।
+पंजीकरण आईडी के लिए आपका यूआईएन विवरण: $!RID छुटकारा अपडेट किए गए हैं और अपने यूआईएन कार्ड की एक भौतिक प्रतिलिपि आपके डाक पते पर ही आप तक पहुंच जाएगा।
 
 जी शुक्रिया",10003,पंजीकरण प्रोसेसर,RPR_UIN_UPD_EMAIL,hin,TRUE,superadmin,now()
-1113,புதுப்பிப்பு விவரங்களைக் மின்னஞ்சல் டெம்ப்ளேட்,புதுப்பிப்பு விவரங்களைக் மின்னஞ்சல் டெம்ப்ளேட்,txt,velocity,"அன்பே $! Name_eng,
+1113,புதுப்பிப்பு விவரங்களைக் மின்னஞ்சல் டெம்ப்ளேட்,புதுப்பிப்பு விவரங்களைக் மின்னஞ்சல் டெம்ப்ளேட்,txt,velocity,"அன்பே $!name_tam,
 
-பதிவு ஐடி உங்கள் UIN விவரங்கள்:! $ புதுப்பித்துக் கொண்டிருந்தனர் விடுவித்துக்கொள்ள வைக்கப்பட்டுள்ளது அத்துடன் உங்களது UIN அட்டை பிரதியை உங்கள் அஞ்சல் முகவரியில் விரைவில் நீங்கள் அடையும்.
+பதிவு ஐடி உங்கள் UIN விவரங்கள்:! $!RID புதுப்பித்துக் கொண்டிருந்தனர் விடுவித்துக்கொள்ள வைக்கப்பட்டுள்ளது அத்துடன் உங்களது UIN அட்டை பிரதியை உங்கள் அஞ்சல் முகவரியில் விரைவில் நீங்கள் அடையும்.
 
 நன்றி",10003,பதிவு செயலி,RPR_UIN_UPD_EMAIL,tam,TRUE,superadmin,now()
-1113,ಅಪ್ಡೇಟ್ ವಿವರಗಳು ಇಮೇಲ್ ಟೆಂಪ್ಲೇಟು,ಅಪ್ಡೇಟ್ ವಿವರಗಳು ಇಮೇಲ್ ಟೆಂಪ್ಲೇಟು,txt,velocity,"$ ಆತ್ಮೀಯ! Name_eng,
+1113,ಅಪ್ಡೇಟ್ ವಿವರಗಳು ಇಮೇಲ್ ಟೆಂಪ್ಲೇಟು,ಅಪ್ಡೇಟ್ ವಿವರಗಳು ಇಮೇಲ್ ಟೆಂಪ್ಲೇಟು,txt,velocity,"ಆತ್ಮೀಯ $!name_kan,
 
-ನೋಂದಣಿ ID ಗಾಗಿ ನಿಮ್ಮ UIN ವಿವರಗಳು: $ ನವೀಕರಿಸಿದ್ದೇವೆ ಹೋಗಲಾಡಿಸಲು ಮತ್ತು ನಿಮ್ಮ UIN ಕಾರ್ಡ್ ಒಂದು ಮುದ್ರಿತ ಹಾಳೆಯನ್ನು ನಿಮ್ಮ ಅಂಚೆ ವಿಳಾಸದಲ್ಲಿ ತಕ್ಷಣ ನೀವು ತಲುಪುತ್ತದೆ.
+ನೋಂದಣಿ ID ಗಾಗಿ ನಿಮ್ಮ UIN ವಿವರಗಳು: $!RID ನವೀಕರಿಸಿದ್ದೇವೆ ಹೋಗಲಾಡಿಸಲು ಮತ್ತು ನಿಮ್ಮ UIN ಕಾರ್ಡ್ ಒಂದು ಮುದ್ರಿತ ಹಾಳೆಯನ್ನು ನಿಮ್ಮ ಅಂಚೆ ವಿಳಾಸದಲ್ಲಿ ತಕ್ಷಣ ನೀವು ತಲುಪುತ್ತದೆ.
 
 ಧನ್ಯವಾದಗಳು",10003,ನೋಂದಣಿ ಪ್ರೊಸೆಸರ್,RPR_UIN_UPD_EMAIL,kan,TRUE,superadmin,now()
 1114,Template for update Details SMS,Template for update Details SMS,txt,velocity,"Dear $!name_eng,
@@ -204,18 +218,24 @@ Your UIN details for the Registration ID: $!RID have been updated and a physical
 1114,Modèle pour la mise à jour Détails Message,Modèle pour la mise à jour Détails Message,txt,velocity,"Cher $!name_fra,
 
 Les détails de votre UIN correspondant à l’ID d’enregistrement: $!RID ont été mis à jour. Une copie physique de votre UIN vous parviendra sous peu à votre adresse postale.",10003,Processeur dinscription,RPR_UIN_UPD_SMS,fra,TRUE,superadmin,now()
-1114,के लिए अद्यतन विवरण एसएमएस टेम्पलेट,के लिए अद्यतन विवरण एसएमएस टेम्पलेट,txt,velocity,"प्रिय $! Name_eng,
+1114,के लिए अद्यतन विवरण एसएमएस टेम्पलेट,के लिए अद्यतन विवरण एसएमएस टेम्पलेट,txt,velocity,"प्रिय $!name_hin,
 
-पंजीकरण आईडी के लिए आपका यूआईएन विवरण: $ छुटकारा अपडेट किए गए हैं और अपने यूआईएन कार्ड की एक भौतिक प्रतिलिपि आपके डाक पते पर ही आप तक पहुंच जाएगा।",10003,पंजीकरण प्रोसेसर,RPR_UIN_UPD_SMS,hin,TRUE,superadmin,now()
-1114,விவரங்களைப் புதுப்பிக்கவும் எஸ்எம்எஸ் டெம்ப்ளேட்,விவரங்களைப் புதுப்பிக்கவும் எஸ்எம்எஸ் டெம்ப்ளேட்,txt,velocity,"அன்பே $! Name_eng,
+पंजीकरण आईडी के लिए आपका यूआईएन विवरण: $!RID छुटकारा अपडेट किए गए हैं और अपने यूआईएन कार्ड की एक भौतिक प्रतिलिपि आपके डाक पते पर ही आप तक पहुंच जाएगा।
 
-பதிவு ஐடி உங்கள் UIN விவரங்கள்:! $ புதுப்பித்துக் கொண்டிருந்தனர் விடுவித்துக்கொள்ள வைக்கப்பட்டுள்ளது அத்துடன் உங்களது UIN அட்டை பிரதியை உங்கள் அஞ்சல் முகவரியில் விரைவில் நீங்கள் அடையும்.",10003,பதிவு செயலி,RPR_UIN_UPD_SMS,tam,TRUE,superadmin,now()
-1114,ಅಪ್ಡೇಟ್ ವಿವರಗಳು ಎಸ್ಎಂಎಸ್ ಟೆಂಪ್ಲೇಟು,ಅಪ್ಡೇಟ್ ವಿವರಗಳು ಎಸ್ಎಂಎಸ್ ಟೆಂಪ್ಲೇಟು,txt,velocity,"$ ಆತ್ಮೀಯ! Name_eng,
+जी शुक्रिया",10003,पंजीकरण प्रोसेसर,RPR_UIN_UPD_SMS,hin,TRUE,superadmin,now()
+1114,விவரங்களைப் புதுப்பிக்கவும் எஸ்எம்எஸ் டெம்ப்ளேட்,விவரங்களைப் புதுப்பிக்கவும் எஸ்எம்எஸ் டெம்ப்ளேட்,txt,velocity,"அன்பே $!name_tam,
 
-ನೋಂದಣಿ ID ಗಾಗಿ ನಿಮ್ಮ UIN ವಿವರಗಳು: $ ನವೀಕರಿಸಿದ್ದೇವೆ ಹೋಗಲಾಡಿಸಲು ಮತ್ತು ನಿಮ್ಮ UIN ಕಾರ್ಡ್ ಒಂದು ಮುದ್ರಿತ ಹಾಳೆಯನ್ನು ನಿಮ್ಮ ಅಂಚೆ ವಿಳಾಸದಲ್ಲಿ ತಕ್ಷಣ ನೀವು ತಲುಪುತ್ತದೆ.",10003,ನೋಂದಣಿ ಪ್ರೊಸೆಸರ್,RPR_UIN_UPD_SMS,kan,TRUE,superadmin,now()
+பதிவு ஐடி உங்கள் UIN விவரங்கள்:! $!RID புதுப்பித்துக் கொண்டிருந்தனர் விடுவித்துக்கொள்ள வைக்கப்பட்டுள்ளது அத்துடன் உங்களது UIN அட்டை பிரதியை உங்கள் அஞ்சல் முகவரியில் விரைவில் நீங்கள் அடையும்.
+
+நன்றி",10003,பதிவு செயலி,RPR_UIN_UPD_SMS,tam,TRUE,superadmin,now()
+1114,ಅಪ್ಡೇಟ್ ವಿವರಗಳು ಎಸ್ಎಂಎಸ್ ಟೆಂಪ್ಲೇಟು,ಅಪ್ಡೇಟ್ ವಿವರಗಳು ಎಸ್ಎಂಎಸ್ ಟೆಂಪ್ಲೇಟು,txt,velocity,"ಆತ್ಮೀಯ $!name_kan,
+
+ನೋಂದಣಿ ID ಗಾಗಿ ನಿಮ್ಮ UIN ವಿವರಗಳು: $!RID ನವೀಕರಿಸಿದ್ದೇವೆ ಹೋಗಲಾಡಿಸಲು ಮತ್ತು ನಿಮ್ಮ UIN ಕಾರ್ಡ್ ಒಂದು ಮುದ್ರಿತ ಹಾಳೆಯನ್ನು ನಿಮ್ಮ ಅಂಚೆ ವಿಳಾಸದಲ್ಲಿ ತಕ್ಷಣ ನೀವು ತಲುಪುತ್ತದೆ.
+
+ಧನ್ಯವಾದಗಳು",10003,ನೋಂದಣಿ ಪ್ರೊಸೆಸರ್,RPR_UIN_UPD_SMS,kan,TRUE,superadmin,now()
 1115,Template for new registration Email Content,Template for new registration Email Content,txt,velocity,"Dear $name,
 Thank you for registering with the digital identity platform. Your registration id is $RegistrationID. If there are any corrections to be made in your details, please contact the Registration centre within the next 4 days.",10002,Registration Client,NewReg-email-content-template,eng,TRUE,superadmin,now()
-1115,قالب للتسجيل الجديد محتوى البريد الإلكتروني,قالب للتسجيل الجديد محتوى البريد الإلكتروني,txt,velocity,"$name ،
+1115,قالب للتسجيل الجديد محتوى البريد الإلكتروني,قالب للتسجيل الجديد محتوى البريد الإلكتروني,txt,velocity,"$!name ،
 نشكرك على التسجيل في منصة الهوية الرقمية. رقم التسجيل الخاص بك هو $RegistrationID. إذا كان هناك أي تصحيحات يتم إدخالها في تفاصيلك ، يرجى الاتصال بمركز التسجيل في غضون 4 أيام مقبلة.",10002,عميل التسجيل,NewReg-email-content-template,ara,TRUE,superadmin,now()
 1115,Modèle pour nouvelle inscription Email Content,Modèle pour nouvelle inscription Email Content,txt,velocity,"Cher $name,
 Merci de vous être inscrit sur la plateforme d'identité numérique. Votre identifiant d'enregistrement est $RegistrationID. Si des corrections doivent être apportées à vos données, veuillez contacter le centre d’inscription dans les 4 prochains jours.",10002,Client dinscription,NewReg-email-content-template,fra,TRUE,superadmin,now()
@@ -1335,15 +1355,15 @@ If you have any conserns please visit the nearest Registration Center.",10003,Re
 
 Votre UIN a été désactivé.
 Si vous avez des intérêts, veuillez vous rendre au centre d’enregistrement le plus proche.",10003,Processeur dinscription,RPR_UIN_DEAC_SMS,fra,TRUE,superadmin,now()
-1132,यूआईएन निष्क्रियकरण एसएमएस के लिए खाका,यूआईएन निष्क्रियकरण एसएमएस के लिए खाका,txt,velocity,"प्रिय $! Name_eng,
+1132,यूआईएन निष्क्रियकरण एसएमएस के लिए खाका,यूआईएन निष्क्रियकरण एसएमएस के लिए खाका,txt,velocity,"प्रिय $!name_hin,
 
 आपका यूआईएन डी-सक्रिय हो गया है।
 यदि आपके पास किसी भी conserns कृपया निकटतम पंजीकरण केंद्र पर जाएं।",10003,पंजीकरण प्रोसेसर,RPR_UIN_DEAC_SMS,hin,TRUE,superadmin,now()
-1132,UIN செயலிழப்பு எஸ்எம்எஸ் டெம்ப்ளேட்,UIN செயலிழப்பு எஸ்எம்எஸ் டெம்ப்ளேட்,txt,velocity,"அன்பே $! Name_eng,
+1132,UIN செயலிழப்பு எஸ்எம்எஸ் டெம்ப்ளேட்,UIN செயலிழப்பு எஸ்எம்எஸ் டெம்ப்ளேட்,txt,velocity,"அன்பே $!name_tam,
 
 உங்கள் UIN டி- செயல்படுத்தப்பட்டது.
 நீங்கள் இருந்தால் எந்த conserns அருகில் உள்ள பதிவு மையத்தை அணுகவும்.",10003,பதிவு செயலி,RPR_UIN_DEAC_SMS,tam,TRUE,superadmin,now()
-1132,UIN ನಿಷ್ಕ್ರಿಯಗೊಳಿಸುವಿಕೆ ಎಸ್ಎಂಎಸ್ ಟೆಂಪ್ಲೇಟು,UIN ನಿಷ್ಕ್ರಿಯಗೊಳಿಸುವಿಕೆ ಎಸ್ಎಂಎಸ್ ಟೆಂಪ್ಲೇಟು,txt,velocity,"$ ಆತ್ಮೀಯ! Name_eng,
+1132,UIN ನಿಷ್ಕ್ರಿಯಗೊಳಿಸುವಿಕೆ ಎಸ್ಎಂಎಸ್ ಟೆಂಪ್ಲೇಟು,UIN ನಿಷ್ಕ್ರಿಯಗೊಳಿಸುವಿಕೆ ಎಸ್ಎಂಎಸ್ ಟೆಂಪ್ಲೇಟು,txt,velocity,"ಆತ್ಮೀಯ $!name_kan,
 
 ನಿಮ್ಮ UIN ಡಿ-ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ.
 ನೀವು ಯಾವುದೇ conserns ಹತ್ತಿರದ ನೋಂದಣಿ ಕೇಂದ್ರಕ್ಕೆ ಭೇಟಿ ದಯವಿಟ್ಟು.",10003,ನೋಂದಣಿ ಪ್ರೊಸೆಸರ್,RPR_UIN_DEAC_SMS,kan,TRUE,superadmin,now()
@@ -1365,19 +1385,19 @@ Votre UIN a été désactivé.
 Si vous avez des intérêts, veuillez vous rendre au centre d’enregistrement le plus proche.
 
 Merci",10003,Processeur dinscription,RPR_UIN_DEAC_EMAIL,fra,TRUE,superadmin,now()
-1133,के लिए यूआईएन निष्क्रियकरण ईमेल टेम्पलेट,के लिए यूआईएन निष्क्रियकरण ईमेल टेम्पलेट,txt,velocity,"प्रिय $! Name_eng,
+1133,के लिए यूआईएन निष्क्रियकरण ईमेल टेम्पलेट,के लिए यूआईएन निष्क्रियकरण ईमेल टेम्पलेट,txt,velocity,"प्रिय $!name_hin,
 
 आपका यूआईएन डी-सक्रिय हो गया है।
 यदि आपके पास किसी भी conserns कृपया निकटतम पंजीकरण केंद्र पर जाएं।
 
 जी शुक्रिया",10003,पंजीकरण प्रोसेसर,RPR_UIN_DEAC_EMAIL,hin,TRUE,superadmin,now()
-1133,ஐந்து UIN செயலிழப்பு மின்னஞ்சல் டெம்ப்ளேட்,ஐந்து UIN செயலிழப்பு மின்னஞ்சல் டெம்ப்ளேட்,txt,velocity,"அன்பே $! Name_eng,
+1133,ஐந்து UIN செயலிழப்பு மின்னஞ்சல் டெம்ப்ளேட்,ஐந்து UIN செயலிழப்பு மின்னஞ்சல் டெம்ப்ளேட்,txt,velocity,"அன்பே $!name_tam,
 
 உங்கள் UIN டி- செயல்படுத்தப்பட்டது.
 நீங்கள் இருந்தால் எந்த conserns அருகில் உள்ள பதிவு மையத்தை அணுகவும்.
 
 நன்றி",10003,பதிவு செயலி,RPR_UIN_DEAC_EMAIL,tam,TRUE,superadmin,now()
-1133,UIN ನಿಷ್ಕ್ರಿಯಗೊಳಿಸುವಿಕೆ ಇಮೇಲ್ ಟೆಂಪ್ಲೇಟ್,UIN ನಿಷ್ಕ್ರಿಯಗೊಳಿಸುವಿಕೆ ಇಮೇಲ್ ಟೆಂಪ್ಲೇಟ್,txt,velocity,"$ ಆತ್ಮೀಯ! Name_eng,
+1133,UIN ನಿಷ್ಕ್ರಿಯಗೊಳಿಸುವಿಕೆ ಇಮೇಲ್ ಟೆಂಪ್ಲೇಟ್,UIN ನಿಷ್ಕ್ರಿಯಗೊಳಿಸುವಿಕೆ ಇಮೇಲ್ ಟೆಂಪ್ಲೇಟ್,txt,velocity,"ಆತ್ಮೀಯ $!name_kan,
 
 ನಿಮ್ಮ UIN ಡಿ-ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ.
 ನೀವು ಯಾವುದೇ conserns ಹತ್ತಿರದ ನೋಂದಣಿ ಕೇಂದ್ರಕ್ಕೆ ಭೇಟಿ ದಯವಿಟ್ಟು.
@@ -1395,15 +1415,15 @@ If you have any conserns please visit the nearest Registration Center.",10003,Re
 
 Votre UIN a été réactivé.
 Si vous avez des intérêts, veuillez vous rendre au centre d’enregistrement le plus proche.",10003,Processeur dinscription,RPR_UIN_REAC_SMS,fra,TRUE,superadmin,now()
-1134,यूआईएन पुन: सक्रिय एसएमएस के लिए खाका,यूआईएन पुन: सक्रिय एसएमएस के लिए खाका,txt,velocity,"प्रिय $! Name_eng,
+1134,यूआईएन पुन: सक्रिय एसएमएस के लिए खाका,यूआईएन पुन: सक्रिय एसएमएस के लिए खाका,txt,velocity,"प्रिय $!name_hin,
 
 आपका यूआईएन पुन: सक्रिय किया गया है।
 यदि आपके पास किसी भी conserns कृपया निकटतम पंजीकरण केंद्र पर जाएं।",10003,पंजीकरण प्रोसेसर,RPR_UIN_REAC_SMS,hin,TRUE,superadmin,now()
-1134,UIN மீண்டும் செயல்படுத்து எஸ்எம்எஸ் டெம்ப்ளேட்,UIN மீண்டும் செயல்படுத்து எஸ்எம்எஸ் டெம்ப்ளேட்,txt,velocity,"அன்பே $! Name_eng,
+1134,UIN மீண்டும் செயல்படுத்து எஸ்எம்எஸ் டெம்ப்ளேட்,UIN மீண்டும் செயல்படுத்து எஸ்எம்எஸ் டெம்ப்ளேட்,txt,velocity,"அன்பே $!name_tam,
 
 உங்கள் UIN மறு செயற்படுத்தப்பட்ட வருகிறது.
 நீங்கள் இருந்தால் எந்த conserns அருகில் உள்ள பதிவு மையத்தை அணுகவும்.",10003,பதிவு செயலி,RPR_UIN_REAC_SMS,tam,TRUE,superadmin,now()
-1134,UIN ಮರುಸಕ್ರಿಯಗೊಳಿಸುವಿಕೆಯನ್ನು ಎಸ್ಎಂಎಸ್ ಟೆಂಪ್ಲೇಟು,UIN ಮರುಸಕ್ರಿಯಗೊಳಿಸುವಿಕೆಯನ್ನು ಎಸ್ಎಂಎಸ್ ಟೆಂಪ್ಲೇಟು,txt,velocity,"$ ಆತ್ಮೀಯ! Name_eng,
+1134,UIN ಮರುಸಕ್ರಿಯಗೊಳಿಸುವಿಕೆಯನ್ನು ಎಸ್ಎಂಎಸ್ ಟೆಂಪ್ಲೇಟು,UIN ಮರುಸಕ್ರಿಯಗೊಳಿಸುವಿಕೆಯನ್ನು ಎಸ್ಎಂಎಸ್ ಟೆಂಪ್ಲೇಟು,txt,velocity,"ಆತ್ಮೀಯ $!name_kan,
 
 ನಿಮ್ಮ UIN ಮರು ಸಕ್ರಿಯ ಬಂದಿದೆ.
 ನೀವು ಯಾವುದೇ conserns ಹತ್ತಿರದ ನೋಂದಣಿ ಕೇಂದ್ರಕ್ಕೆ ಭೇಟಿ ದಯವಿಟ್ಟು.",10003,ನೋಂದಣಿ ಪ್ರೊಸೆಸರ್,RPR_UIN_REAC_SMS,kan,TRUE,superadmin,now()
@@ -1425,19 +1445,19 @@ Votre UIN a été réactivé.
 Si vous avez des intérêts, veuillez vous rendre au centre d’enregistrement le plus proche.
 
 Merci",10003,Processeur dinscription,RPR_UIN_REAC_EMAIL,fra,TRUE,superadmin,now()
-1135,के लिए यूआईएन पुन: सक्रिय ईमेल टेम्पलेट,के लिए यूआईएन पुन: सक्रिय ईमेल टेम्पलेट,txt,velocity,"प्रिय $! Name_eng,
+1135,के लिए यूआईएन पुन: सक्रिय ईमेल टेम्पलेट,के लिए यूआईएन पुन: सक्रिय ईमेल टेम्पलेट,txt,velocity,"प्रिय $!name_hin,
 
 आपका यूआईएन पुन: सक्रिय किया गया है।
 यदि आपके पास किसी भी conserns कृपया निकटतम पंजीकरण केंद्र पर जाएं।
 
 जी शुक्रिया",10003,पंजीकरण प्रोसेसर,RPR_UIN_REAC_EMAIL,hin,TRUE,superadmin,now()
-1135,ஐந்து UIN மீண்டும் செயல்படுத்து மின்னஞ்சல் டெம்ப்ளேட்,ஐந்து UIN மீண்டும் செயல்படுத்து மின்னஞ்சல் டெம்ப்ளேட்,txt,velocity,"அன்பே $! Name_eng,
+1135,ஐந்து UIN மீண்டும் செயல்படுத்து மின்னஞ்சல் டெம்ப்ளேட்,ஐந்து UIN மீண்டும் செயல்படுத்து மின்னஞ்சல் டெம்ப்ளேட்,txt,velocity,"அன்பே $!name_tam,
 
 உங்கள் UIN மறு செயற்படுத்தப்பட்ட வருகிறது.
 நீங்கள் இருந்தால் எந்த conserns அருகில் உள்ள பதிவு மையத்தை அணுகவும்.
 
 நன்றி",10003,பதிவு செயலி,RPR_UIN_REAC_EMAIL,tam,TRUE,superadmin,now()
-1135,UIN ಮರುಸಕ್ರಿಯಗೊಳಿಸುವಿಕೆಯನ್ನು ಇಮೇಲ್ ಟೆಂಪ್ಲೇಟ್,UIN ಮರುಸಕ್ರಿಯಗೊಳಿಸುವಿಕೆಯನ್ನು ಇಮೇಲ್ ಟೆಂಪ್ಲೇಟ್,txt,velocity,"$ ಆತ್ಮೀಯ! Name_eng,
+1135,UIN ಮರುಸಕ್ರಿಯಗೊಳಿಸುವಿಕೆಯನ್ನು ಇಮೇಲ್ ಟೆಂಪ್ಲೇಟ್,UIN ಮರುಸಕ್ರಿಯಗೊಳಿಸುವಿಕೆಯನ್ನು ಇಮೇಲ್ ಟೆಂಪ್ಲೇಟ್,txt,velocity,"ಆತ್ಮೀಯ $!name_kan,
 
 ನಿಮ್ಮ UIN ಮರು ಸಕ್ರಿಯ ಬಂದಿದೆ.
 ನೀವು ಯಾವುದೇ conserns ಹತ್ತಿರದ ನೋಂದಣಿ ಕೇಂದ್ರಕ್ಕೆ ಭೇಟಿ ದಯವಿಟ್ಟು.
@@ -1800,25 +1820,25 @@ Merci",10001,Pré-inscription,cancel-appointment,fra,TRUE,superadmin,now()
 ಪೂರ್ವ ನೋಂದಣಿ ಐಡಿ, $ PRID ಮತ್ತು ಅಪಾಯಿಂಟ್ಮೆಂಟ್ ದಿನಾಂಕ ಮತ್ತು ಸಮಯ ನಿಮ್ಮ ಅಪಾಯಿಂಟ್ಮೆಂಟ್, $ Appointmentdate $ Appointmenttime ಸರ್ಕಾರಿ ತುರ್ತು / ರಜಾ ಕಾರಣ ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ. ನೋಂದಣಿ ಮತ್ತೊಂದು ಸ್ಲಾಟ್ ಮರು ಬುಕ್ ಮಾಡಿ.
 
 ಧನ್ಯವಾದಗಳು",10001,ಪೂರ್ವ ನೋಂದಣಿ,cancel-appointment,kan,TRUE,superadmin,now()
-1160,Lost UIN Notification SMS,Lost UIN Notification SMS,txt,velocity,"Dear $name_eng,
+1160,Lost UIN Notification SMS,Lost UIN Notification SMS,txt,velocity,"Dear $!name_eng,
 
 Your UIN is Found. You will receive your UIN Card soon at your Postal Address.",10003,Registration Processor,RPR_LOST_UIN_SMS,eng,TRUE,superadmin,now()
 1160,فقدت رسالة إعلام UIN,فقدت رسالة إعلام UIN,txt,velocity,"$!name_ara،
 
 تم العثور على UIN الخاص بك. ستتلقى بطاقة UIN الخاصة بك قريبًا على عنوانك البريدي.",10003,معالج التسجيل,RPR_LOST_UIN_SMS,ara,TRUE,superadmin,now()
-1160,SMS de notification UIN perdu,SMS de notification UIN perdu,txt,velocity,"Cher $!name_fr+F180a,
+1160,SMS de notification UIN perdu,SMS de notification UIN perdu,txt,velocity,"Cher $!name_fra,
 
 Votre UIN est trouvé. Vous recevrez bientôt votre carte UIN à votre adresse postale.",10003,Processeur dinscription,RPR_LOST_UIN_SMS,fra,TRUE,superadmin,now()
-1160,खोया यूआईएन अधिसूचना एसएमएस,खोया यूआईएन अधिसूचना एसएमएस,txt,velocity,"प्रिय $ name_eng,
+1160,खोया यूआईएन अधिसूचना एसएमएस,खोया यूआईएन अधिसूचना एसएमएस,txt,velocity,"प्रिय $!name_hin,
 
 आपका यूआईएन पाया जाता है। आप अपने डाक पते पर जल्दी ही अपने यूआईएन कार्ड प्राप्त होगा।",10003,पंजीकरण प्रोसेसर,RPR_LOST_UIN_SMS,hin,TRUE,superadmin,now()
-1160,லாஸ்ட் UIN அறிவித்தல் எஸ்எம்எஸ்,லாஸ்ட் UIN அறிவித்தல் எஸ்எம்எஸ்,txt,velocity,"அன்பே $ name_eng,
+1160,லாஸ்ட் UIN அறிவித்தல் எஸ்எம்எஸ்,லாஸ்ட் UIN அறிவித்தல் எஸ்எம்எஸ்,txt,velocity,"அன்பே $!name_tam,
 
 உங்கள் UIN காணப்படுகிறது. நீங்கள் உங்கள் தபால் முகவரி மணிக்கு விரைவில் உங்கள் UIN அட்டை பெறும்.",10003,பதிவு செயலி,RPR_LOST_UIN_SMS,tam,TRUE,superadmin,now()
-1160,"ಲಾಸ್ಟ್, UIN ಅಧಿಸೂಚನೆ ಎಸ್ಎಂಎಸ್","ಲಾಸ್ಟ್, UIN ಅಧಿಸೂಚನೆ ಎಸ್ಎಂಎಸ್",txt,velocity,"ಆತ್ಮೀಯ $ name_eng,
+1160,"ಲಾಸ್ಟ್, UIN ಅಧಿಸೂಚನೆ ಎಸ್ಎಂಎಸ್","ಲಾಸ್ಟ್, UIN ಅಧಿಸೂಚನೆ ಎಸ್ಎಂಎಸ್",txt,velocity,"ಆತ್ಮೀಯ $!name_kan,
 
 ನಿಮ್ಮ UIN ಕಂಡುಬರುತ್ತದೆ. ನಿಮ್ಮ ಅಂಚೆ ವಿಳಾಸ ನಲ್ಲಿ ಶೀಘ್ರದಲ್ಲೇ ನಿಮ್ಮ UIN ಕಾರ್ಡ್ ಸ್ವೀಕರಿಸುತ್ತೀರಿ.",10003,ನೋಂದಣಿ ಪ್ರೊಸೆಸರ್,RPR_LOST_UIN_SMS,kan,TRUE,superadmin,now()
-1161,Lost UIN Notification Email,Lost UIN Notification Email,txt,velocity,"Dear $name_eng,
+1161,Lost UIN Notification Email,Lost UIN Notification Email,txt,velocity,"Dear $!name_eng,
 
 Your UIN is Found. You will receive your UIN Card soon at your Postal Address.
 
@@ -1833,17 +1853,17 @@ Thank You",10003,Registration Processor,RPR_LOST_UIN_EMAIL,eng,TRUE,superadmin,n
 Votre UIN est trouvé. Vous recevrez bientôt votre carte UIN à votre adresse postale.
 
 Merci",10003,Processeur dinscription,RPR_LOST_UIN_EMAIL,fra,TRUE,superadmin,now()
-1161,खोया यूआईएन अधिसूचना ईमेल,खोया यूआईएन अधिसूचना ईमेल,txt,velocity,"प्रिय $ name_eng,
+1161,खोया यूआईएन अधिसूचना ईमेल,खोया यूआईएन अधिसूचना ईमेल,txt,velocity,"प्रिय $!name_hin,
 
 आपका यूआईएन पाया जाता है। आप अपने डाक पते पर जल्दी ही अपने यूआईएन कार्ड प्राप्त होगा।
 
 जी शुक्रिया",10003,पंजीकरण प्रोसेसर,RPR_LOST_UIN_EMAIL,hin,TRUE,superadmin,now()
-1161,லாஸ்ட் UIN அறிவிப்பு மின்னஞ்சல்,லாஸ்ட் UIN அறிவிப்பு மின்னஞ்சல்,txt,velocity,"அன்பே $ name_eng,
+1161,லாஸ்ட் UIN அறிவிப்பு மின்னஞ்சல்,லாஸ்ட் UIN அறிவிப்பு மின்னஞ்சல்,txt,velocity,"அன்பே $!name_tam,
 
 உங்கள் UIN காணப்படுகிறது. நீங்கள் உங்கள் தபால் முகவரி மணிக்கு விரைவில் உங்கள் UIN அட்டை பெறும்.
 
 நன்றி",10003,பதிவு செயலி,RPR_LOST_UIN_EMAIL,tam,TRUE,superadmin,now()
-1161,"ಲಾಸ್ಟ್, UIN ಅಧಿಸೂಚನೆ","ಲಾಸ್ಟ್, UIN ಅಧಿಸೂಚನೆ",txt,velocity,"ಆತ್ಮೀಯ $ name_eng,
+1161,"ಲಾಸ್ಟ್, UIN ಅಧಿಸೂಚನೆ","ಲಾಸ್ಟ್, UIN ಅಧಿಸೂಚನೆ",txt,velocity,"ಆತ್ಮೀಯ $!name_kan,
 
 ನಿಮ್ಮ UIN ಕಂಡುಬರುತ್ತದೆ. ನಿಮ್ಮ ಅಂಚೆ ವಿಳಾಸ ನಲ್ಲಿ ಶೀಘ್ರದಲ್ಲೇ ನಿಮ್ಮ UIN ಕಾರ್ಡ್ ಸ್ವೀಕರಿಸುತ್ತೀರಿ.
 
@@ -3444,21 +3464,21 @@ Nous avons reçu votre demande d'inscription contre le RID: $!RID.
 Cette demande est en cours de traitement.
 
 Merci",10003,Registration Processor,RPR_RPV_SUC_EMAIL,fra,TRUE,superadmin,now()
-1211,पंजीकरण पैकेट मान्यता सफलता ईमेल,पंजीकरण पैकेट मान्यता सफलता ईमेल,txt,velocity,"हाय $! Name_eng,
+1211,पंजीकरण पैकेट मान्यता सफलता ईमेल,पंजीकरण पैकेट मान्यता सफलता ईमेल,txt,velocity,"हाय $!name_hin,
 
-हम के खिलाफ RID पंजीकरण के लिए अपने अनुरोध प्राप्त हुआ है! $ RID।
+हम के खिलाफ RID पंजीकरण के लिए अपने अनुरोध प्राप्त हुआ है! $!RID ।
 यह अनुरोध प्रसंस्करण के अधीन है।
 
 जी शुक्रिया",10003,पंजीकरण प्रोसेसर,RPR_RPV_SUC_EMAIL,hin,TRUE,superadmin,now()
-1211,பதிவு பாக்கெட் மதிப்பீட்டு வெற்றி மின்னஞ்சல்,பதிவு பாக்கெட் மதிப்பீட்டு வெற்றி மின்னஞ்சல்,txt,velocity,"$ ஹாய்! Name_eng,
+1211,பதிவு பாக்கெட் மதிப்பீட்டு வெற்றி மின்னஞ்சல்,பதிவு பாக்கெட் மதிப்பீட்டு வெற்றி மின்னஞ்சல்,txt,velocity,"ஹாய் $!name_tam,
 
-நாம் எதிராக RID என்பது பதிவு உங்கள் கோரிக்கையைப் பெற்றுள்ளோம்: $ விடுவித்துக்கொள்ள.
+நாம் எதிராக RID என்பது பதிவு உங்கள் கோரிக்கையைப் பெற்றுள்ளோம்: $!RID விடுவித்துக்கொள்ள.
 இந்தக் கோரிக்கை செயலாக்கம் கீழ் உள்ளது.
 
 நன்றி",10003,பதிவு செயலி,RPR_RPV_SUC_EMAIL,tam,TRUE,superadmin,now()
-1211,ನೋಂದಣಿ ಪ್ಯಾಕೆಟ್ ಕ್ರಮಬದ್ಧಗೊಳಿಸುವಿಕೆ ಯಶಸ್ಸು ಇಮೇಲ್,ನೋಂದಣಿ ಪ್ಯಾಕೆಟ್ ಕ್ರಮಬದ್ಧಗೊಳಿಸುವಿಕೆ ಯಶಸ್ಸು ಇಮೇಲ್,txt,velocity,"ಹೈ $! Name_eng,
+1211,ನೋಂದಣಿ ಪ್ಯಾಕೆಟ್ ಕ್ರಮಬದ್ಧಗೊಳಿಸುವಿಕೆ ಯಶಸ್ಸು ಇಮೇಲ್,ನೋಂದಣಿ ಪ್ಯಾಕೆಟ್ ಕ್ರಮಬದ್ಧಗೊಳಿಸುವಿಕೆ ಯಶಸ್ಸು ಇಮೇಲ್,txt,velocity,"ಹೈ $!name_kan,
 
-ನಾವು ವಿರುದ್ಧ ಹೋಗಲಾಡಿಸಲು ನೋಂದಣಿ ನಿಮ್ಮ ವಿನಂತಿಯನ್ನು ಸ್ವೀಕರಿಸಿದ್ದೇವೆ:! $ ಹೋಗಲಾಡಿಸಲು.
+ನಾವು ವಿರುದ್ಧ ಹೋಗಲಾಡಿಸಲು ನೋಂದಣಿ ನಿಮ್ಮ ವಿನಂತಿಯನ್ನು ಸ್ವೀಕರಿಸಿದ್ದೇವೆ: $!RID ಹೋಗಲಾಡಿಸಲು.
 ಈ ವಿನಂತಿ ಪ್ರಕ್ರಿಯೆ ಹಂತದಲ್ಲಿದೆ.
 
 ಧನ್ಯವಾದಗಳು",10003,ನೋಂದಣಿ ಪ್ರೊಸೆಸರ್,RPR_RPV_SUC_EMAIL,kan,TRUE,superadmin,now()
@@ -3480,21 +3500,21 @@ Nous avons reçu votre demande d'inscription contre le RID: $!RID.
 Cette demande est en cours de traitement.
 
 Merci",10003,Registration Processor,RPR_RPV_SUC_SMS,fra,TRUE,superadmin,now()
-1212,पंजीकरण पैकेट मान्यता सफलता एसएमएस,पंजीकरण पैकेट मान्यता सफलता एसएमएस,txt,velocity,"हाय $! Name_eng,
+1212,पंजीकरण पैकेट मान्यता सफलता एसएमएस,पंजीकरण पैकेट मान्यता सफलता एसएमएस,txt,velocity,"हाय $!name_hin,
 
-हम के खिलाफ RID पंजीकरण के लिए अपने अनुरोध प्राप्त हुआ है! $ RID।
+हम के खिलाफ RID पंजीकरण के लिए अपने अनुरोध प्राप्त हुआ है! $!RID ।
 यह अनुरोध प्रसंस्करण के अधीन है।
 
 जी शुक्रिया",10003,पंजीकरण प्रोसेसर,RPR_RPV_SUC_SMS,hin,TRUE,superadmin,now()
-1212,பதிவு பாக்கெட் மதிப்பீட்டு வெற்றி எஸ்எம்எஸ்,பதிவு பாக்கெட் மதிப்பீட்டு வெற்றி எஸ்எம்எஸ்,txt,velocity,"$ ஹாய்! Name_eng,
+1212,பதிவு பாக்கெட் மதிப்பீட்டு வெற்றி எஸ்எம்எஸ்,பதிவு பாக்கெட் மதிப்பீட்டு வெற்றி எஸ்எம்எஸ்,txt,velocity,"ஹாய் $!name_tam,
 
-நாம் எதிராக RID என்பது பதிவு உங்கள் கோரிக்கையைப் பெற்றுள்ளோம்: $ விடுவித்துக்கொள்ள.
+நாம் எதிராக RID என்பது பதிவு உங்கள் கோரிக்கையைப் பெற்றுள்ளோம்: $!RID விடுவித்துக்கொள்ள.
 இந்தக் கோரிக்கை செயலாக்கம் கீழ் உள்ளது.
 
 நன்றி",10003,பதிவு செயலி,RPR_RPV_SUC_SMS,tam,TRUE,superadmin,now()
-1212,ನೋಂದಣಿ ಪ್ಯಾಕೆಟ್ ಕ್ರಮಬದ್ಧಗೊಳಿಸುವಿಕೆ ಯಶಸ್ಸು ಎಸ್ಎಂಎಸ್,ನೋಂದಣಿ ಪ್ಯಾಕೆಟ್ ಕ್ರಮಬದ್ಧಗೊಳಿಸುವಿಕೆ ಯಶಸ್ಸು ಎಸ್ಎಂಎಸ್,txt,velocity,"ಹೈ $! Name_eng,
+1212,ನೋಂದಣಿ ಪ್ಯಾಕೆಟ್ ಕ್ರಮಬದ್ಧಗೊಳಿಸುವಿಕೆ ಯಶಸ್ಸು ಎಸ್ಎಂಎಸ್,ನೋಂದಣಿ ಪ್ಯಾಕೆಟ್ ಕ್ರಮಬದ್ಧಗೊಳಿಸುವಿಕೆ ಯಶಸ್ಸು ಎಸ್ಎಂಎಸ್,txt,velocity,"ಹೈ $!name_kan,
 
-ನಾವು ವಿರುದ್ಧ ಹೋಗಲಾಡಿಸಲು ನೋಂದಣಿ ನಿಮ್ಮ ವಿನಂತಿಯನ್ನು ಸ್ವೀಕರಿಸಿದ್ದೇವೆ:! $ ಹೋಗಲಾಡಿಸಲು.
+ನಾವು ವಿರುದ್ಧ ಹೋಗಲಾಡಿಸಲು ನೋಂದಣಿ ನಿಮ್ಮ ವಿನಂತಿಯನ್ನು ಸ್ವೀಕರಿಸಿದ್ದೇವೆ: $!RID ಹೋಗಲಾಡಿಸಲು.
 ಈ ವಿನಂತಿ ಪ್ರಕ್ರಿಯೆ ಹಂತದಲ್ಲಿದೆ.
 
 ಧನ್ಯವಾದಗಳು",10003,ನೋಂದಣಿ ಪ್ರೊಸೆಸರ್,RPR_RPV_SUC_SMS,kan,TRUE,superadmin,now()
@@ -3516,21 +3536,21 @@ Nous avons reçu votre demande de mise à jour de vos coordonnées par rapport a
 Cette demande est en cours de traitement.
 
 Merci",10003,Registration Processor,RPR_UPV_SUC_EMAIL,fra,TRUE,superadmin,now()
-1213,अद्यतन पैकेट मान्यता सफलता ईमेल,अद्यतन पैकेट मान्यता सफलता ईमेल,txt,velocity,"हाय $! Name_eng,
+1213,अद्यतन पैकेट मान्यता सफलता ईमेल,अद्यतन पैकेट मान्यता सफलता ईमेल,txt,velocity,"हाय $!name_hin,
 
-हम के खिलाफ RID अपने विवरण को अद्यतन करने के लिए आपके अनुरोध प्राप्त हुआ है! $ RID।
+हम के खिलाफ RID अपने विवरण को अद्यतन करने के लिए आपके अनुरोध प्राप्त हुआ है! $!RID ।
 यह अनुरोध प्रसंस्करण के अधीन है।
 
 जी शुक्रिया",10003,पंजीकरण प्रोसेसर,RPR_UPV_SUC_EMAIL,hin,TRUE,superadmin,now()
-1213,புதுப்பிக்கப்பட்டது பாக்கெட் மதிப்பீட்டு வெற்றி மின்னஞ்சல்,புதுப்பிக்கப்பட்டது பாக்கெட் மதிப்பீட்டு வெற்றி மின்னஞ்சல்,txt,velocity,"$ ஹாய்! Name_eng,
+1213,புதுப்பிக்கப்பட்டது பாக்கெட் மதிப்பீட்டு வெற்றி மின்னஞ்சல்,புதுப்பிக்கப்பட்டது பாக்கெட் மதிப்பீட்டு வெற்றி மின்னஞ்சல்,txt,velocity,"ஹாய் $!name_tam,
 
-நாம் எதிராக RID என்பது உங்கள் விவரங்களை புதுப்பித்ததற்கு உங்கள் கோரிக்கையைப் பெற்றுள்ளோம்: $ விடுவித்துக்கொள்ள.
+நாம் எதிராக RID என்பது உங்கள் விவரங்களை புதுப்பித்ததற்கு உங்கள் கோரிக்கையைப் பெற்றுள்ளோம்: $!RID விடுவித்துக்கொள்ள.
 இந்தக் கோரிக்கை செயலாக்கம் கீழ் உள்ளது.
 
 நன்றி",10003,பதிவு செயலி,RPR_UPV_SUC_EMAIL,tam,TRUE,superadmin,now()
-1213,ನವೀಕರಣ ಪ್ಯಾಕೆಟ್ ಕ್ರಮಬದ್ಧಗೊಳಿಸುವಿಕೆ ಯಶಸ್ಸು ಇಮೇಲ್,ನವೀಕರಣ ಪ್ಯಾಕೆಟ್ ಕ್ರಮಬದ್ಧಗೊಳಿಸುವಿಕೆ ಯಶಸ್ಸು ಇಮೇಲ್,txt,velocity,"ಹೈ $! Name_eng,
+1213,ನವೀಕರಣ ಪ್ಯಾಕೆಟ್ ಕ್ರಮಬದ್ಧಗೊಳಿಸುವಿಕೆ ಯಶಸ್ಸು ಇಮೇಲ್,ನವೀಕರಣ ಪ್ಯಾಕೆಟ್ ಕ್ರಮಬದ್ಧಗೊಳಿಸುವಿಕೆ ಯಶಸ್ಸು ಇಮೇಲ್,txt,velocity,"ಹೈ $!ame_kan,
 
-ನಾವು ವಿರುದ್ಧ ವಿಮುಕ್ತಿಗೊಳಿಸುವ ನಿಮ್ಮ ವಿವರಗಳನ್ನು ಅಪ್ಡೇಟ್ ನಿಮ್ಮ ವಿನಂತಿಯನ್ನು ಸ್ವೀಕರಿಸಿದ್ದೇವೆ:! $ ಹೋಗಲಾಡಿಸಲು.
+ನಾವು ವಿರುದ್ಧ ವಿಮುಕ್ತಿಗೊಳಿಸುವ ನಿಮ್ಮ ವಿವರಗಳನ್ನು ಅಪ್ಡೇಟ್ ನಿಮ್ಮ ವಿನಂತಿಯನ್ನು ಸ್ವೀಕರಿಸಿದ್ದೇವೆ: $!RID ಹೋಗಲಾಡಿಸಲು.
 ಈ ವಿನಂತಿ ಪ್ರಕ್ರಿಯೆ ಹಂತದಲ್ಲಿದೆ.
 
 ಧನ್ಯವಾದಗಳು",10003,ನೋಂದಣಿ ಪ್ರೊಸೆಸರ್,RPR_UPV_SUC_EMAIL,kan,TRUE,superadmin,now()
@@ -3552,21 +3572,21 @@ Nous avons reçu votre demande de mise à jour de vos coordonnées par rapport a
 Cette demande est en cours de traitement.
 
 Merci",10003,Registration Processor,RPR_UPV_SUC_SMS,fra,TRUE,superadmin,now()
-1214,अद्यतन पैकेट मान्यता सफलता एसएमएस,अद्यतन पैकेट मान्यता सफलता एसएमएस,txt,velocity,"हाय $! Name_eng,
+1214,अद्यतन पैकेट मान्यता सफलता एसएमएस,अद्यतन पैकेट मान्यता सफलता एसएमएस,txt,velocity,"हाय $!name_hin,
 
-हम के खिलाफ RID अपने विवरण को अद्यतन करने के लिए आपके अनुरोध प्राप्त हुआ है! $ RID।
+हम के खिलाफ RID अपने विवरण को अद्यतन करने के लिए आपके अनुरोध प्राप्त हुआ है $!RID ।
 यह अनुरोध प्रसंस्करण के अधीन है।
 
 जी शुक्रिया",10003,पंजीकरण प्रोसेसर,RPR_UPV_SUC_SMS,hin,TRUE,superadmin,now()
-1214,புதுப்பிக்கப்பட்டது பாக்கெட் மதிப்பீட்டு வெற்றி எஸ்எம்எஸ்,புதுப்பிக்கப்பட்டது பாக்கெட் மதிப்பீட்டு வெற்றி எஸ்எம்எஸ்,txt,velocity,"$ ஹாய்! Name_eng,
+1214,புதுப்பிக்கப்பட்டது பாக்கெட் மதிப்பீட்டு வெற்றி எஸ்எம்எஸ்,புதுப்பிக்கப்பட்டது பாக்கெட் மதிப்பீட்டு வெற்றி எஸ்எம்எஸ்,txt,velocity,"ஹாய் $!name_tam,
 
-நாம் எதிராக RID என்பது உங்கள் விவரங்களை புதுப்பித்ததற்கு உங்கள் கோரிக்கையைப் பெற்றுள்ளோம்: $ விடுவித்துக்கொள்ள.
+நாம் எதிராக $!RID என்பது உங்கள் விவரங்களை புதுப்பித்ததற்கு உங்கள் கோரிக்கையைப் பெற்றுள்ளோம்: $ விடுவித்துக்கொள்ள.
 இந்தக் கோரிக்கை செயலாக்கம் கீழ் உள்ளது.
 
 நன்றி",10003,பதிவு செயலி,RPR_UPV_SUC_SMS,tam,TRUE,superadmin,now()
-1214,ನವೀಕರಣ ಪ್ಯಾಕೆಟ್ ಕ್ರಮಬದ್ಧಗೊಳಿಸುವಿಕೆ ಯಶಸ್ಸು ಎಸ್ಎಂಎಸ್,ನವೀಕರಣ ಪ್ಯಾಕೆಟ್ ಕ್ರಮಬದ್ಧಗೊಳಿಸುವಿಕೆ ಯಶಸ್ಸು ಎಸ್ಎಂಎಸ್,txt,velocity,"ಹೈ $! Name_eng,
+1214,ನವೀಕರಣ ಪ್ಯಾಕೆಟ್ ಕ್ರಮಬದ್ಧಗೊಳಿಸುವಿಕೆ ಯಶಸ್ಸು ಎಸ್ಎಂಎಸ್,ನವೀಕರಣ ಪ್ಯಾಕೆಟ್ ಕ್ರಮಬದ್ಧಗೊಳಿಸುವಿಕೆ ಯಶಸ್ಸು ಎಸ್ಎಂಎಸ್,txt,velocity,"ಹೈ $!name_kan,
 
-ನಾವು ವಿರುದ್ಧ ವಿಮುಕ್ತಿಗೊಳಿಸುವ ನಿಮ್ಮ ವಿವರಗಳನ್ನು ಅಪ್ಡೇಟ್ ನಿಮ್ಮ ವಿನಂತಿಯನ್ನು ಸ್ವೀಕರಿಸಿದ್ದೇವೆ:! $ ಹೋಗಲಾಡಿಸಲು.
+ನಾವು ವಿರುದ್ಧ ವಿಮುಕ್ತಿಗೊಳಿಸುವ ನಿಮ್ಮ ವಿವರಗಳನ್ನು ಅಪ್ಡೇಟ್ ನಿಮ್ಮ ವಿನಂತಿಯನ್ನು ಸ್ವೀಕರಿಸಿದ್ದೇವೆ:! $!RID ಹೋಗಲಾಡಿಸಲು.
 ಈ ವಿನಂತಿ ಪ್ರಕ್ರಿಯೆ ಹಂತದಲ್ಲಿದೆ.
 
 ಧನ್ಯವಾದಗಳು",10003,ನೋಂದಣಿ ಪ್ರೊಸೆಸರ್,RPR_UPV_SUC_SMS,kan,TRUE,superadmin,now()
@@ -3588,9 +3608,9 @@ Nous avons reçu votre demande de recherche des détails de votre UIN par rappor
 Cette demande est en cours de traitement.
 
 Merci",10003,Registration Processor,RPR_LPV_SUC_EMAIL,fra,TRUE,superadmin,now()
-1215,खोया पैकेट मान्यता सफलता ईमेल,खोया पैकेट मान्यता सफलता ईमेल,txt,velocity,"हाय $! Name_eng,
+1215,खोया पैकेट मान्यता सफलता ईमेल,खोया पैकेट मान्यता सफलता ईमेल,txt,velocity,"हाय $!name_hin,
 
-हम के खिलाफ RID अपने यूआईएन विवरण को खोजने के लिए अपने अनुरोध प्राप्त हुआ है! $ RID।
+हम के खिलाफ RID अपने यूआईएन विवरण को खोजने के लिए अपने अनुरोध प्राप्त हुआ है $!RID।
 यह अनुरोध प्रसंस्करण के अधीन है।
 
 जी शुक्रिया",10003,पंजीकरण प्रोसेसर,RPR_LPV_SUC_EMAIL,hin,TRUE,superadmin,now()
@@ -4273,37 +4293,37 @@ Votre demande d'UIN pour l'ID d'enregistrement : $!RID est en attente car vous a
 1274,Registration Failed because you have already Registered,ನೀವು ಈಗಾಗಲೇ ನೋಂದಾಯಿಸಿರುವುದರಿಂದ ನೋಂದಣಿ ವಿಫಲವಾಗಿದೆ,txt,velocity,ನೀವು ಈಗಾಗಲೇ ನೋಂದಾಯಿಸಿರುವುದರಿಂದ ನೋಂದಣಿ ವಿಫಲವಾಗಿದೆ,10003,Registration Processor,RPR_DUP_UIN_EMAIL_SUB,kan,TRUE,superadmin,now()
 1274,Registration Failed because you have already Registered,நீங்கள் ஏற்கனவே பதிவு செய்துள்ளதால் பதிவு தோல்வியடைந்தது,txt,velocity,நீங்கள் ஏற்கனவே பதிவு செய்துள்ளதால் பதிவு தோல்வியடைந்தது,10003,Registration Processor,RPR_DUP_UIN_EMAIL_SUB,tam,TRUE,superadmin,now()
 1274,L'inscription a échoué car vous êtes déjà inscrit,L'inscription a échoué car vous êtes déjà inscrit,txt,velocity,L'inscription a échoué car vous êtes déjà inscrit,10003,Registration Processor,RPR_DUP_UIN_EMAIL_SUB,fra,TRUE,superadmin,now()
-1274,فشل التسجيل لأنك قمت بالتسجيل بالفعل,	فشل التسجيل لأنك قمت بالتسجيل بالفعل	,txt,velocity,فشل التسجيل لأنك قمت بالتسجيل بالفعل	,10003	, Registration Processor,RPR_DUP_UIN_EMAIL_SUB,ara,TRUE,superadmin,now()
+1274,فشل التسجيل لأنك قمت بالتسجيل بالفعل,فشل التسجيل لأنك قمت بالتسجيل بالفعل,txt,velocity,فشل التسجيل لأنك قمت بالتسجيل بالفعل,10003,Registration Processor,RPR_DUP_UIN_EMAIL_SUB,ara,TRUE,superadmin,now()
 1275,Re-Register because there was a Technical Issue,Re-Register because there was a Technical Issue,txt,velocity,Re-Register because there was a Technical Issue,10003,Registration Processor,RPR_TEC_ISSUE_EMAIL_SUB,eng,TRUE,superadmin,now()
 1275,Re-Register because there was a Technical Issue,फिर से पंजीकरण करें क्योंकि कोई तकनीकी समस्या थी,txt,velocity,फिर से पंजीकरण करें क्योंकि कोई तकनीकी समस्या थी,10003,Registration Processor,RPR_TEC_ISSUE_EMAIL_SUB,hin,TRUE,superadmin,now()
 1275,Re-Register because there was a Technical Issue,ತಾಂತ್ರಿಕ ಸಮಸ್ಯೆ ಇದ್ದ ಕಾರಣ ಮರು ನೋಂದಣಿ ಮಾಡಿ,txt,velocity,ತಾಂತ್ರಿಕ ಸಮಸ್ಯೆ ಇದ್ದ ಕಾರಣ ಮರು ನೋಂದಣಿ ಮಾಡಿ,10003,Registration Processor,RPR_TEC_ISSUE_EMAIL_SUB,kan,TRUE,superadmin,now()
 1275,Re-Register because there was a Technical Issue,தொழில்நுட்ப சிக்கல் இருந்ததால் மீண்டும் பதிவு செய்யவும்,txt,velocity,தொழில்நுட்ப சிக்கல் இருந்ததால் மீண்டும் பதிவு செய்யவும்,10003,Registration Processor,RPR_TEC_ISSUE_EMAIL_SUB,tam,TRUE,superadmin,now()
 1275,Réinscrivez-vous car il y a eu un problème technique,Réinscrivez-vous car il y a eu un problème technique,txt,velocity,Réinscrivez-vous car il y a eu un problème technique,10003,Registration Processor,RPR_TEC_ISSUE_EMAIL_SUB,fra,TRUE,superadmin,now()
-1275,إعادة التسجيل بسبب وجود مشكلة فنية,إعادة التسجيل بسبب وجود مشكلة فنية,txt,velocity,إعادة التسجيل بسبب وجود مشكلة فني,	10003,Registration Processor,RPR_TEC_ISSUE_EMAIL_SUB,ara,TRUE,superadmin,now()
+1275,إعادة التسجيل بسبب وجود مشكلة فنية,إعادة التسجيل بسبب وجود مشكلة فنية,txt,velocity,إعادة التسجيل بسبب وجود مشكلة فني,10003,Registration Processor,RPR_TEC_ISSUE_EMAIL_SUB,ara,TRUE,superadmin,now()
 1276,Uin is activated successfully,Uin is activated successfully,txt,velocity,Uin is activated successfully,10003,Registration Processor,RPR_UIN_REAC_EMAIL_SUB,eng,TRUE,superadmin,now()
 1276,Uin is activated successfully,Uin सफलतापूर्वक सक्रिय हो गया,txt,velocity,Uin सफलतापूर्वक सक्रिय हो गया,10003,Registration Processor,RPR_UIN_REAC_EMAIL_SUB,hin,TRUE,superadmin,now()
 1276,Uin is activated successfully,ಯುನ್ ಅನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ,txt,velocity,ಯುನ್ ಅನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ,10003,Registration Processor,RPR_UIN_REAC_EMAIL_SUB,kan,TRUE,superadmin,now()
 1276,Uin is activated successfully,யூன் வெற்றிகரமாக செயல்படுத்தப்பட்டது,txt,velocity,யூன் வெற்றிகரமாக செயல்படுத்தப்பட்டது,10003,Registration Processor,RPR_UIN_REAC_EMAIL_SUB,tam,TRUE,superadmin,now()
 1276,Uin est activé avec succès,Uin est activé avec succès,txt,velocity,Uin est activé avec succès,10003,Registration Processor,RPR_UIN_REAC_EMAIL_SUB,fra,TRUE,superadmin,now()
-1276,تم تفعيل Uin بنجاح	,تم تفعيل Uin بنجاح	,txt,velocity,تم تفعيل Uin بنجاح 	,10003,Registration Processor,RPR_UIN_REAC_EMAIL_SUB,ara,TRUE,superadmin,now()
+1276,تم تفعيل Uin بنجاح,تم تفعيل Uin بنجاح,txt,velocity,تم تفعيل Uin بنجاح,10003,Registration Processor,RPR_UIN_REAC_EMAIL_SUB,ara,TRUE,superadmin,now()
 1277,Uin is deactivated,Uin is deactivated,txt,velocity,Uin is deactivated,10003,Registration Processor,RPR_UIN_DEAC_EMAIL_SUB,eng,TRUE,superadmin,now()
 1277,Uin is deactivated,यूआई निष्क्रिय है,txt,velocity,यूआई निष्क्रिय है,10003,Registration Processor,RPR_UIN_DEAC_EMAIL_SUB,hin,TRUE,superadmin,now()
 1277,Uin is deactivated,ಯುನ್ ಅನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ,txt,velocity,ಯುನ್ ಅನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ,10003,Registration Processor,RPR_UIN_DEAC_EMAIL_SUB,kan,TRUE,superadmin,now()
 1277,Uin is deactivated,யூன் செயலிழக்கப்பட்டது,txt,velocity,யூன் செயலிழக்கப்பட்டது,10003,Registration Processor,RPR_UIN_DEAC_EMAIL_SUB,tam,TRUE,superadmin,now()
 1277,Uin est désactivé,Uin est désactivé,txt,velocity,Uin est désactivé,10003,Registration Processor,RPR_UIN_DEAC_EMAIL_SUB,fra,TRUE,superadmin,now()
-1277,تم إلغاء تنشيط Uin	,تم إلغاء تنشيط Uin	,txt,velocity,	تم إلغاء تنشيط Uin,10003,Registration Processor,RPR_UIN_DEAC_EMAIL_SUB,ara,TRUE,superadmin,now()
+1277,تم إلغاء تنشيط Uin,تم إلغاء تنشيط Uin,txt,velocity,تم إلغاء تنشيط Uin,10003,Registration Processor,RPR_UIN_DEAC_EMAIL_SUB,ara,TRUE,superadmin,now()
 1278,UIN Generated,UIN Generated,txt,velocity,UIN Generated,10003,Registration Processor,RPR_UIN_GEN_EMAIL_SUB,eng,TRUE,superadmin,now()
 1278,UIN Generated,यूआईएन उत्पन्न,txt,velocity,यूआईएन उत्पन्न,10003,Registration Processor,RPR_UIN_GEN_EMAIL_SUB,hin,TRUE,superadmin,now()
 1278,UIN Generated,UIN ರಚಿಸಲಾಗಿದೆ,txt,velocity,UIN ರಚಿಸಲಾಗಿದೆ,10003,Registration Processor,RPR_UIN_GEN_EMAIL_SUB,kan,TRUE,superadmin,now()
 1278,UIN Generated,யுஐஎன் உருவாக்கப்பட்டது,txt,velocity,யுஐஎன் உருவாக்கப்பட்டது,10003,Registration Processor,RPR_UIN_GEN_EMAIL_SUB,tam,TRUE,superadmin,now()
 1278,UIN généré,UIN généré,txt,velocity,UIN généré,10003,Registration Processor,RPR_UIN_GEN_EMAIL_SUB,fra,TRUE,superadmin,now()
-1278,تم إنشاء UIN	,تم إنشاء UIN	,txt,velocity,	تم إنشاء UIN	,10003,Registration Processor,RPR_UIN_GEN_EMAIL_SUB,ara,TRUE,superadmin,now()
+1278,تم إنشاء UIN,تم إنشاء UIN,txt,velocity,تم إنشاء UIN,10003,Registration Processor,RPR_UIN_GEN_EMAIL_SUB,ara,TRUE,superadmin,now()
 1279,UIN Details Updated,UIN Details Updated,txt,velocity,UIN Details Updated,10003,Registration Processor,RPR_UIN_UPD_EMAIL_SUB,eng,TRUE,superadmin,now()
 1279,UIN Details Updated,यूआईएन विवरण अपडेट किया गया,txt,velocity,यूआईएन विवरण अपडेट किया गया,10003,Registration Processor,RPR_UIN_UPD_EMAIL_SUB,hin,TRUE,superadmin,now()
 1279,UIN Details Updated,UIN ವಿವರಗಳನ್ನು ನವೀಕರಿಸಲಾಗಿದೆ,txt,velocity,UIN ವಿವರಗಳನ್ನು ನವೀಕರಿಸಲಾಗಿದೆ,10003,Registration Processor,RPR_UIN_UPD_EMAIL_SUB,kan,TRUE,superadmin,now()
 1279,UIN Details Updated,UIN விவரங்கள் புதுப்பிக்கப்பட்டது,txt,velocity,UIN விவரங்கள் புதுப்பிக்கப்பட்டது,10003,Registration Processor,RPR_UIN_UPD_EMAIL_SUB,tam,TRUE,superadmin,now()
 1279,Détails UIN mis à jour,Détails UIN mis à jour,txt,velocity,Détails UIN mis à jour,10003,Registration Processor,RPR_UIN_UPD_EMAIL_SUB,fra,TRUE,superadmin,now()
-1279,تم تحديث تفاصيل UIN,	تم تحديث تفاصيل UIN,txt,velocity,	تم تحديث تفاصيل UIN,10003,Registration Processor,RPR_UIN_UPD_EMAIL_SUB,ara,TRUE,superadmin,now()
+1279,تم تحديث تفاصيل UIN,تم تحديث تفاصيل UIN,txt,velocity,تم تحديث تفاصيل UIN,10003,Registration Processor,RPR_UIN_UPD_EMAIL_SUB,ara,TRUE,superadmin,now()
 1280,Requesting the additional details for progressing on the application of UIN,Requesting the additional details for progressing on the application of UIN,txt,velocity,Requesting the additional details for progressing on the application of UIN,10003,Registration Processor,RPR_PAUSED_FOR_ADD_INFO_EMAIL_SUB,eng,TRUE,superadmin,now()
 1280,Requesting the additional details for progressing on the application of UIN,यूआईएन के आवेदन पर प्रगति के लिए अतिरिक्त विवरण का अनुरोध,txt,velocity,यूआईएन के आवेदन पर प्रगति के लिए अतिरिक्त विवरण का अनुरोध,10003,Registration Processor,RPR_PAUSED_FOR_ADD_INFO_EMAIL_SUB,hin,TRUE,superadmin,now()
 1280,Requesting the additional details for progressing on the application of UIN,UIN ನ ಅರ್ಜಿಯ ಪ್ರಗತಿಗೆ ಹೆಚ್ಚುವರಿ ವಿವರಗಳನ್ನು ವಿನಂತಿಸುವುದು,txt,velocity,UIN ನ ಅರ್ಜಿಯ ಪ್ರಗತಿಗೆ ಹೆಚ್ಚುವರಿ ವಿವರಗಳನ್ನು ವಿನಂತಿಸುವುದು,10003,Registration Processor,RPR_PAUSED_FOR_ADD_INFO_EMAIL_SUB,kan,TRUE,superadmin,now()
@@ -4311,18 +4331,18 @@ Votre demande d'UIN pour l'ID d'enregistrement : $!RID est en attente car vous a
 1280,Demander des détails supplémentaires pour progresser sur l'application de l'UIN,Demander des détails supplémentaires pour progresser sur l'application de l'UIN,txt,velocity,Demander des détails supplémentaires pour progresser sur l'application de l'UIN,10003,Registration Processor,RPR_PAUSED_FOR_ADD_INFO_EMAIL_SUB,fra,TRUE,superadmin,now()
 1280,طلب تفاصيل إضافية للتقدم في تطبيق UIN,طلب تفاصيل إضافية للتقدم في تطبيق UIN,txt,velocity,طلب تفاصيل إضافية للتقدم في تطبيق UIN,10003,Registration Processor,RPR_PAUSED_FOR_ADD_INFO_EMAIL_SUB,ara,TRUE,superadmin,now()
 ida,otp service,OTP Send Service,txt,velocity,Please find the OTP $otp,10002,login,otp-sms-template,eng,TRUE,superadmin,now()
-ida,OTP सेवा,OTP सेवा भेजें,txt,velocity,कृपया OTP $ OTP लगता है,10002,लॉग इन करें,otp-sms-template,hin,TRUE,superadmin,now()
-ida,OTP சேவை,OTP சேவை அனுப்பவும்,txt,velocity,சிவகாசி $ OTP கண்டுபிடிக்க கொள்ளவும்,10002,உள்நுழைய,otp-sms-template,tam,TRUE,superadmin,now()
-ida,OTP ಸೇವೆಯನ್ನು,OTP ಸೇವೆ ಕಳುಹಿಸಿ,txt,velocity,ದಯವಿಟ್ಟು OTP ಅನ್ನು $ OTP ಹುಡುಕಲು,10002,ಲಾಗಿನ್,otp-sms-template,kan,TRUE,superadmin,now()
+ida,OTP सेवा,OTP सेवा भेजें,txt,velocity,कृपया OTP $OTP लगता है,10002,लॉग इन करें,otp-sms-template,hin,TRUE,superadmin,now()
+ida,OTP சேவை,OTP சேவை அனுப்பவும்,txt,velocity,சிவகாசி $OTP கண்டுபிடிக்க கொள்ளவும்,10002,உள்நுழைய,otp-sms-template,tam,TRUE,superadmin,now()
+ida,OTP ಸೇವೆಯನ್ನು,OTP ಸೇವೆ ಕಳುಹಿಸಿ,txt,velocity,ದಯವಿಟ್ಟು OTP ಅನ್ನು $OTP ಹುಡುಕಲು,10002,ಲಾಗಿನ್,otp-sms-template,kan,TRUE,superadmin,now()
 preregistration,otp service,OTP Send Service,txt,velocity,Please find the OTP $otp,10001,Pre-Registration,otp-sms-template,eng,TRUE,superadmin,now()
-preregistration,OTP सेवा,OTP सेवा भेजें,txt,velocity,कृपया OTP $ OTP लगता है,10001,पूर्व-पंजीकरण,otp-sms-template,hin,TRUE,superadmin,now()
-preregistration,OTP சேவை,OTP சேவை அனுப்பவும்,txt,velocity,சிவகாசி $ OTP கண்டுபிடிக்க கொள்ளவும்,10001,முன் பதிவு,otp-sms-template,tam,TRUE,superadmin,now()
-preregistration,OTP ಸೇವೆಯನ್ನು,OTP ಸೇವೆ ಕಳುಹಿಸಿ,txt,velocity,ದಯವಿಟ್ಟು OTP ಅನ್ನು $ OTP ಹುಡುಕಲು,10001,ಪೂರ್ವ ನೋಂದಣಿ,otp-sms-template,kan,TRUE,superadmin,now()
+preregistration,OTP सेवा,OTP सेवा भेजें,txt,velocity,कृपया OTP $OTP लगता है,10001,पूर्व-पंजीकरण,otp-sms-template,hin,TRUE,superadmin,now()
+preregistration,OTP சேவை,OTP சேவை அனுப்பவும்,txt,velocity,சிவகாசி $OTP கண்டுபிடிக்க கொள்ளவும்,10001,முன் பதிவு,otp-sms-template,tam,TRUE,superadmin,now()
+preregistration,OTP ಸೇವೆಯನ್ನು,OTP ಸೇವೆ ಕಳುಹಿಸಿ,txt,velocity,ದಯವಿಟ್ಟು OTP ಅನ್ನು $OTP ಹುಡುಕಲು,10001,ಪೂರ್ವ ನೋಂದಣಿ,otp-sms-template,kan,TRUE,superadmin,now()
 registrationclient,otp service,OTP Send Service,txt,velocity,Please find the OTP $otp,10004,ID Authentication,otp-sms-template,eng,TRUE,superadmin,now()
 registrationclient,OTP சேவை,OTP சேவை அனுப்பவும்,txt,velocity,சிவகாசி $OTP கண்டுபிடிக்க கொள்ளவும்,10004,ஐடி அங்கீகாரம்,otp-sms-template,tam,True,superadmin,now()
 registrationclient,OTP सेवा,OTP सेवा भेजें,txt,velocity,कृपया OTP $OTP लगता है,10004,आईडी प्रमाणीकरण,otp-sms-template,hin,True,superadmin,now()
 registrationclient,OTP ಸೇವೆಯನ್ನು,OTP ಸೇವೆ ಕಳುಹಿಸಿ,txt,velocity,ದಯವಿಟ್ಟು OTP ಅನ್ನು $ OTP ಹುಡುಕಲು,10004,ಐಡಿ ದೃಢೀಕರಣ,otp-sms-template,kan,True,superadmin,now()
 registrationprocessor,otp service,OTP Send Service,txt,velocity,Please find the OTP $!otp,10003,login,otp-sms-template,eng,TRUE,superadmin,now()
-registrationprocessor,OTP सेवा,OTP सेवा भेजें,txt,velocity,कृपया OTP $! OTP लगता है,10003,लॉग इन करें,otp-sms-template,hin,TRUE,superadmin,now()
-registrationprocessor,OTP சேவை,OTP சேவை அனுப்பவும்,txt,velocity,சிவகாசி $! OTP கண்டுபிடிக்க கொள்ளவும்,10003,உள்நுழைய,otp-sms-template,tam,TRUE,superadmin,now()
+registrationprocessor,OTP सेवा,OTP सेवा भेजें,txt,velocity,कृपया OTP $!OTP लगता है,10003,लॉग इन करें,otp-sms-template,hin,TRUE,superadmin,now()
+registrationprocessor,OTP சேவை,OTP சேவை அனுப்பவும்,txt,velocity,சிவகாசி $!OTP கண்டுபிடிக்க கொள்ளவும்,10003,உள்நுழைய,otp-sms-template,tam,TRUE,superadmin,now()
 registrationprocessor,OTP ಸೇವೆಯನ್ನು,OTP ಸೇವೆ ಕಳುಹಿಸಿ,txt,velocity,ದಯವಿಟ್ಟು OTP ಅನ್ನು $! OTP ಹುಡುಕಲು,10003,ಲಾಗಿನ್,otp-sms-template,kan,TRUE,superadmin,now()
