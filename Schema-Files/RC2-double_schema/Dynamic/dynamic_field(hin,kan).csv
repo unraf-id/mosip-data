@@ -47,3 +47,7 @@ id,name,description,dataType,valueJson,langCode,isActive
 10618,flagPlaceOfBirth,flagPlaceOfBirth,string,"{"code":"10","value":"हाँ"}",hin,TRUE
 10619,flagPlaceOfBirth,flagPlaceOfBirth,string,"{"code":"20","value":"ನಾನ್"}",kan,TRUE
 10620,flagPlaceOfBirth,flagPlaceOfBirth,string,"{"code":"20","value":"गैर"}",hin,TRUE
+24200,Postal,Postal,string,"{"code":"10","value":"ವೈಯಕ್ತಿಕ"}",kan,TRUE,
+24201,Postal,Postal,string,"{"code":"10","value":"व्यक्ति"}",hin,TRUE,
+24202,Postal,Postal,string,"{"code":"20","value":"ಸಾಮೂಹಿಕ"}",kan,TRUE,
+24203,Postal,Postal,string,"{"code":"20","value":"सामूहिक"}",hin,TRUE,
