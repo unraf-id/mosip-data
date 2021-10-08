@@ -190,6 +190,27 @@
 				"required": true
 			},
 			{
+				"id": "residenceStatus",
+				"description": "Quartier/Résidence/Douar",
+				"labelName": {
+					"fra": "Quartier/Résidence/Douar",
+					"ara": "الحي / السكن / الدوار",
+					"eng": "Residence Status",
+					"hin": "निवास स्थान",
+					"kan": "ನಿವಾಸ",
+					"tam": "குடியிருப்பு"
+				},
+				"controlType": "dropdown",
+				"inputRequired": true,
+				"fieldType": "dynamic",
+				"type": "simpleType",
+				"validators": [],
+				"required": true,
+				"visible": true,
+				"group": "address_info",
+				"preview": true
+			},
+			{
 				"id": "nationalIdentityNumber",
 				"description": "nationalIdentityNumber",
 				"labelName": {
