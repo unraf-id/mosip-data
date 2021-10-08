@@ -196,9 +196,9 @@
 					"fra": "Quartier/Résidence/Douar",
 					"ara": "الحي / السكن / الدوار",
 					"eng": "Residence Status",
-					"hin": "निवास स्थान",
-					"kan": "ನಿವಾಸ",
-					"tam": "குடியிருப்பு"
+					"hin": "आवास की स्थिति",
+					"kan": "ನಿವಾಸ ಸ್ಥಿತಿ",
+					"tam": "குடியிருப்பு நிலை"
 				},
 				"controlType": "dropdown",
 				"inputRequired": true,
