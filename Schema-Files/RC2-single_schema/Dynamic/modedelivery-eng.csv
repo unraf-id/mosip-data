@@ -1,0 +1,4 @@
+id,name,description,dataType,valueJson,langCode,isActive
+23543,modeOfdelivery,Mode of Delivery,string,"{"code":"101","value":"Send to home"}",eng,TRUE
+23544,modeOfdelivery,Mode of Delivery,string,"{"code":"102","value":"Courier"}",eng,TRUE
+23545,modeOfdelivery,Mode of Delivery,string,"{"code":"103","value":"Post"}",eng,TRUE

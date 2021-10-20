@@ -1,0 +1,109 @@
+id,name,description,dataType,valueJson,langCode,isActive
+21595,Iriscolor,Iriscolor,string,"{"code":"10","value":"ಕಪ್ಪು"}",kan,TRUE
+21596,Iriscolor,Iriscolor,string,"{"code":"10","value":"काला"}",hin,TRUE
+21597,Iriscolor,Iriscolor,string,"{"code":"10","value":"கருப்பு"}",tam,TRUE
+21598,Iriscolor,Iriscolor,string,"{"code":"10","value":"Black"}",eng,TRUE
+21599,Iriscolor,Iriscolor,string,"{"code":"20","value":"ಕಂದು"}",kan,TRUE
+21600,Iriscolor,Iriscolor,string,"{"code":"20","value":"भूरा"}",hin,TRUE
+21601,Iriscolor,Iriscolor,string,"{"code":"20","value":"பழுப்பு"}",tam,TRUE
+21602,Iriscolor,Iriscolor,string,"{"code":"20","value":"Brown"}",eng,TRUE
+21603,Iriscolor,Iriscolor,string,"{"code":"30","value":"अन्य"}",kan,TRUE
+21604,Iriscolor,Iriscolor,string,"{"code":"30","value":"ಇತರೆ"}",hin,TRUE
+21605,Iriscolor,Iriscolor,string,"{"code":"30","value":"மற்ற"}",tam,TRUE
+21606,Iriscolor,Iriscolor,string,"{"code":"30","value":"Others"}",eng,TRUE
+21607,ethnicity,ethnicity,string,"{"code":"10","value":"ಶುದ್ಧ ಭಾರತೀಯ"}",kan,TRUE
+21608,ethnicity,ethnicity,string,"{"code":"10","value":"शुद्ध भारतीय"}",hin,TRUE
+21609,ethnicity,ethnicity,string,"{"code":"10","value":"தூய இந்தியர்"}",tam,TRUE
+21610,ethnicity,ethnicity,string,"{"code":"10","value":"Pure Indian"}",eng,TRUE
+21611,ethnicity,ethnicity,string,"{"code":"20","value":"ಲ್ಯಾಟಿನ್ ಅಮೆರಿಕನ್"}",kan,TRUE
+21612,ethnicity,ethnicity,string,"{"code":"20","value":"लैटिन अमेरिकन"}",hin,TRUE
+21613,ethnicity,ethnicity,string,"{"code":"20","value":"லத்தீன் அமெரிக்கன்"}",tam,TRUE
+21614,ethnicity,ethnicity,string,"{"code":"20","value":"Latin American"}",eng,TRUE
+21615,ethnicity,ethnicity,string,"{"code":"30","value":"अन्य"}",kan,TRUE
+21616,ethnicity,ethnicity,string,"{"code":"30","value":"ಇತರೆ"}",hin,TRUE
+21617,ethnicity,ethnicity,string,"{"code":"30","value":"மற்ற"}",tam,TRUE
+21618,ethnicity,ethnicity,string,"{"code":"30","value":"Others"}",eng,TRUE
+21619,nationality,nationality,string,"{"code":"10","value":"भारतीय"}",hin,TRUE
+21620,nationality,nationality,string,"{"code":"10","value":"ಭಾರತೀಯ"}",kan,TRUE
+21621,nationality,nationality,string,"{"code":"10","value":"இந்தியன்"}",tam,TRUE
+21622,nationality,nationality,string,"{"code":"10","value":"Indian"}",eng,TRUE
+21623,nationality,nationality,string,"{"code":"20","value":"परदेशी"}",hin,TRUE
+21624,nationality,nationality,string,"{"code":"20","value":"ವಿದೇಶಿ"}",kan,TRUE
+21625,nationality,nationality,string,"{"code":"20","value":"வெளிநாட்டவர்"}",tam,TRUE
+21626,nationality,nationality,string,"{"code":"20","value":"Foreigner"}",eng,TRUE
+21627,profession,Profession/ Occupation,string,"{"code":"101","value":"मुनीम"}",hin,TRUE
+21628,profession,Profession/ Occupation,string,"{"code":"102","value":"अभिनेता"}",hin,TRUE
+21629,profession,Profession/ Occupation,string,"{"code":"103","value":"मुंशी"}",hin,TRUE
+21630,profession,Profession/ Occupation,string,"{"code":"104","value":"सलाहकार"}",hin,TRUE
+21631,profession,Profession/ Occupation,string,"{"code":"105","value":"दूत"}",hin,TRUE
+21632,profession,Profession/ Occupation,string,"{"code":"106","value":"कलाकार"}",hin,TRUE
+21633,profession,Profession/ Occupation,string,"{"code":"107","value":"अंतरिक्ष यात्री"}",hin,TRUE
+21634,profession,Profession/ Occupation,string,"{"code":"108","value":"एथलीट"}",hin,TRUE
+21635,profession,Profession/ Occupation,string,"{"code":"109","value":"लेखक"}",hin,TRUE
+21636,profession,Profession/ Occupation,string,"{"code":"110","value":"बेकर नानबाई"}",hin,TRUE
+21637,profession,Profession/ Occupation,string,"{"code":"111","value":"बैंकर"}",hin,TRUE
+21638,profession,Profession/ Occupation,string,"{"code":"112","value":"नाई"}",hin,TRUE
+21639,profession,Profession/ Occupation,string,"{"code":"113","value":"लोहार"}",hin,TRUE
+21640,profession,Profession/ Occupation,string,"{"code":"114","value":"कसाई"}",hin,TRUE
+21641,profession,Profession/ Occupation,string,"{"code":"115","value":"बढ़ई"}",hin,TRUE
+21642,profession,Profession/ Occupation,string,"{"code":"116","value":"केशियर"}",hin,TRUE
+21643,profession,Profession/ Occupation,string,"{"code":"101","value":"ಅಕೌಂಟೆಂಟ್"}",kan,TRUE
+21644,profession,Profession/ Occupation,string,"{"code":"102","value":"ನಟ"}",kan,TRUE
+21645,profession,Profession/ Occupation,string,"{"code":"103","value":"ವಿಮಾಗಣಕ"}",kan,TRUE
+21646,profession,Profession/ Occupation,string,"{"code":"104","value":"ಸಲಹೆಗಾರ"}",kan,TRUE
+21647,profession,Profession/ Occupation,string,"{"code":"105","value":"ರಾಯಭಾರಿ"}",kan,TRUE
+21648,profession,Profession/ Occupation,string,"{"code":"106","value":"ಕಲಾವಿದ"}",kan,TRUE
+21649,profession,Profession/ Occupation,string,"{"code":"107","value":"ಗಗನಯಾತ್ರಿ"}",kan,TRUE
+21650,profession,Profession/ Occupation,string,"{"code":"108","value":"ಕ್ರೀಡಾಪಟು"}",kan,TRUE
+21651,profession,Profession/ Occupation,string,"{"code":"109","value":"ಲೇಖಕ"}",kan,TRUE
+21652,profession,Profession/ Occupation,string,"{"code":"110","value":"ಬೇಕರ್"}",kan,TRUE
+21653,profession,Profession/ Occupation,string,"{"code":"111","value":"ಬ್ಯಾಂಕರ್"}",kan,TRUE
+21654,profession,Profession/ Occupation,string,"{"code":"112","value":"ಬಾರ್ಬರ್"}",kan,TRUE
+21655,profession,Profession/ Occupation,string,"{"code":"113","value":"ಬ್ಲಾಕ್ಸ್ಮಿತ್"}",kan,TRUE
+21656,profession,Profession/ Occupation,string,"{"code":"114","value":"ಬುತ್ಚೆರ್"}",kan,TRUE
+21657,profession,Profession/ Occupation,string,"{"code":"115","value":"ಕಾರ್ಪೆಂಟರ್"}",kan,TRUE
+21658,profession,Profession/ Occupation,string,"{"code":"116","value":"ಕ್ಯಾಷಿಯರ್"}",kan,TRUE
+21659,profession,Profession/ Occupation,string,"{"code":"101","value":"கணக்காளர்"}",tam,TRUE
+21660,profession,Profession/ Occupation,string,"{"code":"102","value":"நடிகர்"}",tam,TRUE
+21661,profession,Profession/ Occupation,string,"{"code":"103","value":"actuary"}",tam,TRUE
+21662,profession,Profession/ Occupation,string,"{"code":"104","value":"ஆலோசகர்"}",tam,TRUE
+21663,profession,Profession/ Occupation,string,"{"code":"105","value":"தூதர்"}",tam,TRUE
+21664,profession,Profession/ Occupation,string,"{"code":"106","value":"கலைஞர்"}",tam,TRUE
+21665,profession,Profession/ Occupation,string,"{"code":"107","value":"விண்வெளி"}",tam,TRUE
+21666,profession,Profession/ Occupation,string,"{"code":"108","value":"தடகள"}",tam,TRUE
+21667,profession,Profession/ Occupation,string,"{"code":"109","value":"நூலாசிரியர்"}",tam,TRUE
+21668,profession,Profession/ Occupation,string,"{"code":"110","value":"ரொட்டி சுடுபவர்"}",tam,TRUE
+21669,profession,Profession/ Occupation,string,"{"code":"111","value":"வங்கியாளர்"}",tam,TRUE
+21670,profession,Profession/ Occupation,string,"{"code":"112","value":"பார்பர்"}",tam,TRUE
+21671,profession,Profession/ Occupation,string,"{"code":"113","value":"பிளாக்ஸ்மித்"}",tam,TRUE
+21672,profession,Profession/ Occupation,string,"{"code":"114","value":"கசாப்பு"}",tam,TRUE
+21673,profession,Profession/ Occupation,string,"{"code":"115","value":"கார்பெண்டர்"}",tam,TRUE
+21674,profession,Profession/ Occupation,string,"{"code":"116","value":"காசாளர்"}",tam,TRUE
+21675,profession,Profession/ Occupation,string,"{"code":"101","value":"bookkeeper"}",eng,TRUE
+21676,profession,Profession/ Occupation,string,"{"code":"102","value":"actor"}",eng,TRUE
+21677,profession,Profession/ Occupation,string,"{"code":"103","value":"Accountant"}",eng,TRUE
+21678,profession,Profession/ Occupation,string,"{"code":"104","value":"Consultant"}",eng,TRUE
+21679,profession,Profession/ Occupation,string,"{"code":"105","value":"messanger"}",eng,TRUE
+21680,profession,Profession/ Occupation,string,"{"code":"106","value":"artist"}",eng,TRUE
+21681,profession,Profession/ Occupation,string,"{"code":"107","value":"Astronaut"}",eng,TRUE
+21682,profession,Profession/ Occupation,string,"{"code":"108","value":"athlete"}",eng,TRUE
+21683,profession,Profession/ Occupation,string,"{"code":"109","value":"Author"}",eng,TRUE
+21684,profession,Profession/ Occupation,string,"{"code":"110","value":"Baker Nanbai"}",eng,TRUE
+21685,profession,Profession/ Occupation,string,"{"code":"111","value":"Banker"}",eng,TRUE
+21686,profession,Profession/ Occupation,string,"{"code":"112","value":"Barber"}",eng,TRUE
+21687,profession,Profession/ Occupation,string,"{"code":"113","value":"Blacksmith"}",eng,TRUE
+21688,profession,Profession/ Occupation,string,"{"code":"114","value":"Butcher"}",eng,TRUE
+21689,profession,Profession/ Occupation,string,"{"code":"115","value":"carpenter"}",eng,TRUE
+21690,profession,Profession/ Occupation,string,"{"code":"116","value":"cashier"}",eng,TRUE
+23534,modeOfdelivery,Mode of Delivery,string,"{"code":"101","value":"घर पहुँचाना"}",hin,TRUE
+23535,modeOfdelivery,Mode of Delivery,string,"{"code":"102","value":"संदेशवाहक"}",hin,TRUE
+23536,modeOfdelivery,Mode of Delivery,string,"{"code":"103","value":"पद"}",hin,TRUE
+23537,modeOfdelivery,Mode of Delivery,string,"{"code":"101","value":"ಮನೆ ವಿತರಣೆ"}",kan,TRUE
+23538,modeOfdelivery,Mode of Delivery,string,"{"code":"102","value":"ಕೊರಿಯರ್"}",kan,TRUE
+23539,modeOfdelivery,Mode of Delivery,string,"{"code":"103","value":"ಪೋಸ್ಟ್"}",kan,TRUE
+23540,modeOfdelivery,Mode of Delivery,string,"{"code":"101","value":"முகப்பு DIVERY."}",tam,TRUE
+23541,modeOfdelivery,Mode of Delivery,string,"{"code":"102","value":"கூரியர்"}",tam,TRUE
+23542,modeOfdelivery,Mode of Delivery,string,"{"code":"103","value":"அஞ்சல்"}",tam,TRUE
+23543,modeOfdelivery,Mode of Delivery,string,"{"code":"101","value":"Send to home"}",eng,TRUE
+23544,modeOfdelivery,Mode of Delivery,string,"{"code":"102","value":"Courier"}",eng,TRUE
+23545,modeOfdelivery,Mode of Delivery,string,"{"code":"103","value":"Post"}",eng,TRUE
