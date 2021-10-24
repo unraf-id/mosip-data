@@ -1092,7 +1092,7 @@
 					"alignmentGroup": "introducer",
 					"visible": {
 						"engine": "MVEL",
-						"expr": "identity.get('ageGroup') == 'INFANT'"
+						"expr": "identity.get('ageGroup') == 'INFANT' || identity.get('ageGroup') == 'MINOR'"
 					},
 					"contactType": null,
 					"group": "IntroducerDetails",
@@ -1113,7 +1113,7 @@
 					"requiredOn": [
 						{
 							"engine": "MVEL",
-							"expr": "identity.get('ageGroup') == 'INFANT'"
+							"expr": "identity.get('ageGroup') == 'INFANT' || identity.get('ageGroup') == 'MINOR'"
 						}
 					],
 					"subType": "introducerName"
@@ -1148,7 +1148,7 @@
 					"alignmentGroup": "introducer",
 					"visible": {
 						"engine": "MVEL",
-						"expr": "identity.get('ageGroup') == 'INFANT' && (identity.get('introducerUIN') == nil || identity.get('introducerUIN') == empty)"
+						"expr": "( identity.get('ageGroup') == 'INFANT' || identity.get('ageGroup') == 'MINOR' ) && (identity.get('introducerUIN') == nil || identity.get('introducerUIN') == empty)"
 					},
 					"contactType": null,
 					"group": "IntroducerDetails",
@@ -1169,7 +1169,7 @@
 					"requiredOn": [
 						{
 							"engine": "MVEL",
-							"expr": "identity.get('ageGroup') == 'INFANT' && (identity.get('introducerUIN') == nil || identity.get('introducerUIN') == empty)"
+							"expr": "( identity.get('ageGroup') == 'INFANT' || identity.get('ageGroup') == 'MINOR' ) && (identity.get('introducerUIN') == nil || identity.get('introducerUIN') == empty)"
 						}
 					],
 					"subType": "RID"
@@ -1204,7 +1204,7 @@
 					"alignmentGroup": "introducer",
 					"visible": {
 						"engine": "MVEL",
-						"expr": "identity.get('ageGroup') == 'INFANT' && (identity.get('introducerRID') == nil || identity.get('introducerRID') == empty)"
+						"expr": "( identity.get('ageGroup') == 'INFANT' || identity.get('ageGroup') == 'MINOR' ) && (identity.get('introducerRID') == nil || identity.get('introducerRID') == empty)"
 					},
 					"contactType": null,
 					"group": "IntroducerDetails",
@@ -1225,7 +1225,7 @@
 					"requiredOn": [
 						{
 							"engine": "MVEL",
-							"expr": "identity.get('ageGroup') == 'INFANT' && (identity.get('introducerRID') == nil || identity.get('introducerRID') == empty)"
+							"expr": "( identity.get('ageGroup') == 'INFANT' || identity.get('ageGroup') == 'MINOR' ) && (identity.get('introducerRID') == nil || identity.get('introducerRID') == empty)"
 						}
 					],
 					"subType": "UIN"
@@ -1285,12 +1285,7 @@
 					"conditionalBioAttributes": null,
 					"required": false,
 					"bioAttributes": null,
-					"requiredOn": [
-						{
-							"engine": "MVEL",
-							"expr": "identity.isNew"
-						}
-					],
+					"requiredOn": [],
 					"subType": "POA"
 				},
 				{
@@ -1331,12 +1326,7 @@
 					"conditionalBioAttributes": null,
 					"required": true,
 					"bioAttributes": null,
-					"requiredOn": [
-						{
-							"engine": "MVEL",
-							"expr": "identity.isNew"
-						}
-					],
+					"requiredOn": [],
 					"subType": "POI"
 				},
 				{
@@ -1380,7 +1370,7 @@
 					"requiredOn": [
 						{
 							"engine": "MVEL",
-							"expr": "( identity.isNew && identity.get('ageGroup') == 'INFANT' )"
+							"expr": "( identity.get('ageGroup') == 'INFANT' || identity.get('ageGroup') == 'MINOR' )"
 						}
 					],
 					"subType": "POR"
@@ -1654,7 +1644,7 @@
 					"requiredOn": [
 						{
 							"engine": "MVEL",
-							"expr": "identity.get('ageGroup') == 'INFANT'"
+							"expr": "identity.get('ageGroup') == 'INFANT' || identity.get('ageGroup') == 'MINOR'"
 						}
 					],
 					"subType": "introducer"

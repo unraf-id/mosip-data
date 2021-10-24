@@ -229,12 +229,7 @@
 					"conditionalBioAttributes": null,
 					"required": true,
 					"bioAttributes": null,
-					"requiredOn": [
-						{
-							"engine": "MVEL",
-							"expr": "(identity.isUpdate && (identity.updatableFieldGroups contains 'IntroducerDetails' || identity.updatableFieldGroups contains 'DateOfBirth'))"
-						}
-					],
+					"requiredOn": [],
 					"subType": "yearOfBirth"
 				},
 				{
@@ -274,12 +269,7 @@
 					"conditionalBioAttributes": null,
 					"required": true,
 					"bioAttributes": null,
-					"requiredOn": [
-						{
-							"engine": "MVEL",
-							"expr": "(identity.isUpdate && (identity.updatableFieldGroups contains 'IntroducerDetails' || identity.updatableFieldGroups contains 'DateOfBirth'))"
-						}
-					],
+					"requiredOn": [],
 					"subType": "monthOfBirth"
 				},
 				{
@@ -319,12 +309,7 @@
 					"conditionalBioAttributes": null,
 					"required": true,
 					"bioAttributes": null,
-					"requiredOn": [
-						{
-							"engine": "MVEL",
-							"expr": "(identity.isUpdate && (identity.updatableFieldGroups contains 'IntroducerDetails' || identity.updatableFieldGroups contains 'DateOfBirth'))"
-						}
-					],
+					"requiredOn": [],
 					"subType": "dayOfBirth"
 				},
 				{
@@ -371,12 +356,7 @@
 					"conditionalBioAttributes": null,
 					"required": true,
 					"bioAttributes": null,
-					"requiredOn": [
-						{
-							"engine": "MVEL",
-							"expr": "(identity.isUpdate && (identity.updatableFieldGroups contains 'IntroducerDetails' || identity.updatableFieldGroups contains 'DateOfBirth'))"
-						}
-					],
+					"requiredOn": [],
 					"subType": "dateOfBirth"
 				},
 				{
@@ -2071,14 +2051,9 @@
 					"fieldLayout": null,
 					"locationHierarchy": null,
 					"conditionalBioAttributes": null,
-					"required": false,
+					"required": true,
 					"bioAttributes": null,
-					"requiredOn": [
-						{
-							"engine": "MVEL",
-							"expr": "( identity.isUpdate && (identity.updatableFields contains 'addressLine1'))"
-						}
-					],
+					"requiredOn": [],
 					"subType": "POA"
 				},
 				{
@@ -2201,14 +2176,9 @@
 					"fieldLayout": null,
 					"locationHierarchy": null,
 					"conditionalBioAttributes": null,
-					"required": false,
+					"required": true,
 					"bioAttributes": null,
-					"requiredOn": [
-						{
-							"engine": "MVEL",
-							"expr": "identity.isUpdate && identity.updatableFields contains 'dateOfBirth'"
-						}
-					],
+					"requiredOn": [],
 					"subType": "POB"
 				},
 				{
