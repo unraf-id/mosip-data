@@ -403,12 +403,7 @@
 					"conditionalBioAttributes": null,
 					"required": false,
 					"bioAttributes": null,
-					"requiredOn": [
-						{
-							"engine": "MVEL",
-							"expr": "identity.isNew || (identity.isUpdate && (identity.updatableFieldGroups contains 'IntroducerDetails' || identity.updatableFieldGroups contains 'DateOfBirth'))"
-						}
-					],
+					"requiredOn": [],
 					"subType": "dateOfBirth"
 				},
 				{
@@ -2192,7 +2187,7 @@
 					"requiredOn": [
 						{
 							"engine": "MVEL",
-							"expr": "( identity.isNew && identity.get('ageGroup') == 'INFANT' ) || ( identity.isUpdate && identity.get('ageGroup') == 'INFANT' ) || ( !(identity.get('introducerRID') == nil || identity.get('introducerRID') == empty) ||   !(identity.get('introducerUIN') == nil || identity.get('introducerUIN') == empty))"
+							"expr": "( identity.get('ageGroup') == 'INFANT' || identity.get('ageGroup') == 'MINOR' )"
 						}
 					],
 					"subType": "introducerName"

@@ -1088,7 +1088,7 @@
 					"alignmentGroup": "introducer",
 					"visible": {
 						"engine": "MVEL",
-						"expr": "identity.get('ageGroup') == 'INFANT'"
+						"expr": "identity.get('ageGroup') == 'INFANT' || identity.get('ageGroup') == 'MINOR'"
 					},
 					"contactType": null,
 					"group": "IntroducerDetails",
@@ -1139,7 +1139,7 @@
 					"alignmentGroup": "introducer",
 					"visible": {
 						"engine": "MVEL",
-						"expr": "identity.get('ageGroup') == 'INFANT' && (identity.get('introducerUIN') == nil || identity.get('introducerUIN') == empty)"
+						"expr": "( identity.get('ageGroup') == 'INFANT' || identity.get('ageGroup') == 'MINOR' ) && (identity.get('introducerUIN') == nil || identity.get('introducerUIN') == empty)"
 					},
 					"contactType": null,
 					"group": "IntroducerDetails",
@@ -1190,7 +1190,7 @@
 					"alignmentGroup": "introducer",
 					"visible": {
 						"engine": "MVEL",
-						"expr": "identity.get('ageGroup') == 'INFANT' && (identity.get('introducerRID') == nil || identity.get('introducerRID') == empty)"
+						"expr": "( identity.get('ageGroup') == 'INFANT' || identity.get('ageGroup') == 'MINOR' ) && (identity.get('introducerRID') == nil || identity.get('introducerRID') == empty)"
 					},
 					"contactType": null,
 					"group": "IntroducerDetails",

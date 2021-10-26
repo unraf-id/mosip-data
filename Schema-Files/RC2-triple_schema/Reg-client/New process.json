@@ -390,10 +390,7 @@
 					"conditionalBioAttributes": null,
 					"required": true,
 					"bioAttributes": null,
-					"requiredOn": [{
-						"engine": "MVEL",
-						"expr": "identity.isNew || (identity.isUpdate && (identity.updatableFieldGroups contains 'IntroducerDetails' || identity.updatableFieldGroups contains 'DateOfBirth'))"
-					}],
+					"requiredOn": [],
 					"subType": "dateOfBirth"
 				},
 				{
@@ -2138,7 +2135,7 @@
 					"bioAttributes": null,
 					"requiredOn": [{
 						"engine": "MVEL",
-						"expr": "( identity.isNew && identity.get('ageGroup') == 'INFANT' ) || ( identity.isUpdate && identity.get('ageGroup') == 'INFANT' ) || ( !(identity.get('introducerRID') == nil || identity.get('introducerRID') == empty) ||   !(identity.get('introducerUIN') == nil || identity.get('introducerUIN') == empty))"
+						"expr": "( identity.get('ageGroup') == 'INFANT' || identity.get('ageGroup') == 'MINOR' )"
 					}],
 					"subType": "introducerName"
 				},
@@ -3634,12 +3631,9 @@
 				"fieldLayout": null,
 				"locationHierarchy": null,
 				"conditionalBioAttributes": null,
-				"required": false,
+				"required": true,
 				"bioAttributes": null,
-				"requiredOn": [{
-					"engine": "MVEL",
-					"expr": "identity.isNew || ( identity.isUpdate && (identity.updatableFields contains 'addressLine1'))"
-				}],
+				"requiredOn": [],
 				"subType": "POA"
 			},
 				{
@@ -3680,10 +3674,7 @@
 					"conditionalBioAttributes": null,
 					"required": true,
 					"bioAttributes": null,
-					"requiredOn": [{
-						"engine": "MVEL",
-						"expr": "identity.isNew || ( identity.isUpdate && identity.updatableFields contains 'fullName')"
-					}],
+					"requiredOn": [],
 					"subType": "POI"
 				},
 				{
@@ -3726,7 +3717,7 @@
 					"bioAttributes": null,
 					"requiredOn": [{
 						"engine": "MVEL",
-						"expr": "( identity.isNew && identity.get('ageGroup') == 'INFANT' ) || ( identity.isUpdate && (identity.updatableFieldGroups contains 'IntroducerDetails' || identity.get('ageGroup') == 'INFANT'))"
+						"expr": "( identity.get('ageGroup') == 'INFANT' || identity.get('ageGroup') == 'MINOR')"
 					}],
 					"subType": "POR"
 				},
@@ -3766,12 +3757,9 @@
 					"fieldLayout": null,
 					"locationHierarchy": null,
 					"conditionalBioAttributes": null,
-					"required": false,
+					"required": true,
 					"bioAttributes": null,
-					"requiredOn": [{
-						"engine": "MVEL",
-						"expr": "identity.isUpdate && identity.updatableFields contains 'dateOfBirth'"
-					}],
+					"requiredOn": [],
 					"subType": "POB"
 				},
 				{
@@ -3966,7 +3954,7 @@
 					],
 					"requiredOn": [{
 						"engine": "MVEL",
-						"expr": "(identity.get('ageGroup') == 'INFANT')"
+						"expr": "(identity.get('ageGroup') == 'INFANT' || identity.get('ageGroup') == 'MINOR')"
 					}],
 					"subType": "introducer"
 				}
