@@ -9,8 +9,8 @@ fi
 read -p "Enter IAM username: " iam_user
 
 # This username is hardcoded in sql scripts
-DB_PWD=T68sh2vLf2
-DB_HOST= postgres.dst-training.mosip.net
+DB_PWD='T68sh2vLf2'
+DB_HOST= 'postgres.dst-training.mosip.net'
 DB_PORT=5432
 XLS=mosip_master/xlsx
 
